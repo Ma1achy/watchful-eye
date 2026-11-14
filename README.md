@@ -1,6 +1,6 @@
 # Watchful Eye
 
-A sea of bot matches, every one played on [Four](https://github.com/Ma1achy/Four)'s exact engine in
+A sea of bot matches, every one played on an exact engine in
 WebAssembly, watched by a wandering camera that goes looking for the best moments.
 
 **Live:** https://ma1achy.github.io/watchful-eye/
