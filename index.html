@@ -1373,6 +1373,7 @@ var SEA_BODY=`
 uniform highp sampler2D sheet; uniform vec2 nb; uniform float NP; uniform vec3 cam; uniform float csd; uniform vec2 anchor;
 uniform float now; uniform vec2 ptr; uniform float ptrIn; uniform float inks; uniform vec2 ftile; uniform float fbump; uniform float gap;
 uniform highp sampler2D mapT; uniform vec2 mapO; uniform vec2 mapN;
+uniform vec2 tO;   // the tile the world is measured from: every position the shader sees is relative to it, so it stays small (and exact enough for a crisp print) however far the camera has gone
 uniform vec2 TS;   // the spacing of the matches: set to suit the screen (see the camera)
 float sc_h(vec2 p){ vec3 q=fract(vec3(p.xyx)*.1031); q+=dot(q,q.yzx+33.33); return fract((q.x+q.y)*q.z); }
 float sc_n(vec2 p){ vec2 i=floor(p),f=fract(p); vec2 u=f*f*(3.-2.*f); return mix(mix(sc_h(i),sc_h(i+vec2(1,0)),u.x),mix(sc_h(i+vec2(0,1)),sc_h(i+vec2(1,1)),u.x),u.y)*2.-1.; }
@@ -1384,7 +1385,7 @@ vec3 inkOf(int t){
   if(t==1) return vec3(49,199,239)/255.; if(t==2) return vec3(247,211,8)/255.; if(t==3) return vec3(173,77,156)/255.; if(t==4) return vec3(66,182,66)/255.;
   if(t==5) return vec3(239,32,41)/255.; if(t==6) return vec3(90,101,173)/255.; return vec3(239,121,33)/255.; }
 int slotOf(vec2 ti){ vec2 m=ti-mapO; if(m.x>=0.&&m.y>=0.&&m.x<mapN.x&&m.y<mapN.y){ vec4 v=texelFetch(mapT,ivec2(m),0); int s=int(v.r*255.+.5)+int(v.g*255.+.5)*256; if(s<65535) return s; }
-  uint x=uint(int(ti.x)), y=uint(int(ti.y)); uint h=(x*73856093u)^(y*19349663u); h^=h>>13; h*=0x5bd1e995u; h^=h>>15; return int(h%uint(NP)); }
+  uint x=uint(int(ti.x+tO.x)), y=uint(int(ti.y+tO.y)); uint h=(x*73856093u)^(y*19349663u); h^=h>>13; h*=0x5bd1e995u; h^=h>>15; return int(h%uint(NP)); }
 ivec2 blockOf(int s){ int bx=int(nb.x); return ivec2((s-(s/bx)*bx)*44,(s/bx)*25); }
 ivec2 BO;
 ivec4 cellAt(ivec2 c){ if(c.x<0||c.y<0||c.x>=44||c.y>=24) return ivec4(0); return ivec4(texelFetch(sheet,BO+c,0)*255.+.5); }
@@ -1987,7 +1988,8 @@ function ScanTetrisSea(ad,opt){
       else gl.texSubImage2D(gl.TEXTURE_2D,0,0,0,AW,AH,gl.RGBA,gl.UNSIGNED_BYTE,sheet);
       var tin=ptr&&ptr.in?1:0; lit+=(tin-lit)*Math.min(1,dt*6); if(ptr&&ptr.in){ px=ptr.x; py=ptr.y; }
       var fb=F.PL[fside].bump;
-      ad.run(prog,{mapT:mapTex,mapO:mapO,mapN:mapN,sheet:tex,nb:[NBX,NBY],NP:NP,cam:[cam.x,cam.y,cam.cs],csd:csd,anchor:cam.anchor||[.5,.5],now:t,ptr:[px,py],ptrIn:lit,inks:inks,gap:cam.gap||0,TS:cam.ts||[62,38],ftile:ftile,fbump:Math.sin(fb*3.1416)*fb}); }
+      var tO=[Math.floor(cam.x/(cam.ts?cam.ts[0]:62)),Math.floor(cam.y/(cam.ts?cam.ts[1]:38))], TSv=cam.ts||[62,38];   /* positions relative to the tile in the middle: float32 holds a cell to a tiny fraction there, where far out (thousands of tiles) it rounds to whole pixels */
+      ad.run(prog,{mapT:mapTex,mapO:[mapO[0]-tO[0],mapO[1]-tO[1]],mapN:mapN,tO:tO,sheet:tex,nb:[NBX,NBY],NP:NP,cam:[cam.x-tO[0]*TSv[0],cam.y-tO[1]*TSv[1],cam.cs],csd:csd,anchor:cam.anchor||[.5,.5],now:t,ptr:[px,py],ptrIn:lit,inks:inks,gap:cam.gap||0,TS:cam.ts||[62,38],ftile:[ftile[0]-tO[0],ftile[1]-tO[1]],fbump:Math.sin(fb*3.1416)*fb}); }
   }; }
 
 // the camera: one board at rest, the crowd when you go looking. Drag to pan; pinch, ctrl-scroll, or (once you're out)
@@ -2006,7 +2008,7 @@ function SeaCamera(root,cv,opt){ var A=opt.anchor||[.729,.49], A1=A[1], topLay=f
   // pulls back, travels to another pair and does it again. Any touch hands the camera over; it picks up again when idle.
   var vel={x:0,y:0}, zvel=0, lp=null, VH=1, GAP=0;
   var shots=[], nextExc=opt.cinema?-1:Infinity, rng=opt.rng||Math.random, settledAt=-1, lastGlance=-9, lastLook=-9;
-  function pairView(tx,ty){ return {x:tx*TSX+22+GAP*.5,y:ty*TSY+12,cs:Math.min(def*.62,cv.width*(topLay?.94:(opt.visW||.54))/(47+GAP))}; }
+  function pairView(tx,ty){ return {x:tx*TSX+22+GAP*.5,y:ty*TSY+12,cs:Math.min(def*(opt.pairMax||.62),cv.width*(topLay?.94:(opt.visW||.54))/(47+GAP))}; }   /* opt.pairMax: how close a match framed whole may come, against a board alone (a page that's all sea lets it fill the screen) */
   function boardView(tx,ty,sd){ return {x:tx*TSX+sd*(22+GAP)+11,y:ty*TSY+12,cs:def}; }
   // a cluster: three or more matches within a couple of tiles all worth watching (or two right next to each other, both
   // hot): framed together, the camera backed off just enough to take them all in
@@ -2193,7 +2195,7 @@ function SeaCamera(root,cv,opt){ var A=opt.anchor||[.729,.49], A1=A[1], topLay=f
       { var dd=Math.max(1,def), hu=(topLay?cv.width:2*(1-A[0])*cv.width)/2/dd, hv=(cv.height*vh)/2/dd;
         // a board framed alone, and nothing else in view: its opponent pushed past the edge by the gap, the next matches by the
         // spacing (across: the opponent's far side plus the next match's near side; down: the rows above and below)
-        var g=Math.max(0,hu-11.1), nx=Math.max(62,Math.ceil((hu+g+33.2+Math.max(6,.6*g))*2)/2),   /* the matches further apart than a match's own two boards, always (on a wide screen the two gaps had come out the same, and which boards were a pair got hard to read) */
+        var g=Math.max(0,hu-11.1)*(opt.gapK||1), nx=Math.max(62,Math.ceil((hu+g+33.2+Math.max(6,.6*g))*2)/2),   /* the matches further apart than a match's own two boards, always (on a wide screen the two gaps had come out the same, and which boards were a pair got hard to read) */
             ny=Math.max(38,Math.ceil((hv+12.9)*2)/2);
         if(Math.abs(g-GAP)>.05||nx!==TSX||ny!==TSY){ var ox=TSX, oy=TSY; cam.x=cam.x/ox*nx; cam.y=cam.y/oy*ny; GAP=g; TSX=nx; TSY=ny;
           if(target&&!target.cluster){ var nv=target.both? pairView(target.tx,target.ty) : boardView(target.tx,target.ty,target.side); target.x=nv.x; target.y=nv.y; } }
@@ -2276,13 +2278,21 @@ function SeaCamera(root,cv,opt){ var A=opt.anchor||[.729,.49], A1=A[1], topLay=f
   var stage=document.getElementById('stage'), cv=document.getElementById('cv');
   fit(cv,1.5); var G=MiniGL(cv); if(!G){ document.getElementById('nogl').style.display='flex'; return; }
   var gl=G.gl, ad={gl:gl,prog:G.prog,use:function(p){ gl.useProgram(p); },arr:function(p,n,d,k){ var l=G.loc(p,n); if(l) gl['uniform'+k+'fv'](l,d); },run:function(p,u){ G.pass(p,u,null); }};
-  var T=ScanTetrisSea(ad,{seed:seed}), C=SeaCamera(stage,cv,{cinema:true,sea:T,anchor:[.5,.5],fill:.9,onFocus:function(b){ T.focus(b.tx,b.ty,b.side); }});
+  var T=ScanTetrisSea(ad,{seed:seed}), C=SeaCamera(stage,cv,{cinema:true,sea:T,anchor:[.5,.5],fill:.9,visW:.97,pairMax:.98,gapK:.55,onFocus:function(b){ T.focus(b.tx,b.ty,b.side); }});
   if(still){ stage.classList.add('still'); ['pointerdown','pointermove','pointerup','wheel','touchstart','touchmove'].forEach(function(ev){ stage.addEventListener(ev,function(e){ e.stopPropagation(); },true); }); }
+  // the pointer: the sea's light leans toward it, as on the project page. Heard on the window in the capture phase, so
+  // ?still (which keeps drags and wheels from the camera) still lets the light follow
+  var P={x:.5,y:.5,in:false,down:false,pressed:false};
+  function pset(e){ var r=cv.getBoundingClientRect(); P.x=(e.clientX-r.left)/r.width; P.y=1-(e.clientY-r.top)/r.height; P.in=P.x>=0&&P.x<=1&&P.y>=0&&P.y<=1; }
+  addEventListener('pointermove',pset,true); addEventListener('pointerdown',function(e){ pset(e); P.down=true; P.pressed=true; },true);
+  addEventListener('pointerup',function(){ P.down=false; },true);
+  document.documentElement.addEventListener('pointerleave',function(){ P.in=false; P.down=false; });
+  addEventListener('blur',function(){ P.in=false; });
   var t0=performance.now(), hidden=false;
   document.addEventListener('visibilitychange',function(){ hidden=document.hidden; });
   function loop(now){ requestAnimationFrame(loop); if(hidden) return; fit(cv,1.5);
     if(window.SEAW&&SEAW.on){ var ld=SEAW.isLoaded(); if(ld&&window.SEAW_HIDE) window.SEAW_REVEAL=performance.now(); window.SEAW_HIDE=!ld; if(!ld) t0=now; }
-    var t=(now-t0)/1000, cam=C.frame(t); T.frame(t,null,cam,C.def(),6); }
+    var t=(now-t0)/1000, cam=C.frame(t); T.frame(t,P,cam,C.def(),6); P.pressed=false; }
   requestAnimationFrame(loop);
 })();
 </script>
