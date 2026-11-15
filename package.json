@@ -1,0 +1,19 @@
+{
+  "name": "watchful-eye",
+  "private": true,
+  "description": "A sea of bot matches on an exact engine, watched by a wandering camera.",
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "watch": "node tools/build.mjs --watch",
+    "serve": "python3 -m http.server 8080",
+    "data": "node tools/export-data.cjs",
+    "engine": "tools/sync-engine.sh",
+    "shots": "node tools/shots.mjs"
+  },
+  "devDependencies": {
+    "binaryen": "123.0.0",
+    "esbuild": "0.28.2",
+    "playwright": "1.63.0"
+  }
+}

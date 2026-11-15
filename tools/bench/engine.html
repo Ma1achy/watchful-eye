@@ -1,0 +1,31 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Engine start-up bench</title>
+<!-- The first wave's head starts (none run on to its last moments: see match/pair.js). How long until the sea's matches are ready, without any drawing: the workers, the module, the book, and every
+     match's head start, as the page makes them. Serve the site (npm run serve) and open /tools/bench/engine.html?n=160;
+     the result is in window.__bench and on the page. Needs a build (npm run build). -->
+<pre id="out">running…</pre>
+<script type="module">
+  import { SEAW, startPool } from '../../dist/bench.js';
+  const q = new URLSearchParams(location.search), n = +(q.get('n') || 160), late = q.has('late');   // ?late: as before, a fifth run on to their last moments
+  const t0 = performance.now();
+  startPool({});
+  // the same head starts the page gives a new match (see match/pair.js)
+  let hs = 12345; const rnd = () => (hs = (hs * 16807) % 2147483647) / 2147483647;
+  for (let i = 0; i < n; i++) {
+    const pcs = 8 + Math.min(160, Math.floor(-Math.log(1 - rnd() * .9999) * 22)), end = late && rnd() < .22;
+    SEAW.add(i, rnd(), rnd(), (i * 7919) % 1000003, Math.floor(pcs / 2.9 * 60) + (end ? 1800 : 0));
+  }
+  SEAW.bootEngine();
+  const marks = {};
+  const tick = () => {
+    const have = Object.keys(SEAW.snap).length, t = Math.round(performance.now() - t0);
+    for (const f of [.5, .75, .9, 1]) if (!marks[f] && have >= n * f) marks[f] = t;
+    if (SEAW.ready && !marks.ready) marks.ready = t;
+    if (have >= n) {
+      window.__bench = { workers: SEAW.nw, matches: n, ...marks };
+      document.getElementById('out').textContent = JSON.stringify(window.__bench, null, 1);
+    } else setTimeout(tick, 20);
+  };
+  tick();
+</script>
