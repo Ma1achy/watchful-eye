@@ -46,7 +46,7 @@ function init(d){ manual=!!d.manual; WebAssembly.instantiate(d.module,{}).then(f
       postMessage({ready:true,len:LEN}); var q=pending; pending=[]; q.forEach(handle); if(!manual) slice(); }); }
 function handle(d){
   if(d.tick!=null){ // the recorder's clock: every match exactly n frames on, head starts finished, then answer
-    var list=[]; ids.forEach(function(m){ if(m.head>0){ qual(m,1); E.sea_step(m.i,m.head); m.head=0; E.sea_drain(m.i); } qual(m,1); if(d.tick) E.sea_step(m.i,d.tick); m.frame+=d.tick; if(want[m.id]||m.frame%30<d.tick||m.dirty) list.push(m); });
+    var list=[]; ids.forEach(function(m){ if(m.head>0){ qual(m,0); E.sea_step(m.i,m.head); m.head=0; E.sea_drain(m.i); } qual(m,1); if(d.tick) E.sea_step(m.i,d.tick); m.frame+=d.tick; if(want[m.id]||m.frame%30<d.tick||m.dirty) list.push(m); });
     post(list,true); return; }
   if(d.add){ var m={id:d.id,i:E.sea_add(d.a,d.b,d.seed),q:1,frame:0,base:now(),head:d.head|0,paused:false,dirty:true}; M[d.id]=m; ids.push(m); return; }
   if(d.replace){ var r=M[d.id]; E.sea_replace(r.i,d.a,d.b,d.seed); r.q=1; r.frame=0; r.base=now(); r.head=d.head|0; r.dirty=true; return; }
