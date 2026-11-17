@@ -1,0 +1,15 @@
+# Named mid-game setups written by hand (the rest of the raw library is exported from the JavaScript engine).
+# Same format as setups.raw.txt; tools/sync-engine.sh fires each on Four's engine with the others.
+# Imperial Cross: a cross-shaped hole under an overhang. The first T twists down into the cross upright and clears the
+# rows above and below its arm (a hurdle double); what's left is a plain double for the second. Against a wall: the
+# wall is what sends the T's first turn down into the hole.
+C|Imperial Cross|5|5|2|2|1|1|0|12,24,27,17,27|3,7,4,14,4|1,2,3,4|0|1
+C|Imperial Cross|5|5|2|2|1|0|1|6,3,27,17,27|24,28,4,14,4|1,2,3,4|0|1
+# Donation: a double built over the open well (the well goes on down under the T's foot), giving the well up for it.
+S|donation|5|4|2|0|0|0|0|25,17,27,0|6,14,4,4|1,2|0|0
+S|donation|5|4|2|0|0|0|0|19,17,27,0|12,14,4,4|1,2|0|0
+# Floating double: one shoulder of the T's hole hangs over a gap.
+S|floating TSD|5|4|2|0|0|0|0|25,17,27,0|6,14,4,2|1,2|0|0
+S|floating TSD|5|4|2|0|0|0|0|25,17,27,0|6,14,4,8|1,2|0|0
+S|floating TSD|5|4|2|0|0|0|0|19,17,27,0|12,14,4,2|1,2|0|0
+S|floating TSD|5|4|2|0|0|0|0|19,17,27,0|12,14,4,8|1,2|0|0

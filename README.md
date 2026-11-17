@@ -31,7 +31,8 @@ css/sea.css
 assets/               link-preview image and icons
 engine/four_sea.wasm  the engine and bots (built from Four's crates/four-sea; see tools/sync-engine.sh)
 data/                 the bots' opener book and setup library, read by the module at start-up (setups.txt is made
-                      from setups.raw.txt by Four's engine: every shape fired, and two-spin chains generated)
+                      from setups.raw.txt and the hand-written setups.extra.txt by Four's engine: every shape
+                      fired, and two-spin chains generated)
 dist/                 the built scripts the page loads (npm run build; committed, since Pages serves them as they are)
 src/
   main.js             start-up order, the frame loop, the preload and reveal

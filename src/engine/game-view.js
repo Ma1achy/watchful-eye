@@ -31,7 +31,7 @@ export function createGameView(ROT, NAMES) {
 export function coolOf(n) {
   n = (n || '').replace(/ \(mirror\)/g, '');
   if (/^SingleYou|^solver|^Unnamed|開幕TSD|^LAST|^Sus Opener/.test(n)) return 0;
-  if (/Cannon|DT|Hachispin|Stickspin|Fairy|TST|Tsar|Gamushiro|C-Spin|Speedboat|MKO|Imperial|STSD|山岳|Mountain|Albatross|Pelican|Kaidan|Trinity|Cyclone|Dragon|Toro|PC-Spin|Castella/i.test(n)) return 2;
+  if (/Cannon|DT|Hachispin|Stickspin|Fairy|TST|Tsar|Gamushiro|C-Spin|Speedboat|MKO|Imperial|STSD|山岳|Mountain|Albatross|Pelican|Kaidan|Trinity|Cyclone|Dragon|Toro|PC-Spin|Castella|donation|floating|fractal/i.test(n)) return 2;
   return 1;
 }
 

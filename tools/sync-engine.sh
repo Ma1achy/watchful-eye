@@ -12,5 +12,9 @@ npx --no-install wasm-opt -O3 --strip-debug \
   --enable-bulk-memory --enable-sign-ext --enable-nontrapping-float-to-int --enable-mutable-globals \
   "$FOUR/target/wasm32-unknown-unknown/release/four_sea.wasm" -o "$HERE/engine/four_sea.wasm"
 # the setup library: the raw shapes, fired on this engine, and the chains generated from them
-( cd "$FOUR" && cargo "+$TOOLCHAIN" run --release -p four-sea --example setup_lib -- "$HERE/data/setups.raw.txt" "$HERE/data/setups.txt" )
+# (with the named shapes written by hand: data/setups.extra.txt)
+RAW="$(mktemp)"
+cat "$HERE/data/setups.raw.txt" "$HERE/data/setups.extra.txt" > "$RAW"
+( cd "$FOUR" && cargo "+$TOOLCHAIN" run --release -p four-sea --example setup_lib -- "$RAW" "$HERE/data/setups.txt" )
+rm -f "$RAW"
 echo "engine/four_sea.wasm: $(wc -c < "$HERE/engine/four_sea.wasm") bytes, from Four $(git -C "$FOUR" rev-parse --short HEAD)"
