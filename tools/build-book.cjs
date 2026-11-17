@@ -1,4 +1,5 @@
-// Builds data/book.txt. Inputs (not kept in this repository): the Mosaic opener database's trie.json and popular.json,
+// Builds data/book.txt (then checked line by line on the engine: Four's four-sea example book_check, which writes it
+// again without the lines that fail). Inputs (not kept in this repository): the Mosaic opener database's trie.json and popular.json,
 // beside this script's working copy. Usage: node tools/build-book.cjs [most pieces a stage may reach]
 // The opener book rebuilt from the Mosaic opener database (trie.json): for each opener the first-bag diagrams its
 // primary sources draw, and every later stage down each line that ends in a T-spin of two lines or more or a
