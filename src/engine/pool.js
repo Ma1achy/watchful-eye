@@ -130,6 +130,6 @@ SEAW.isLoaded = function () {
 };
 // the share of matches that must be ready: the last few are those with the longest head starts (the ones run on to
 // their last moments), and they're specks in the opening shot
-export const READY_SHARE = .85;
+export const READY_SHARE = .7;
 
 if (typeof window !== 'undefined') window.SEAW = SEAW;   // for the console and the tests
