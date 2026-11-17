@@ -1,6 +1,16 @@
 # kind|name|kept piece|after|weight|spin rank|rows top to bottom (letters: piece, *: any piece, X: already built, .: empty)
 O|Cerise Stacking|X||0.0328|0|....S...../....SS..../.Z...SLOOJ/ZZT.LLLOOJ/ZTTTIIIIJJ
 O|Cerise Stacking (mirror)|X||0.0328|0|.....Z..../....ZZ..../LOOJZ...S./LOOJJJ.TSS/LLIIIITTTS
+C|Cerise Stacking · 1 (part 1)|X|Cerise Stacking|1|0|.....Z..../....ZZ...I/....ZS...I/JJ..XSSOOI/J..TXXSOOI/JX.TTXXXXX/XXXTXXXXXX
+C|Cerise Stacking · 1|T|Cerise Stacking · 1 (part 1)|1|0|.....X..../..LLXX...X/...LXX...X/XX.LXXXXXX/X..XXXXXXX/XX.XXXXXXX
+C|Cerise Stacking · 1 (mirror) (part 1)|X|Cerise Stacking (mirror)|1|0|....S...../I...SS..../I...ZS..../IOOZZX..LL/IOOZXXT..L/XXXXXTT.XL/XXXXXXTXXX
+C|Cerise Stacking · 1 (mirror)|T|Cerise Stacking · 1 (mirror) (part 1)|1|0|....X...../X...XXJJ../X...XXJ.../XXXXXXJ.XX/XXXXXXX..X/XXXXXXX.XX
+C|Cerise Stacking · 1 · 2|T|Cerise Stacking · 1|1|3|.....SS.../..ZZSSIJ../...ZZXIJJJ/..XXXXIOOX/...XXXIOOX/XX.XXXXXXX/X..XXXXXXX/XX.XXXXXXX
+C|Cerise Stacking · 1 · 2 (mirror)|T|Cerise Stacking · 1 (mirror)|1|3|...ZZ...../..LIZZSS../LLLIXSS.../XOOIXXXX../XOOIXXX.../XXXXXXX.XX/XXXXXXX..X/XXXXXXX.XX
+C|Cerise Stacking · 2 (part 1)|X|Cerise Stacking|1|0|......S.../....ZZSSOO/JJ..XZZSOO/J..TXXIIII/JX.TTXXXXX/XXXTXXXXXX
+C|Cerise Stacking · 2|T|Cerise Stacking · 2 (part 1)|1|0|..LL..X.../...LXXXXXX/XX.LXXXXXX/X..XXXXXXX/XX.XXXXXXX
+C|Cerise Stacking · 2 (mirror) (part 1)|X|Cerise Stacking (mirror)|1|0|...Z....../OOZZSS..../OOZSSX..LL/IIIIXXT..L/XXXXXTT.XL/XXXXXXTXXX
+C|Cerise Stacking · 2 (mirror)|T|Cerise Stacking · 2 (mirror) (part 1)|1|0|...X..JJ../XXXXXXJ.../XXXXXXJ.XX/XXXXXXX..X/XXXXXXX.XX
 O|HeboMAI Spin|X||0.0293|0|....S...../....SSL..J/.Z...SL..J/ZZT.OOLLJJ/ZTTTOOIIII
 O|HeboMAI Spin (mirror)|X||0.0293|0|.....Z..../L..JZZ..../L..JZ...S./LLJJOO.TSS/IIIIOOTTTS
 C|HeboMAI Spin · 1|T|HeboMAI Spin|1|2|.Z..X...../ZZ..XXXOOX/ZX...XXOOX/XXX.XXXXXX
@@ -103,12 +113,20 @@ C|Crevasse Stacking · 10|T|Crevasse Stacking|1|2|I........./I........./I.......
 C|Crevasse Stacking · 10 (mirror)|T|Crevasse Stacking (mirror)|1|2|.........I/.........I/.........I/.SS..LOOJI/SSZ..LOOJX/XZZ..LLJJX/XZ...XXXXX/XXX.XXXXXX
 O|Dokpe TSM|X||0.0381|0|IIII....../LLL.....ZJ/LSST.OOZZJ/SSTTTOOZJJ
 O|Dokpe TSM (mirror)|X||0.0381|0|......IIII/LS.....JJJ/LSSOO.TZZJ/LLSOOTTTZZ
+C|Dokpe TSM · 1 (part 1)|T|Dokpe TSM|1|0|XXXXJJJLLL/XXX...JLXX/XXXX.XXXXX
+C|Dokpe TSM · 1|X|Dokpe TSM · 1 (part 1)|1|0|XXXTTTXXXX/XXXXTXXXXX
+C|Dokpe TSM · 1 (mirror) (part 1)|T|Dokpe TSM (mirror)|1|0|JJJLLLXXXX/XXJL...XXX/XXXXX.XXXX
+C|Dokpe TSM · 1 (mirror)|X|Dokpe TSM · 1 (mirror) (part 1)|1|0|XXXXTTTXXX/XXXXXTXXXX
 C|Dokpe TSM · 2|T|Dokpe TSM|1|2|LOO......I/LOOSS...JI/LLSS....JI/XXXX.ZZJJI/XXX...ZZXX/XXXX.XXXXX
 C|Dokpe TSM · 2 (mirror)|T|Dokpe TSM (mirror)|1|2|I......OOJ/IL...ZZOOJ/IL....ZZJJ/ILLSS.XXXX/XXSS...XXX/XXXXX.XXXX
 O|Dokpe TSM 2|T||0.0381|0|IIII....../LLL.....ZJ/LSS..OOZZJ/SS...OOZJJ
 O|Dokpe TSM 2 (mirror)|T||0.0381|0|......IIII/LS.....JJJ/LSSOO..ZZJ/LLSOO...ZZ
 C|Dokpe TSM 2 · 1|X|Dokpe TSM 2|1|0|XXXX....../XXX.....XX/XXXT.XXXXX/XXTTTXXXXX
 C|Dokpe TSM 2 · 1 (mirror)|X|Dokpe TSM 2 (mirror)|1|0|......XXXX/XX.....XXX/XXXXX.TXXX/XXXXXTTTXX
+C|Dokpe TSM 2 · 1 · 1 (part 1)|T|Dokpe TSM 2 · 1|1|0|XXXXJJJLLL/XXX...JLXX/XXXX.XXXXX
+C|Dokpe TSM 2 · 1 · 1|X|Dokpe TSM 2 · 1 · 1 (part 1)|1|0|XXXTTTXXXX/XXXXTXXXXX
+C|Dokpe TSM 2 · 1 · 1 (mirror) (part 1)|T|Dokpe TSM 2 · 1 (mirror)|1|0|JJJLLLXXXX/XXJL...XXX/XXXXX.XXXX
+C|Dokpe TSM 2 · 1 · 1 (mirror)|X|Dokpe TSM 2 · 1 · 1 (mirror) (part 1)|1|0|XXXXTTTXXX/XXXXXTXXXX
 O|Drawbridge|T||0.0447|0|.......ZL./......ZZL./......ZJLL/.SSIIIIJOO/SS....JJOO
 O|Drawbridge (mirror)|T||0.0447|0|.JS......./.JSS....../JJLS....../OOLIIIIZZ./OOLL....ZZ
 C|Drawbridge · 1|X|Drawbridge|1|0|.......XX./T.....XXX./TT....XXXX/TXXXXXXXXX/XX....XXXX
@@ -349,6 +367,10 @@ C|Ichinoseki Variable · 2|T|Ichinoseki Variable|1|3|......OO.I/JJ....OO.I/J....
 C|Ichinoseki Variable · 2 (mirror)|T|Ichinoseki Variable (mirror)|1|3|I.OO....../I.OO....LL/I.SS.....L/ISS......L/XXX.ZZJJJX/XXX..ZZXJX/XXX.XXXXXX
 C|Ichinoseki Variable · 3|T|Ichinoseki Variable|1|3|.........I/JJ.......I/JOO...ZZ.I/JOO....ZZI/XLLLSS.XXX/XLXSS..XXX/XXXXXX.XXX
 C|Ichinoseki Variable · 3 (mirror)|T|Ichinoseki Variable (mirror)|1|3|I........./I.......LL/I.SS...OOL/ISS....OOL/XXX.ZZJJJX/XXX..ZZXJX/XXX.XXXXXX
+C|Ichinoseki Variable · 4 (part 1)|X|Ichinoseki Variable|1|0|XLLL..TXXX/XLX..TTXXX/XXXXXXTXXX
+C|Ichinoseki Variable · 4|T|Ichinoseki Variable · 4 (part 1)|1|0|XXXXSSXXXX/XXXSSXXXXX
+C|Ichinoseki Variable · 4 (mirror) (part 1)|X|Ichinoseki Variable (mirror)|1|0|XXXT..JJJX/XXXTT..XJX/XXXTXXXXXX
+C|Ichinoseki Variable · 4 (mirror)|T|Ichinoseki Variable · 4 (mirror) (part 1)|1|0|XXXXZZXXXX/XXXXXZZXXX
 O|Joystick|X||0.0403|0|......I.../......I.../.J...TI.../.J..TTI.S./JJLZZTOOSS/LLL.ZZOO.S
 O|Joystick (mirror)|X||0.0403|0|...I....../...I....../...IT...L./.Z.ITT..L./ZZOOTSSJLL/Z.OOSS.JJJ
 C|Joystick · 1|T|Joystick|1|3|......OO../......OO../I....ZX.../IJJJZZX.LL/IXSJZXX..L/IXSSXXX.XL/XXXSXXXX.X
@@ -523,6 +545,10 @@ C|Ayakuru Cannon · 1|T|Ayakuru Cannon|1|3|.........I/J........I/JJJ..SS..I/ZZLL
 C|Ayakuru Cannon · 1 (mirror)|T|Ayakuru Cannon (mirror)|1|3|I........./I........L/I..ZZ..LLL/I...ZZJJSS/XXX.OOJSSX/XX..OOJXXX/XXX.XXXXXX
 O|Ayakuru Cannon 2|X||0.0357|0|L......TTT/LZZ.....TJ/LLZZOO.SSJ/IIIIOOSSJJ
 O|Ayakuru Cannon 2 (mirror)|X||0.0357|0|TTT......J/LT.....SSJ/LZZ.OOSSJJ/LLZZOOIIII
+C|Ayakuru Cannon 2 · 1 (part 1)|T|Ayakuru Cannon 2|1|0|XJJJLLLXXX/XXXJL...XX/XXXXXX.XXX
+C|Ayakuru Cannon 2 · 1|X|Ayakuru Cannon 2 · 1 (part 1)|1|0|XXXXXTTTXX/XXXXXXTXXX
+C|Ayakuru Cannon 2 · 1 (mirror) (part 1)|T|Ayakuru Cannon 2 (mirror)|1|0|XXXJJJLLLX/XX...JLXXX/XXX.XXXXXX
+C|Ayakuru Cannon 2 · 1 (mirror)|X|Ayakuru Cannon 2 · 1 (mirror) (part 1)|1|0|XXTTTXXXXX/XXXTXXXXXX
 C|Ayakuru Cannon 2 · 2|T|Ayakuru Cannon 2|1|2|SIIII...OO/SSJJJ...OO/XSZZJ..XXX/XXXZZ...XX/XXXXXX.XXX
 C|Ayakuru Cannon 2 · 2 (mirror)|T|Ayakuru Cannon 2 (mirror)|1|2|OO...IIIIZ/OO...LLLZZ/XXX..LSSZX/XX...SSXXX/XXX.XXXXXX
 C|Ayakuru Cannon 2 · 2 · 1|T|Ayakuru Cannon 2 · 2|1|0|XXXXXL..XX/XXXXXL..XX/XXXXXLLXXX
@@ -655,6 +681,10 @@ C|Kvodeth’s Single Double · 1 · 2 · 1 · 1|T|Kvodeth’s Single Double · 1
 C|Kvodeth’s Single Double · 1 · 2 · 1 · 1 (mirror)|T|Kvodeth’s Single Double · 1 · 2 · 1 (mirror)|1|3|.X.....X../.XXJJ..X../XXXJ...XXX/XXXJ.XXXXX/XXXX..XXXX/XXXX.XXXXX
 C|Kvodeth’s Single Double · 1 · 3|T|Kvodeth’s Single Double · 1|1|0|........Z./.......ZZ./I......ZOO/IXXSS..JOO/IXSS...JJJ/IXXXX...XX/XXXXXX.XXX
 C|Kvodeth’s Single Double · 1 · 3 (mirror)|T|Kvodeth’s Single Double · 1 (mirror)|1|0|.S......../.SS......./OOS......I/OOL..ZZXXI/LLL...ZZXI/XX...XXXXI/XXX.XXXXXX
+C|Kvodeth’s Single Double · 1 · 3 · 1 (part 1)|X|Kvodeth’s Single Double · 1 · 3|1|0|........X./.......XX./X......XXX/XXXXX..XXX/XXXX..TXXX/XXXXX.TTXX/XXXXXXTXXX
+C|Kvodeth’s Single Double · 1 · 3 · 1|T|Kvodeth’s Single Double · 1 · 3 · 1 (part 1)|1|3|........X./.....LLXX./X.....LXXX/XXXXX.LXXX/XXXX..XXXX/XXXXX.XXXX
+C|Kvodeth’s Single Double · 1 · 3 · 1 (mirror) (part 1)|X|Kvodeth’s Single Double · 1 · 3 (mirror)|1|0|.X......../.XX......./XXX......X/XXX..XXXXX/XXXT..XXXX/XXTT.XXXXX/XXXTXXXXXX
+C|Kvodeth’s Single Double · 1 · 3 · 1 (mirror)|T|Kvodeth’s Single Double · 1 · 3 · 1 (mirror) (part 1)|1|3|.X......../.XXJJ...../XXXJ.....X/XXXJ.XXXXX/XXXX..XXXX/XXXX.XXXXX
 C|Kvodeth’s Single Double · 1 · 4|T|Kvodeth’s Single Double · 1|1|2|I.......ZJ/IXXSS..ZZJ/IXSS...ZJJ/IXXXX...XX/XXXXXX.XXX
 C|Kvodeth’s Single Double · 1 · 4 (mirror)|T|Kvodeth’s Single Double · 1 (mirror)|1|2|LS.......I/LSS..ZZXXI/LLS...ZZXI/XX...XXXXI/XXX.XXXXXX
 C|Kvodeth’s Single Double · 1 · 5|T|Kvodeth’s Single Double · 1|1|2|I.......OO/IXXSS..JOO/IXSS...JJJ/IXXXX...XX/XXXXXX.XXX
@@ -717,6 +747,10 @@ C|Sailboat · 7|T|Sailboat|1|3|.....Z..S./.LOOZZ..SS/ILOOZJ...S/ILLXXJJJ.X/IXXXX
 C|Sailboat · 7 (mirror)|T|Sailboat (mirror)|1|3|.Z..S...../ZZ..SSOOJ./Z...LSOOJI/X.LLLXXJJI/X..XXXXXXI/X.XXXXXXXI
 O|Single Sense Bath|X||0.0343|0|......L.../...TLLL.../J..TTZ..../JJJTZZSSOO/IIIIZSS.OO
 O|Single Sense Bath (mirror)|X||0.0343|0|...J....../...JJJT.../....STT..L/OOZZSSTLLL/OO.ZZSIIII
+C|Single Sense Bath · 1 (part 1)|X|Single Sense Bath|1|0|....ZS..../...ZZSS.../L..ZOOS..I/L...OOX..I/LL.XXXX..I/X..XXXTTTI/XXXXXXXTXX
+C|Single Sense Bath · 1|T|Single Sense Bath · 1 (part 1)|1|0|....XX..../...XXXX.../X..XXXX.JX/X...XXX.JX/XX.XXXXJJX/X..XXXXXXX
+C|Single Sense Bath · 1 (mirror) (part 1)|X|Single Sense Bath (mirror)|1|0|....ZS..../...ZZSS.../I..ZOOS..J/I..XOO...J/I..XXXX.JJ/ITTTXXX..X/XXTXXXXXXX
+C|Single Sense Bath · 1 (mirror)|T|Single Sense Bath · 1 (mirror) (part 1)|1|0|....XX..../...XXXX.../XL.XXXX..X/XL.XXX...X/XLLXXXX.XX/XXXXXXX..X
 C|Single Sense Bath · 2|T|Single Sense Bath|1|2|I..L....../I..L....../I..LLSS.../I...SSXOOJ/ZZ.XXXXOOJ/XZZXXX..JJ/XXXXXXX.XX
 C|Single Sense Bath · 2 (mirror)|T|Single Sense Bath (mirror)|1|2|......J..I/......J..I/...ZZJJ..I/LOOXZZ...I/LOOXXXX.SS/LL..XXXSSX/XX.XXXXXXX
 C|Single Sense Bath · 2 · 1|T|Single Sense Bath · 2|1|3|.........I/X..X...LLI/XOOX....LI/XOOXXXX.LI/XXXXXX..XX/XXXXXXX.XX
@@ -807,6 +841,10 @@ O|デーモンSP|X||0.058|0|.Z.......I/ZZ.......I/ZTTT....LI/OOTSSJJJLI/OOSS...J
 O|デーモンSP (mirror)|X||0.058|0|I.......S./I.......SS/IJ....TTTS/IJLLLZZTOO/JJL...ZZOO
 C|デーモンSP · 1|T|デーモンSP|1|3|LLL......./LZJ......./ZZJJJ...../ZXOO.....X/XXOO.IIIIX/XXXX..SSXX/XXXX.SSXXX
 C|デーモンSP · 1 (mirror)|T|デーモンSP (mirror)|1|3|.......JJJ/.......LSJ/.....LLLSS/X.....OOXS/XIIII.OOXX/XXZZ..XXXX/XXXZZ.XXXX
+C|デーモンSP · 1 · 1 (part 1)|X|デーモンSP · 1|1|0|XXXOO...LL/XXXOO...TL/XXXXX..TTL/XXXXIIIITX
+C|デーモンSP · 1 · 1|T|デーモンSP · 1 · 1 (part 1)|1|0|XXXXXJJZXX/XXXXXJZZXX/XXXXXJZXXX
+C|デーモンSP · 1 · 1 (mirror) (part 1)|X|デーモンSP · 1 (mirror)|1|0|..SLLOOXXX/.TSSLOOXXX/.TTSLXXXXX/XTIIIIXXXX
+C|デーモンSP · 1 · 1 (mirror)|T|デーモンSP · 1 · 1 (mirror) (part 1)|1|0|JJXXXXXXXX/JXXXXXXXXX/JXXXXXXXXX
 C|デーモンSP · 2|T|デーモンSP|1|3|..JJJ...../..ZZJ...../LLLZZ...../LXOO.....X/XXOO.IIIIX/XXXX..SSXX/XXXX.SSXXX
 C|デーモンSP · 2 (mirror)|T|デーモンSP (mirror)|1|3|.....LLL../.....LSS../.....SSJJJ/X.....OOXJ/XIIII.OOXX/XXZZ..XXXX/XXXZZ.XXXX
 C|デーモンSP · 3|T|デーモンSP|1|2|IL......../IL......../ILLZ....JJ/IXZZ..S.JX/XXZ...SSJX/XXXX.OOSXX/XXXX.OOXXX
@@ -1289,6 +1327,10 @@ C|Outlogic SD · 1|X|Outlogic SD|1|0|XXT......./XTT....XX./XXTXXXXXXX
 C|Outlogic SD · 1 (mirror)|X|Outlogic SD (mirror)|1|0|.......TXX/.XX....TTX/XXXXXXXTXX
 C|Outlogic SD · 1 · 1|T|Outlogic SD · 1|1|2|JJZ......./JZZ......I/JZ...LLOOI/XXX.SSLOOI/XXXSS.LXXI
 C|Outlogic SD · 1 · 1 (mirror)|T|Outlogic SD · 1 (mirror)|1|2|.......SLL/I......SSL/IOOJJ...SL/IOOJZZ.XXX/IXXJ.ZZXXX
+C|Outlogic SD · 1 · 1 · 1 (part 1)|X|Outlogic SD · 1 · 1|1|0|IIIIZ..JJJ/XXXZZT.OOJ/XXXZTT.OOX/XXXXXTXXXX
+C|Outlogic SD · 1 · 1 · 1|T|Outlogic SD · 1 · 1 · 1 (part 1)|1|0|XXXXXLLXXX/XXXXXXLXXX/XXXXXXLXXX
+C|Outlogic SD · 1 · 1 · 1 (mirror) (part 1)|X|Outlogic SD · 1 · 1 (mirror)|1|0|LLL..SIIII/LOO.TSSXXX/XOO.TTSXXX/XXXXTXXXXX
+C|Outlogic SD · 1 · 1 · 1 (mirror)|T|Outlogic SD · 1 · 1 · 1 (mirror) (part 1)|1|0|XXXJJXXXXX/XXXJXXXXXX/XXXJXXXXXX
 C|Outlogic SD · 1 · 1 · 2|T|Outlogic SD · 1 · 1|1|3|I........./IL......../IL..SS...J/ILLSS....J/XXXOO.ZZJJ/XXXOO..ZZX/XXXXX.XXXX
 C|Outlogic SD · 1 · 1 · 2 (mirror)|T|Outlogic SD · 1 · 1 (mirror)|1|3|.........I/........JI/L...ZZ..JI/L....ZZJJI/LLSS.OOXXX/XSS..OOXXX/XXXX.XXXXX
 C|Outlogic SD · 1 · 1 · 3|T|Outlogic SD · 1 · 1|1|2|JJ......../JOOLLL..../JOOLZ...../XXXZZ.IIII/XXXZ.....X/XXXXX.XXXX
@@ -1697,6 +1739,10 @@ C|Sure FD · 1 · 1 · 4|T|Sure FD · 1 · 1|1|2|.....I..../....JIL.../....JILZZ
 C|Sure FD · 1 · 1 · 4 (mirror)|T|Sure FD · 1 · 1 (mirror)|1|2|....I...../...JIL..../.SSJIL..../SSJJILL.../OOXXXX...Z/OOXXXXX.ZZ/XXXXXXX.ZX/XXXXXXX.XX
 C|Sure FD · 1 · 1 · 5|T|Sure FD · 1 · 1|1|2|..JJJOO..I/...ZJOOLLI/S.ZZXXXXLI/SSZXXXXXLI/XS.XXXXXXX/XX.XXXXXXX
 C|Sure FD · 1 · 1 · 5 (mirror)|T|Sure FD · 1 · 1 (mirror)|1|2|I..OOLLL../IJJOOLS.../IJXXXXSS.Z/IJXXXXXSZZ/XXXXXXX.ZX/XXXXXXX.XX
+C|Sure FD · 1 · 1 · 6 (part 1)|T|Sure FD · 1 · 1|1|0|..ZZ....../...ZZ...../...LLL..../...LXXXXOO/.S.XXXXXOO/XSSXXXXXXX/XXSXXXXXXX
+C|Sure FD · 1 · 1 · 6|T|Sure FD · 1 · 1 · 6 (part 1)|1|3|..XX....../...XX...../JJ.XXXIIII/J..XXXXXXX/JX.XXXXXXX
+C|Sure FD · 1 · 1 · 6 (mirror) (part 1)|T|Sure FD · 1 · 1 (mirror)|1|0|..XXXX..../..XXXXX.Z./XXXXXXXZZX/XXXXXXXZXX
+C|Sure FD · 1 · 1 · 6 (mirror)|T|Sure FD · 1 · 1 · 6 (mirror) (part 1)|1|3|......SS../.....SS.../IIIIJJJ.LL/OOXXXXJ..L/OOXXXXX.XL
 C|Sure FD · 1 · 1 · 7|T|Sure FD · 1 · 1|1|2|....Z...../...ZZ...../...ZJ...../....JOO..I/...JJOOLLI/S...XXXXLI/SS.XXXXXLI/XS.XXXXXXX/XX.XXXXXXX
 C|Sure FD · 1 · 1 · 7 (mirror)|T|Sure FD · 1 · 1 (mirror)|1|2|.....S..../.....SS.../.....LS.../I..OOL..../IJJOOLL.../IJXXXX...Z/IJXXXXX.ZZ/XXXXXXX.ZX/XXXXXXX.XX
 C|Sure FD · 1 · 1 · 8|T|Sure FD · 1 · 1|1|2|...IIII.../S...XXXXOO/SS.XXXXXOO/XS.XXXXXXX/XX.XXXXXXX
@@ -1967,6 +2013,10 @@ O|Hachispin|X||0.07|0|...S....../...SS....I/.TTTSLLL.I/ZZTOOLJJJI/.ZZOO...JI
 O|Hachispin (mirror)|X||0.07|0|......Z.../I....ZZ.../I.JJJZTTT./ILLLJOOTSS/IL...OOSS.
 C|Hachispin · 1|T|Hachispin|1|3|..I.....LL/OOIZZ....L/OOIXZZSS.L/JJIXXSS..X/JXXXXXXX.X/JXXXX...XX
 C|Hachispin · 1 (mirror)|T|Hachispin (mirror)|1|3|JJ.....I../J....SSIOO/J.ZZSSXIOO/X..ZZXXILL/X.XXXXXXXL/XX...XXXXL
+C|Hachispin · 1 · 1 (part 1)|X|Hachispin · 1|1|0|OOZZ...LLL/OOXZZT.LXX/XXXXXTTSSX/XXXXXTSSXX
+C|Hachispin · 1 · 1|T|Hachispin · 1 · 1 (part 1)|1|0|XXXXJJJXXX/XXXXXXJXXX
+C|Hachispin · 1 · 1 (mirror) (part 1)|X|Hachispin · 1 (mirror)|1|0|JJJ...SSOO/XXJ.TSSXOO/XZZTTXXXXX/XXZZTXXXXX
+C|Hachispin · 1 · 1 (mirror)|T|Hachispin · 1 · 1 (mirror) (part 1)|1|0|XXXLLLXXXX/XXXLXXXXXX
 C|Hachispin · 1 · 2|T|Hachispin · 1|1|0|......JJ../......J.../..X..SJ.XX/XXXXXSS..X/XXXXX.S.XX
 C|Hachispin · 1 · 2 (mirror)|T|Hachispin · 1 (mirror)|1|0|..LL....../...L....../XX.LZ..X../X..ZZXXXXX/XX.Z.XXXXX
 C|Hachispin · 1 · 2 · 1|T|Hachispin · 1 · 2|1|2|...LL...../IIIIL.XX../OOZZL.X.../OOXZZXX.XX/XXXXXXX..X/XXXXX.X.XX
@@ -2039,6 +2089,12 @@ C|Mr. T-Spin’s STD · 4|T|Mr. T-Spin’s STD|1|3|.J......../.J......../JJ.....
 C|Mr. T-Spin’s STD · 4 (mirror)|T|Mr. T-Spin’s STD (mirror)|1|3|........L./........L./........LL/.OO......X/SOOZXIJJ.X/SSZZXIJ..X/XSZXXIJX.X/XXXXXIX.XX
 C|Mr. T-Spin’s STD · 5|T|Mr. T-Spin’s STD|1|3|OO......../OO......J./X.......J./X.LLIXSJJZ/X..LIXSSZZ/X.XLIXXSZX/XX.XIXXXXX
 C|Mr. T-Spin’s STD · 5 (mirror)|T|Mr. T-Spin’s STD (mirror)|1|3|........OO/.L......OO/.L.......X/SLLZXIJJ.X/SSZZXIJ..X/XSZXXIJX.X/XXXXXIX.XX
+C|Mr. T-Spin’s STD · 5 · 1 (part 1)|T|Mr. T-Spin’s STD · 5|1|0|XXIIIIZJLL/XX...ZZJXL/X....ZJJXL/XX.XXXXXXX
+C|Mr. T-Spin’s STD · 5 · 1 (part 2)|X|Mr. T-Spin’s STD · 5 · 1 (part 1)|1|0|XXT..XXXXX/XTT..XXXXX/XXTXXXXXXX
+C|Mr. T-Spin’s STD · 5 · 1|T|Mr. T-Spin’s STD · 5 · 1 (part 2)|1|0|XXXOOXXXXX/XXXOOXXXXX
+C|Mr. T-Spin’s STD · 5 · 1 (mirror) (part 1)|T|Mr. T-Spin’s STD · 5 (mirror)|1|0|JJLSIIIIXX/JXLSS...XX/JXLLS....X/XXXXXXX.XX
+C|Mr. T-Spin’s STD · 5 · 1 (mirror) (part 2)|X|Mr. T-Spin’s STD · 5 · 1 (mirror) (part 1)|1|0|XXXXX..TXX/XXXXX..TTX/XXXXXXXTXX
+C|Mr. T-Spin’s STD · 5 · 1 (mirror)|T|Mr. T-Spin’s STD · 5 · 1 (mirror) (part 2)|1|0|XXXXXOOXXX/XXXXXOOXXX
 O|Ms. T-Spin’s STD|X||0.0653|0|...OO....I/L..OO..ZJI/LTTTSSZZJI/LLTSS.ZJJI
 O|Ms. T-Spin’s STD (mirror)|X||0.0653|0|I....OO.../ILS..OO..J/ILSSZZTTTJ/ILLS.ZZTJJ
 C|Ms. T-Spin’s STD · 1|T|Ms. T-Spin’s STD|1|3|I..JJZ..S./I..JZZ..SS/I..JZ...LS/IOOXX.LLLX/XOOXX..XXX/XXXXX.XXXX
@@ -2049,6 +2105,12 @@ C|Ms. T-Spin’s STD · 1 · 2|T|Ms. T-Spin’s STD · 1|1|2|....LOO..I/S..ZLOO.
 C|Ms. T-Spin’s STD · 1 · 2 (mirror)|T|Ms. T-Spin’s STD · 1 (mirror)|1|2|I..OOJ..../I..OOJS..Z/I...JJSSZZ/IX.LXXXSZX/XX.LXXX..X/XX.LLXX..X
 C|Ms. T-Spin’s STD · 2|T|Ms. T-Spin’s STD|1|3|I....Z..S./IJ..ZZ..SS/IJJJZ...LS/IOOXX.LLLX/XOOXX..XXX/XXXXX.XXXX
 C|Ms. T-Spin’s STD · 2 (mirror)|T|Ms. T-Spin’s STD (mirror)|1|3|.Z..S....I/ZZ..SS..LI/ZJ...SLLLI/XJJJ.XXOOI/XXX..XXOOX/XXXX.XXXXX
+C|Ms. T-Spin’s STD · 2 · 1 (part 1)|T|Ms. T-Spin’s STD · 2|1|0|ZZ......../XZZ..X..X./XX..XX.LXX/XXXXXLLLXX
+C|Ms. T-Spin’s STD · 2 · 1 (part 2)|X|Ms. T-Spin’s STD · 2 · 1 (part 1)|1|0|XXIIIIT.../XXXSSXTTX./XXSSXXTXXX
+C|Ms. T-Spin’s STD · 2 · 1|T|Ms. T-Spin’s STD · 2 · 1 (part 2)|1|0|XXXXXXXJJJ/XXXXXXXXXJ
+C|Ms. T-Spin’s STD · 2 · 1 (mirror) (part 1)|T|Ms. T-Spin’s STD · 2 (mirror)|1|0|....IIIISS/.X..XZZSSX/XXJ.XXZZXX/XXJJJXXXXX
+C|Ms. T-Spin’s STD · 2 · 1 (mirror) (part 2)|X|Ms. T-Spin’s STD · 2 · 1 (mirror) (part 1)|1|0|...TXXXXXX/.XTTXXXXXX/XXXTXXXXXX
+C|Ms. T-Spin’s STD · 2 · 1 (mirror)|T|Ms. T-Spin’s STD · 2 · 1 (mirror) (part 2)|1|0|LLLXXXXXXX/LXXXXXXXXX
 C|Ms. T-Spin’s STD · 2 · 2|T|Ms. T-Spin’s STD · 2|1|2|........OO/........OO/........LL/ZZIIII...L/XZZSSXJ.XL/XXSSXXJ.XX/XXXXXJJ.XX
 C|Ms. T-Spin’s STD · 2 · 2 (mirror)|T|Ms. T-Spin’s STD · 2 (mirror)|1|2|OO......../OO......../JJ......../J...IIIISS/JX.LXZZSSX/XX.LXXZZXX/XX.LLXXXXX
 C|Ms. T-Spin’s STD · 2 · 3|T|Ms. T-Spin’s STD · 2|1|2|OO......../OO......LL/IIIISS...L/XZZSSXJ.XL/XXZZXXJ.XX/XXXXXJJ.XX
@@ -2063,6 +2125,10 @@ C|Speedboat · 2|T|Speedboat|1|3|........LL/...J.....L/IOOJJJSS.L/IOOXXSS..X/IXX
 C|Speedboat · 2 (mirror)|T|Speedboat (mirror)|1|3|JJ......../J.....L.../J.ZZLLLOOI/X..ZZXXOOI/X.XXXXXXXI/XX..XXXXXI
 C|Speedboat · 2 · 1|T|Speedboat · 2|1|0|...ZZ...XX/...XZZ...X/XXXXXX..XX
 C|Speedboat · 2 · 1 (mirror)|T|Speedboat · 2 (mirror)|1|0|XX...SS.../X...SSX.../XX..XXXXXX
+C|Speedboat · 2 · 1 · 1 (part 1)|T|Speedboat · 2 · 1|1|0|.OOXX...XX/.OOXXX.SSX/XXXXXXSSXX
+C|Speedboat · 2 · 1 · 1|T|Speedboat · 2 · 1 · 1 (part 1)|1|3|......ZZ../.......ZZ./JJIIII.LLL/JXXXX..LXX/JXXXXX.XXX
+C|Speedboat · 2 · 1 · 1 (mirror) (part 1)|T|Speedboat · 2 · 1 (mirror)|1|0|XX...XX.../XZZ.XXX.../XXZZXXXXXX
+C|Speedboat · 2 · 1 · 1 (mirror)|T|Speedboat · 2 · 1 · 1 (mirror) (part 1)|1|3|..SS....../.SS......./JJJ.IIIILL/XXJ..XXOOL/XXX.XXXOOL
 C|Speedboat · 3|T|Speedboat|1|0|...Z....../..ZZ....../..ZJ....../...JJJ..../...XX....X/.XXXXXXX.X/.XXXXX..XX
 C|Speedboat · 3 (mirror)|T|Speedboat (mirror)|1|0|......S.../......SS../......LS../....LLL.../X....XX.../X.XXXXXXX./XX..XXXXX.
 C|Speedboat · 3 · 1|T|Speedboat · 3|1|3|...X....../..XX....LL/..XX.....L/IOOXXXSS.L/IOOXXSS..X/IXXXXXXX.X/IXXXXX..XX
@@ -2091,6 +2157,11 @@ O|Unnamed bag 1 5|X||0.02|0|..TLL....I/..TTLOOS.I/ZZTJLOOSSI/.ZZJJJ..SI
 O|Unnamed bag 1 5 (mirror)|X||0.02|0|I....JJT../I.ZOOJTT../IZZOOJLTSS/IZ..LLLSS.
 C|Unnamed bag 1 5 · 1|T|Unnamed bag 1 5|1|3|I.......LL/IOOJ.....L/IOOJJJSS.L/IZXXXSS..X/ZZXXXXXX.X/ZXXXXX..XX
 C|Unnamed bag 1 5 · 1 (mirror)|T|Unnamed bag 1 5 (mirror)|1|3|JJ.......I/J.....LOOI/J.ZZLLLOOI/X..ZZXXXSI/X.XXXXXXSS/XX..XXXXXS
+C|Unnamed bag 1 5 · 1 · 1 (part 1)|X|Unnamed bag 1 5 · 1|1|0|TTTIIIILLL/XTJJJOOLXX/XXXXJOO..X/XXXXXX..XX
+C|Unnamed bag 1 5 · 1 · 1|T|Unnamed bag 1 5 · 1 · 1 (part 1)|1|0|XXXXXXXSSX/XXXXXXSSXX
+C|Unnamed bag 1 5 · 1 · 1 (mirror) (part 1)|T|Unnamed bag 1 5 · 1 (mirror)|1|0|XX.......X/XZZ...XXXX/XXZZXXXXXX
+C|Unnamed bag 1 5 · 1 · 1 (mirror) (part 2)|T|Unnamed bag 1 5 · 1 · 1 (mirror) (part 1)|1|0|XX.OOLLL.X/XXXOOLXXXX
+C|Unnamed bag 1 5 · 1 · 1 (mirror)|X|Unnamed bag 1 5 · 1 · 1 (mirror) (part 2)|1|0|JJJIIIITTT/XXJXXXXXTX
 C|Unnamed bag 1 5 · 2|T|Unnamed bag 1 5|1|3|........LL/...ZZ....L/IIIIZZSS.L/OOXXXSS..X/OOXXXXXX.X/.XXXXX..XX
 C|Unnamed bag 1 5 · 2 (mirror)|T|Unnamed bag 1 5 (mirror)|1|3|JJ......../J....SS.../J.ZZSSIIII/X..ZZXXXOO/X.XXXXXXOO/XX..XXXXX.
 C|Unnamed bag 1 5 · 3|T|Unnamed bag 1 5|1|3|...JJJ..LL/...ZZJ...L/IIIIZZSS.L/OOXXXSS..X/OOXXXXXX.X/.XXXXX..XX
@@ -2231,6 +2302,10 @@ C|Hummingbird (Early L) · 2|T|Hummingbird (Early L)|1|2|ZZ......SS/IZZ....SSX/I
 C|Hummingbird (Early L) · 2 (mirror)|T|Hummingbird (Early L) (mirror)|1|2|ZZ......SS/XZZ....SSI/XXX..OOXXI/XX...OOXXI/XXX.XXXXXI
 C|Hummingbird (Early L) · 3|T|Hummingbird (Early L)|1|2|ZZLL....SS/IZZLJ..SSX/IXXLJ..XXX/IXXJJ...XX/IXXXXX.XXX
 C|Hummingbird (Early L) · 3 (mirror)|T|Hummingbird (Early L) (mirror)|1|2|ZZ....JJSS/XZZ..LJSSI/XXX..LJXXI/XX...LLXXI/XXX.XXXXXI
+C|Hummingbird (Early L) · 3 · 1 (part 1)|T|Hummingbird (Early L) · 3|1|0|XXXX....XX/XXXXXOOXXX/XXXXXOOXXX
+C|Hummingbird (Early L) · 3 · 1|T|Hummingbird (Early L) · 3 · 1 (part 1)|1|0|XXXXIIIIXX
+C|Hummingbird (Early L) · 3 · 1 (mirror) (part 1)|T|Hummingbird (Early L) · 3 (mirror)|1|0|XX....XXXX/XXXOOXXXXX/XXXOOXXXXX
+C|Hummingbird (Early L) · 3 · 1 (mirror)|T|Hummingbird (Early L) · 3 · 1 (mirror) (part 1)|1|0|XXIIIIXXXX
 C|Hummingbird (Early L) · 4|T|Hummingbird (Early L)|1|2|...L....OO/.LLL..ZZOO/IJJJ...ZZX/IXXJSS.XXX/IXXSS...XX/IXXXXX.XXX
 C|Hummingbird (Early L) · 4 (mirror)|T|Hummingbird (Early L) (mirror)|1|2|OO....J.../OOSS..JJJ./XSS...LLLI/XXX.ZZLXXI/XX...ZZXXI/XXX.XXXXXI
 C|Hummingbird (Early L) · 5|T|Hummingbird (Early L)|1|0|..OO....../..OO..ZZ../IJJJ...ZZX/IXXJSS.XXX/IXXSS...XX/IXXXXX.XXX
@@ -2239,6 +2314,13 @@ C|Hummingbird (Early L) · 5 · 1|T|Hummingbird (Early L) · 5|1|2|........L./..
 C|Hummingbird (Early L) · 5 · 1 (mirror)|T|Hummingbird (Early L) · 5 (mirror)|1|2|.J......../.J....XX../JJXX..XX../XXX...XXXX/XXX.XXXXXX/XX...XXXXX/XXX.XXXXXX
 C|Hummingbird (Early L) · 6|T|Hummingbird (Early L)|1|2|.......OOJ/.......OOJ/..LL..ZZJJ/I..L...ZZX/IXXLSS.XXX/IXXSS...XX/IXXXXX.XXX
 C|Hummingbird (Early L) · 6 (mirror)|T|Hummingbird (Early L) (mirror)|1|2|LOO......./LOO......./LLSS..JJ../XSS...J..I/XXX.ZZJXXI/XX...ZZXXI/XXX.XXXXXI
+C|Hummingbird (Early L) · 6 · 1 (part 1)|T|Hummingbird (Early L) · 6|1|0|OO.....XXX/OO...SSXXX/ZZXXSSXXXX/XZZX...XXX/XXXXX.XXXX
+C|Hummingbird (Early L) · 6 · 1|T|Hummingbird (Early L) · 6 · 1 (part 1)|1|0|XXJIIIIXXX/XXJJJXXXXX/XXXX...XXX/XXXXX.XXXX
+C|Hummingbird (Early L) · 6 · 1 (mirror) (part 1)|T|Hummingbird (Early L) · 6 (mirror)|1|0|XXX....L../XXXZZLLL../XXXXZZXXSS/XXX...XSSX/XXXX.XXXXX
+C|Hummingbird (Early L) · 6 · 1 (mirror) (part 2)|T|Hummingbird (Early L) · 6 · 1 (mirror) (part 1)|1|0|XXX....XOO/XXXXXXXXOO/XXX...XXXX/XXXX.XXXXX
+C|Hummingbird (Early L) · 6 · 1 (mirror)|T|Hummingbird (Early L) · 6 · 1 (mirror) (part 2)|1|0|XXXIIIIXXX/XXX...XXXX/XXXX.XXXXX
+C|Hummingbird (Early L) · 6 · 1 · 1|X|Hummingbird (Early L) · 6 · 1|1|0|XXXXTTTXXX/XXXXXTXXXX
+C|Hummingbird (Early L) · 6 · 1 · 1 (mirror)|X|Hummingbird (Early L) · 6 · 1 (mirror)|1|0|XXXTTTXXXX/XXXXTXXXXX
 O|JOS|X||0.033|0|I..SSZ..../I.SSZZT.../IOOJZTT..L/IOOJJJTLLL
 O|JOS (mirror)|X||0.033|0|....SZZ..I/...TSSZZ.I/J..TTSLOOI/JJJTLLLOOI
 C|JOS · 1|T|JOS|1|2|OO......../OOJJ....../LLJIIII.../XLJXXX...Z/XLXXXXX.ZZ/XXXXXXX.ZX
@@ -2421,6 +2503,11 @@ C|Amino TSD · 4 · 2|T|Amino TSD · 4|1|2|....Z...../...ZZ.IIII/X..ZJOOLLL/X...
 C|Amino TSD · 4 · 2 (mirror)|T|Amino TSD · 4 (mirror)|1|2|.....S..../IIII.SS.../JJJOOLS..X/ZZJOOL...X/XZZXXLL.XX/XXXXXXX.XX
 C|Amino TSD · 4 · 3|T|Amino TSD · 4|1|2|....Z...../...ZZ.IIII/X..ZJJJLOO/X...SSJLOO/XX.SSXXLLX/XX.XXXXXXX
 C|Amino TSD · 4 · 3 (mirror)|T|Amino TSD · 4 (mirror)|1|2|.....S..../IIII.SS.../OOJLLLS..X/OOJLZZ...X/XJJXXZZ.XX/XXXXXXX.XX
+C|Amino TSD · 4 · 4 (part 1)|T|Amino TSD · 4|1|0|XLLLIIIIOO/XL..SSZZOO/XX.SSXXZZX/XX.XXXXXXX
+C|Amino TSD · 4 · 4|T|Amino TSD · 4 · 4 (part 1)|1|0|XXJJXXXXXX/XXJXXXXXXX/XXJXXXXXXX
+C|Amino TSD · 4 · 4 (mirror) (part 1)|T|Amino TSD · 4 (mirror)|1|0|.........X/....ZZLL.X/X..XXZZLXX/XXXXXXXLXX
+C|Amino TSD · 4 · 4 (mirror) (part 2)|T|Amino TSD · 4 · 4 (mirror) (part 1)|1|0|OOIIIIJJJX/OO..XXXXJX/X..XXXXXXX
+C|Amino TSD · 4 · 4 (mirror)|T|Amino TSD · 4 · 4 (mirror) (part 2)|1|0|XXSSXXXXXX/XSSXXXXXXX
 C|Amino TSD · 5|T|Amino TSD|1|2|.......SLL/..I....SSL/OOIZZ...SL/OOIXZZ.JJJ/X.IXXXXXXJ
 C|Amino TSD · 5 (mirror)|T|Amino TSD (mirror)|1|2|JJZ......./JZZ....I../JZ...SSIOO/LLL.SSXIOO/LXXXXXXI.X
 C|Amino TSD · 5 · 1|T|Amino TSD · 5|1|2|.......SLL/I......SSL/IOOJJ...SL/IOOJZZ.XXX/I.XJ.ZZXXX/X.XXXXXXXX
@@ -2447,6 +2534,10 @@ C|Partial bag 1 2 · 2|T|Partial bag 1 2|1|0|......Z.../...X.ZZ.../X..XXZ....
 C|Partial bag 1 2 · 2 (mirror)|T|Partial bag 1 2 (mirror)|1|0|...S....../...SS.X.../....SXX..X
 C|Partial bag 1 2 · 2 · 1|T|Partial bag 1 2 · 2|1|2|IJJZ....../IJZZ....../IJZ...XSLL/IOOX.XXSSL/XOOXXX..SL
 C|Partial bag 1 2 · 2 · 1 (mirror)|T|Partial bag 1 2 · 2 (mirror)|1|2|......SLLI/......SSLI/JJZX...SLI/JZZXX.XOOI/JZ..XXXOOX
+C|Partial bag 1 2 · 2 · 1 · 1 (part 1)|T|Partial bag 1 2 · 2 · 1|1|0|IIIIJJZSLL/XXXXJZZSSL/XXXXJZ..SL/XXXXXX..XX
+C|Partial bag 1 2 · 2 · 1 · 1|T|Partial bag 1 2 · 2 · 1 · 1 (part 1)|1|0|XXXXXXOOXX/XXXXXXOOXX
+C|Partial bag 1 2 · 2 · 1 · 1 (mirror) (part 1)|T|Partial bag 1 2 · 2 · 1 (mirror)|1|0|JJZSLLIIII/JZZSSLXXXX/JZ..SLXXXX/XX..XXXXXX
+C|Partial bag 1 2 · 2 · 1 · 1 (mirror)|T|Partial bag 1 2 · 2 · 1 · 1 (mirror) (part 1)|1|0|XXOOXXXXXX/XXOOXXXXXX
 C|Partial bag 1 2 · 2 · 2|T|Partial bag 1 2 · 2|1|2|I........./I.OO....../ISOO.....L/ISS...XLLL/ZZSX.XXJJJ/XZZXXX...J
 C|Partial bag 1 2 · 2 · 2 (mirror)|T|Partial bag 1 2 · 2 (mirror)|1|2|.........I/......OO.I/J.....OOZI/JJJX...ZZI/LLLXX.XZSS/L...XXXSSX
 C|Partial bag 1 2 · 2 · 3|T|Partial bag 1 2 · 2|1|2|I..J....../I..J....../ISJJ....../ISS...XLLL/ZZSX.XXLOO/XZZXXX..OO
@@ -2599,6 +2690,11 @@ C|Great DDT · 2 · 2|T|Great DDT · 2|1|2|..I......./.JI....SLL/.JI....SSL/JJIZ
 C|Great DDT · 2 · 2 (mirror)|T|Great DDT · 2 (mirror)|1|2|.......I../JJZ....IL./JZZ....IL./JZ...SSILL/XXX.SSXXOO/XXX...XXOO/XXXX..XXXX/XXXX..XXXX
 C|Great DDT · 3|T|Great DDT|1|2|L........./L........./LLSS.....I/JSS...ZOOI/JJJX.ZZOOI/XXXX.ZXXXI
 C|Great DDT · 3 (mirror)|T|Great DDT (mirror)|1|2|.........J/.........J/I.....ZZJJ/IOOS...ZZL/IOOSS.XLLL/IXXXS.XXXX
+C|Great DDT · 3 · 1 (part 1)|T|Great DDT · 3|1|0|X........Z/X..LL...ZZ/XXXXL...ZX/XXXXLXXXXX
+C|Great DDT · 3 · 1 (part 2)|T|Great DDT · 3 · 1 (part 1)|1|0|XOOIIIISSX/XOOXX.SSXX/XXXXX...XX
+C|Great DDT · 3 · 1|T|Great DDT · 3 · 1 (part 2)|1|0|XXXXXJXXXX/XXXXXJJJXX
+C|Great DDT · 3 · 1 (mirror) (part 1)|T|Great DDT · 3 (mirror)|1|0|SZZIIIIOOX/SSZZL..OOX/XSLLL.XXXX/XXXXX.XXXX
+C|Great DDT · 3 · 1 (mirror)|T|Great DDT · 3 · 1 (mirror) (part 1)|1|0|XXXXXJJXXX/XXXXXJXXXX/XXXXXJXXXX
 C|Great DDT · 4|T|Great DDT|1|2|....SS..../.OOSS....I/JOOLL.ZZ.I/JJJXL..ZZI/XXXXL.XXXI
 C|Great DDT · 4 (mirror)|T|Great DDT (mirror)|1|2|....ZZ..../I....ZZOO./I.SS.JJOOL/ISS..JXLLL/IXXX.JXXXX
 C|Great DDT · 4 · 1|T|Great DDT · 4|1|3|IZZ.OO..LL/IJZZOO...L/IJJJXXSS.L/IXXXXSS..X/XXXXXXXX.X
@@ -2637,6 +2733,10 @@ C|Mechanical TSD v3 · 1|T|Mechanical TSD v3|1|2|...JJZ..../..IJZZ..../OOIJZ...L
 C|Mechanical TSD v3 · 1 (mirror)|T|Mechanical TSD v3 (mirror)|1|2|....SLL.../....SSLI../JJ...SLIOO/JZZ.XXXIOO/JXZZXXXI.X
 C|Mechanical TSD v3 · 1 · 1|T|Mechanical TSD v3 · 1|1|2|...JJZ..../I..JZZ..../IOOJZ...LL/IOOXXX.SSL/I.XXXXSS.L/X.XXXXXXXX
 C|Mechanical TSD v3 · 1 · 1 (mirror)|T|Mechanical TSD v3 · 1 (mirror)|1|2|....SLL.../....SSL..I/JJ...SLOOI/JZZ.XXXOOI/J.ZZXXXX.I/XXXXXXXX.X
+C|Mechanical TSD v3 · 1 · 2 (part 1)|T|Mechanical TSD v3 · 1|1|0|........LL/S..XXX.OOL/SSXXXX.OOL/XSXXXXXXXX
+C|Mechanical TSD v3 · 1 · 2|T|Mechanical TSD v3 · 1 · 2 (part 1)|1|0|ZZIIIIJJXX/XZZXXXJXXX/XXXXXXJXXX
+C|Mechanical TSD v3 · 1 · 2 (mirror) (part 1)|T|Mechanical TSD v3 · 1 (mirror)|1|0|....XXX..Z/....XXXXZZ/XXXXXXXXZX
+C|Mechanical TSD v3 · 1 · 2 (mirror)|T|Mechanical TSD v3 · 1 · 2 (mirror) (part 1)|1|0|JJLLIIIISS/JOOLXXXSSX/JOOLXXXXXX
 C|Mechanical TSD v3 · 2|T|Mechanical TSD v3|1|2|..JJSS...I/OOJSS...ZI/OOJXXX.ZZI/X..XXX.ZXI
 C|Mechanical TSD v3 · 2 (mirror)|T|Mechanical TSD v3 (mirror)|1|2|I...ZZLL../IS...ZZLOO/ISS.XXXLOO/IXS.XXX..X
 C|Mechanical TSD v3 · 3|T|Mechanical TSD v3|1|2|...ZZ....I/S...ZZLOOI/SS.XXXLOOI/XS.XXXLLXI
@@ -2697,6 +2797,11 @@ C|Reliable TSD · 5 · 1|T|Reliable TSD · 5|1|2|....I...../JJLLI..ZZ./JOOLI...Z
 C|Reliable TSD · 5 · 1 (mirror)|T|Reliable TSD · 5 (mirror)|1|2|.....I..../.SS..IJJLL/SS...IJOOL/XX.ZZIJOOL/XX..ZZXXXX/XX..XXXXXX
 C|Reliable TSD · 6|T|Reliable TSD|1|2|.........J/.........J/L..OO...JJ/LZZOOS...X/LLZZXSS.XX/IIIIXXS.XX
 C|Reliable TSD · 6 (mirror)|T|Reliable TSD (mirror)|1|2|L........./L........./LL...OO..J/X...ZOOSSJ/XX.ZZXSSJJ/XX.ZXXIIII
+C|Reliable TSD · 6 · 1 (part 1)|T|Reliable TSD · 6|1|0|.........X/....ZZLL.X/X..XXZZLXX/XXXXXXXLXX
+C|Reliable TSD · 6 · 1 (part 2)|T|Reliable TSD · 6 · 1 (part 1)|1|0|OOIIIIJJJX/OO..XXXXJX/X..XXXXXXX
+C|Reliable TSD · 6 · 1|T|Reliable TSD · 6 · 1 (part 2)|1|0|XXSSXXXXXX/XSSXXXXXXX
+C|Reliable TSD · 6 · 1 (mirror) (part 1)|T|Reliable TSD · 6 (mirror)|1|0|XLLLIIIIOO/XL..SSZZOO/XX.SSXXZZX/XX.XXXXXXX
+C|Reliable TSD · 6 · 1 (mirror)|T|Reliable TSD · 6 · 1 (mirror) (part 1)|1|0|XXJJXXXXXX/XXJXXXXXXX/XXJXXXXXXX
 C|Reliable TSD · 7|T|Reliable TSD|1|2|.....Z..OO/J..IZZ..OO/JJJIZS...X/LLLIXSS.XX/L..IXXS.XX
 C|Reliable TSD · 7 (mirror)|T|Reliable TSD (mirror)|1|2|OO..S...../OO..SSI..L/X...ZSILLL/XX.ZZXIJJJ/XX.ZXXI..J
 C|Reliable TSD · 7 · 1|T|Reliable TSD · 7|1|2|.........I/......Z..I/.....ZZ..I/JJJOOZ...I/LLJOOXS.XX/XL.XXXSSXX/XL.XXXXSXX
@@ -2947,6 +3052,14 @@ C|Fast DT · 4|T|Fast DT|1|2|........ZI/....LOOZZI/JJ..LOOZXI/J...LLSSXI/JX.XXSS
 C|Fast DT · 4 (mirror)|T|Fast DT (mirror)|1|2|IS......../ISSOOJ..../IXSOOJ..LL/IXZZJJ...L/XXXZZXX.XL
 C|Fast DT · 5|T|Fast DT|1|2|.........I/.........I/.........I/.........I/.....SS.LL/JJ..SSOOXL/J...ZZOOXL/JX.XXZZXXX
 C|Fast DT · 5 (mirror)|T|Fast DT (mirror)|1|2|I........./I........./I........./I........./JJ.ZZ...../JXOOZZ..LL/JXOOSS...L/XXXSSXX.XL
+C|Fast DT · 5 · 1 (part 1)|T|Fast DT · 5|1|0|.........X/......Z..X/...LLZZ..X/...JLZ...X/...JLXX.XX/XXJJXXXXXX
+C|Fast DT · 5 · 1|T|Fast DT · 5 · 1 (part 1)|1|2|.........X/..I...X..X/..IXXXX..X/OOIXXX...X/OOIXXXX.XX
+C|Fast DT · 5 · 1 (mirror) (part 1)|T|Fast DT · 5 (mirror)|1|0|X........./X........./X........./X.....L.../XX.XX.L.../XXXXXXLLXX
+C|Fast DT · 5 · 1 (mirror)|T|Fast DT · 5 · 1 (mirror) (part 1)|1|2|X........./X..S...I../X..SSJJI../X...SJXIOO/XX.XXJXIOO
+C|Fast DT · 5 · 2 (part 1)|T|Fast DT · 5|1|0|.........X/......Z..X/.....ZZ..X/.....Z...X/...SSXX.XX/XXSSXXXXXX
+C|Fast DT · 5 · 2|T|Fast DT · 5 · 2 (part 1)|1|2|.........X/......X..X/.....XX..X/JIIIIX...X/JJJXXXX.XX
+C|Fast DT · 5 · 2 (mirror) (part 1)|T|Fast DT · 5 (mirror)|1|0|X........./X........./X........./X........./XX.XXZZ.../XXXXXXZZXX
+C|Fast DT · 5 · 2 (mirror)|T|Fast DT · 5 · 2 (mirror) (part 1)|1|2|X........./X..S....../X..SS...../X...SIIIIL/XX.XXXXLLL
 C|Fast DT · 6|T|Fast DT|1|2|I..S....LL/I..SSJJJXL/I...SOOJXL/IX.XXOOXXX
 C|Fast DT · 6 (mirror)|T|Fast DT (mirror)|1|2|JJ....Z..I/JXLLLZZ..I/JXLOOZ...I/XXXOOXX.XI
 C|Fast DT · 6 · 1|T|Fast DT · 6|1|0|XOOXIIIIXX/XOOXXXXXXX
@@ -3159,6 +3272,11 @@ O|Eagle DD|T||0.0355|2|.SS..OO..L/SS...OOLLL/JJJ.ZZIIII/..J..ZZ...
 O|Eagle DD (mirror)|T||0.0355|2|J..OO..ZZ./JJJOO...ZZ/IIIISS.LLL/...SS..L..
 C|Eagle DD · 1|T|Eagle DD|1|2|.......Z../I.SS.LZZ../ISSLLLZ.../IXXOOXXJ.X/I.XOOXXJJJ
 C|Eagle DD · 1 (mirror)|T|Eagle DD (mirror)|1|2|..S......./..SSJ.ZZ.I/...SJJJZZI/X.LXXOOXXI/LLLXXOOX.I
+C|Eagle DD · 1 · 1 (part 1)|T|Eagle DD · 1|1|0|LLLSZZIIII/L..SSZZXOO/X.XXSXXXOO/X.XXXXXXXX
+C|Eagle DD · 1 · 1|T|Eagle DD · 1 · 1 (part 1)|1|0|XJJXXXXXXX/XJXXXXXXXX/XJXXXXXXXX
+C|Eagle DD · 1 · 1 (mirror) (part 1)|T|Eagle DD · 1 (mirror)|1|0|......Z.../..X..ZZLL./..XXXZXXLX/XXXXXXXXLX
+C|Eagle DD · 1 · 1 (mirror) (part 2)|T|Eagle DD · 1 · 1 (mirror) (part 1)|1|0|......X.../OOX..XXXX./OOXXXXXXXX
+C|Eagle DD · 1 · 1 (mirror)|T|Eagle DD · 1 · 1 (mirror) (part 2)|1|0|IIIISSXJJJ/XXXSSXXXXJ
 C|Eagle DD · 1 · 2|T|Eagle DD · 1|1|2|I.S......./I.SS..JJ.L/I.ZS..JLLL/IZZ...JXOO/XZXX.XXXOO/X.XXXXXXXX
 C|Eagle DD · 1 · 2 (mirror)|T|Eagle DD · 1 (mirror)|1|2|.......Z.I/J.LL..ZZ.I/JJJL..ZS.I/OOXL...SSI/OOXXX.XXSX/XXXXXXXX.X
 C|Eagle DD · 1 · 3|T|Eagle DD · 1|1|2|.........I/......J..I/...Z..JJJI/S.ZZ..LLLI/SSZ...LXOO/XSXX.XXXOO/X.XXXXXXXX
@@ -3217,6 +3335,12 @@ O|Flamingo (Cornerstone)|T||0.0289|2|.Z......../ZZ......L./Z...SSLLLJ/OO.SSIIIIJ
 O|Flamingo (Cornerstone) (mirror)|T||0.0289|2|........S./.J......SS/LJJJZZ...S/LIIIIZZ.OO/LL......OO
 C|Flamingo (Cornerstone) · 1|T|Flamingo (Cornerstone)|1|2|I.......OO/I.......OO/I.......LL/IXJJSS...L/XXJSSZZ.XL/XXJ...ZZXX
 C|Flamingo (Cornerstone) · 1 (mirror)|T|Flamingo (Cornerstone) (mirror)|1|2|OO.......I/OO.......I/JJ.......I/J...ZZLLXI/JX.SSZZLXX/XXSS...LXX
+C|Flamingo (Cornerstone) · 1 · 1 (part 1)|T|Flamingo (Cornerstone) · 1|1|0|X..Z....XX/X.ZZ....XX/X.Z..L..XX/XXXLLLXXXX
+C|Flamingo (Cornerstone) · 1 · 1 (part 2)|T|Flamingo (Cornerstone) · 1 · 1 (part 1)|1|0|XJJXIIIIXX/XJXX..OOXX/XJX..XOOXX
+C|Flamingo (Cornerstone) · 1 · 1|T|Flamingo (Cornerstone) · 1 · 1 (part 2)|1|0|XXXXSSXXXX/XXXSSXXXXX
+C|Flamingo (Cornerstone) · 1 · 1 (mirror) (part 1)|T|Flamingo (Cornerstone) · 1 (mirror)|1|0|XX.....LLX/XXOO....LX/XXOOJ...LX/XXXXJJJXXX
+C|Flamingo (Cornerstone) · 1 · 1 (mirror) (part 2)|T|Flamingo (Cornerstone) · 1 · 1 (mirror) (part 1)|1|0|XXIIIISXXX/XXXX..SSXX/XXXXX..SXX
+C|Flamingo (Cornerstone) · 1 · 1 (mirror)|T|Flamingo (Cornerstone) · 1 · 1 (mirror) (part 2)|1|0|XXXXZZXXXX/XXXXXZZXXX
 C|Flamingo (Cornerstone) · 2|T|Flamingo (Cornerstone)|1|2|I.Z......./IZZ......./IZ......S./IX.LLJJJSS/XX..LOOJXS/XX..LOO.XX
 C|Flamingo (Cornerstone) · 2 (mirror)|T|Flamingo (Cornerstone) (mirror)|1|2|.......S.I/.......SSI/.Z......SI/ZZLLLJJ.XI/ZXLOOJ..XX/XX.OOJ..XX
 C|Flamingo (Cornerstone) · 2 · 1|T|Flamingo (Cornerstone) · 2|1|2|.I......../.IOO....../.IOO...JJJ/XIX.....SJ/XXX.ZZLLSS/XX...ZZLXS/XXX.XXXLXX
@@ -3442,12 +3566,21 @@ C|Horizon Special · 1|T|Horizon Special|1|2|.....Z..../JJLLZZ..../JOOLZ...SS/JO
 C|Horizon Special · 1 (mirror)|T|Horizon Special (mirror)|1|2|....S...../....SSJJLL/ZZ...SJOOL/XZZ.XXJOOL/.XXIIIIXXX
 C|Horizon Special · 2|T|Horizon Special|1|2|IJJJ.Z..../IOOJZZ..../IOOLZ...SS/ILLLXX.SSX/XXX....XX.
 C|Horizon Special · 2 (mirror)|T|Horizon Special (mirror)|1|2|....S.LLLI/....SSLOOI/ZZ...SJOOI/XZZ.XXJJJI/.XX....XXX
+C|Horizon Special · 2 · 1 (part 1)|T|Horizon Special · 2|1|0|...Z....../OOZZ....../OOZ......I/XXXX.X...I/XXXXXXLLLI/XXX...LXXI
+C|Horizon Special · 2 · 1|T|Horizon Special · 2 · 1 (part 1)|1|2|...X....../XXXX....SS/XXX...JSSX/XXXX.XJJJX/XXX...XXXX
+C|Horizon Special · 2 · 1 (mirror) (part 1)|T|Horizon Special · 2 (mirror)|1|0|......S.../ZZ....SSOO/IZZ....SOO/I...X.XXXX/IJJJXXXXXX/IXXJ...XXX
+C|Horizon Special · 2 · 1 (mirror)|T|Horizon Special · 2 · 1 (mirror) (part 1)|1|2|......X.../XX....XXXX/XXXL...XXX/XLLLX.XXXX/XXXX...XXX
 C|Horizon Special · 3|T|Horizon Special|1|2|.....Z..../LOOJZZ..../LOOJZ...SS/LLJJXX.SSX/XXXIIIIXX.
 C|Horizon Special · 3 (mirror)|T|Horizon Special (mirror)|1|2|....S...../....SSLOOJ/ZZ...SLOOJ/XZZ.XXLLJJ/.XXIIIIXXX
 O|IKcco Stacking|T||0.02|2|.SS......I/SS...ZOOJI/LLL.ZZOOJI/L...Z..JJI
 O|IKcco Stacking (mirror)|T||0.02|2|I......ZZ./ILOOS...ZZ/ILOOSS.JJJ/ILL..S...J
 C|IKcco Stacking · 1|T|IKcco Stacking|1|2|.........I/.........I/JJSS.....I/JSS...ZOOI/JXXL.ZZOOX/XLLLXZ.XXX
 C|IKcco Stacking · 1 (mirror)|T|IKcco Stacking (mirror)|1|2|I........./I........./I.....ZZLL/IOOS...ZZL/XOOSS.JXXL/XXX.SXJJJX
+C|IKcco Stacking · 1 · 1 (part 1)|T|IKcco Stacking · 1|1|0|.........X/.......Z.X/XXXX..ZZ.X/XXXXXXZXXX
+C|IKcco Stacking · 1 · 1 (part 2)|T|IKcco Stacking · 1 · 1 (part 1)|1|0|OO.....LLX/OO...SSXLX/XXXXSSXXLX
+C|IKcco Stacking · 1 · 1|T|IKcco Stacking · 1 · 1 (part 2)|1|0|XXJIIIIXXX/XXJJJXXXXX
+C|IKcco Stacking · 1 · 1 (mirror) (part 1)|T|IKcco Stacking · 1 (mirror)|1|0|X......LOO/X.S..LLLOO/X.SS..XXXX/XXXSXXXXXX
+C|IKcco Stacking · 1 · 1 (mirror)|T|IKcco Stacking · 1 · 1 (mirror) (part 1)|1|0|XJJIIIIXXX/XJXZZXXXXX/XJXXZZXXXX
 C|IKcco Stacking · 1 · 2|T|IKcco Stacking · 1|1|2|.........Z/JJLLI...ZZ/JOOLI..SZX/JOOLI..SSX/XXXXI...SX/XXXXXX.XXX
 C|IKcco Stacking · 1 · 2 (mirror)|T|IKcco Stacking · 1 (mirror)|1|2|S........./SS...IJJLL/XSZ..IJOOL/XZZ..IJOOL/XZ...IXXXX/XXX.XXXXXX
 C|IKcco Stacking · 1 · 3|T|IKcco Stacking · 1|1|2|.........Z/LOOJI...ZZ/LOOJI..SZX/LLJJI..SSX/XXXXI...SX/XXXXXX.XXX
@@ -4192,6 +4325,10 @@ O|Back Gassho|T||0.0546|2|......ZZLL/IIII...ZZL/OOJJJ.SSTL/OO..JSSTTT
 O|Back Gassho (mirror)|T||0.0546|2|JJSS....../JSS...IIII/JTZZ.LLLOO/TTTZZL..OO
 C|Back Gassho · 1|T|Back Gassho|1|2|......IIII/......JJLL/.Z....JOOL/ZZSS..JOOL/ZSS...XXXX/XXXX...XXX/XXXXX.XXXX/XX..XXXXXX
 C|Back Gassho · 1 (mirror)|T|Back Gassho (mirror)|1|2|IIII....../JJLL....../JOOL....S./JOOL..ZZSS/XXXX...ZZS/XXX...XXXX/XXXX.XXXXX/XXXXXX..XX
+C|Back Gassho · 1 · 1 (part 1)|T|Back Gassho · 1|1|0|......XXXX/......XXXX/.X...ZXXXX/XXXXZZXXXX/XXX.Z.XXXX/XX..XXXXXX
+C|Back Gassho · 1 · 1|T|Back Gassho · 1 · 1 (part 1)|1|2|.........I/.......LLI/......OOLI/......OOLI/JJ....XXXX/J...SSXXXX/JX.SSXXXXX/XXX.X.XXXX/XX..XXXXXX
+C|Back Gassho · 1 · 1 (mirror) (part 1)|T|Back Gassho · 1 (mirror)|1|0|..OO....../..OO....../XXXX....LL/XXXX.....L/XXXXS...XL/XXXXSSXXXX/XXXX.S.XXX/XXXXXX..XX
+C|Back Gassho · 1 · 1 (mirror)|T|Back Gassho · 1 · 1 (mirror) (part 1)|1|2|I........./IJJ......./IJXX....../IJXX....../XXXX....XX/XXXXZZ...X/XXXXXZZ.XX/XXXX.X.XXX/XXXXXX..XX
 C|Back Gassho · 2|T|Back Gassho|1|2|......JJJ./.....SLLJ./.Z...SSLOO/ZZ....SLOO/ZIIII.XXXX/XXXX...XXX/XXXXX.XXXX/XX..XXXXXX
 C|Back Gassho · 2 (mirror)|T|Back Gassho (mirror)|1|2|.LLL....../.LJJZ...../OOJZZ...S./OOJZ....SS/XXXX.IIIIS/XXX...XXXX/XXXX.XXXXX/XXXXXX..XX
 C|Back Gassho · 3|T|Back Gassho|1|0|I.....JJSS/I.Z...JSSL/IZZ...JLLL/IZ....XXXX/XXXX...XXX/XXXXX.XXXX/XX..XXXXXX
@@ -4416,6 +4553,10 @@ C|ET Cannon · 1 · 1|T|ET Cannon · 1|1|3|I........./IL......S./IL......SS/ILL.
 C|ET Cannon · 1 · 1 (mirror)|T|ET Cannon · 1 (mirror)|1|3|.........I/.Z......JI/ZZ......JI/Z......JJI/XOO..LLXXX/XOO...LXXX/XXXSS.LXXX/XXSS..XXXX/XXXXX.XXXX/XXX...XXXX
 C|ET Cannon · 1 · 2|T|ET Cannon · 1|1|3|XXXJJ....X/XXXJ.....X/XXXJ.ZZXXX/XXXX..ZZXX/XXXX.XXXXX/XXXX...XXX
 C|ET Cannon · 1 · 2 (mirror)|T|ET Cannon · 1 (mirror)|1|3|X....LLXXX/X.....LXXX/XXXSS.LXXX/XXSS..XXXX/XXXXX.XXXX/XXX...XXXX
+C|ET Cannon · 1 · 2 · 1 (part 1)|T|ET Cannon · 1 · 2|1|0|XXXXXIIIIX/XXXX..LLLX/XXXX..LXXX
+C|ET Cannon · 1 · 2 · 1|T|ET Cannon · 1 · 2 · 1 (part 1)|1|0|XXXXOOXXXX/XXXXOOXXXX
+C|ET Cannon · 1 · 2 · 1 (mirror) (part 1)|T|ET Cannon · 1 · 2 (mirror)|1|0|XIIIIXXXXX/X...OOXXXX/XXX.OOXXXX
+C|ET Cannon · 1 · 2 · 1 (mirror)|T|ET Cannon · 1 · 2 · 1 (mirror) (part 1)|1|0|XJJJXXXXXX/XXXJXXXXXX
 C|ET Cannon · 1 · 3|T|ET Cannon · 1|1|3|XXXJJ..OOX/XXXJ...OOX/XXXJ.ZZXXX/XXXX..ZZXX/XXXX.XXXXX/XXXX...XXX
 C|ET Cannon · 1 · 3 (mirror)|T|ET Cannon · 1 (mirror)|1|3|XOO..LLXXX/XOO...LXXX/XXXSS.LXXX/XXSS..XXXX/XXXXX.XXXX/XXX...XXXX
 O|FDDP|X||0.0383|0|.T......../TTT......./I.....Z.../I....ZZ.OO/I..SSZLJOO/I.SSLLLJJJ
@@ -4448,8 +4589,8 @@ C|Gill DT · 1|T|Gill DT|1|2|........JJ/........JI/S.......JI/SS....OOLI/XS...ZO
 C|Gill DT · 1 (mirror)|T|Gill DT (mirror)|1|2|LL......../IL......../IL.......Z/IJOO....ZZ/IJOOS...ZX/JJXXSS..XX/XXXXXS..XX/XXXXXX...X/XXXXXXX.XX
 O|Ginzan Stacking|X||0.02|0|...LL....I/....L...TI/OO.JLZZTTI/OO.JJJZZTI
 O|Ginzan Stacking (mirror)|X||0.02|0|I....JJ.../IT...J..../ITTSSJL.OO/ITSSLLL.OO
-C|Ginzan Stacking · 1|X|Ginzan Stacking|1|0|........S./....I...SS/..LLI...SS/...LI...SS/JJ.LI...ZS/J..XXOOZZX/JTTTXOOZXX/XXTXXXXXXX/XX.XXXXXXX
-C|Ginzan Stacking · 1 (mirror)|X|Ginzan Stacking (mirror)|1|0|.Z......../ZZ...I..../ZZ...IJJ../ZZ...IJ.../ZS...IJ.LL/XSSOOXX..L/XXSOOXTTTL/XXXXXXXTXX/XXXXXXX.XX
+C|Ginzan Stacking · 1|X|Ginzan Stacking|1|0|........s./....I...ss/..LLI...Ss/...LI...SS/JJ.LI...ZS/J..XXOOZZX/JTTTXOOZXX/XXTXXXXXXX/XX.XXXXXXX
+C|Ginzan Stacking · 1 (mirror)|X|Ginzan Stacking (mirror)|1|0|.z......../zz...I..../zZ...IJJ../ZZ...IJ.../ZS...IJ.LL/XSSOOXX..L/XXSOOXTTTL/XXXXXXXTXX/XXXXXXX.XX
 C|Ginzan Stacking · 1 · 1|T|Ginzan Stacking · 1|1|0|........X./....XJJJXX/..XXXOOJXX/...XXOOLXX/XX.XXLLLXX/X..XXXXXXX/XX.XXXXXXX
 C|Ginzan Stacking · 1 · 1 (mirror)|T|Ginzan Stacking · 1 (mirror)|1|0|.X......../XXLLLX..../XXLOOXXX../XXJOOXX.../XXJJJXX.XX/XXXXXXX..X/XXXXXXX.XX
 C|Ginzan Stacking · 1 · 1 · 1|T|Ginzan Stacking · 1 · 1|1|3|.........I/........ZI/.......ZZI/...SS..ZXI/..SSXXXXXX/..XXXXXXXX/...XXXXXXX/XX.XXXXXXX/X..XXXXXXX/XX.XXXXXXX
@@ -4606,8 +4747,8 @@ C|Greenwich Cannon · 12 · 1 · 1|T|Greenwich Cannon · 12 · 1|1|0|XXXXXXLXXX/
 C|Greenwich Cannon · 12 · 1 · 1 (mirror)|T|Greenwich Cannon · 12 · 1 (mirror)|1|0|XXXJXXXXXX/XXXJJJXXXX
 O|GT Cannon|X||0.0473|0|.........I/.........I/LOO....Z.I/LOOSS.ZZTI/LLSS..ZTTT
 O|GT Cannon (mirror)|X||0.0473|0|I........./I........./I.S....OOJ/ITSS.ZZOOJ/TTTS..ZZJJ
-C|GT Cannon · 1|X|GT Cannon|1|0|I..SS...OO/IJSS....OO/IJJJ.ZZLLX/IJJJ..ZZLX/XXXJTTTXLX/XXXXXTXXXX/XXXX..XXXX
-C|GT Cannon · 1 (mirror)|X|GT Cannon (mirror)|1|0|OO...ZZ..I/OO....ZZLI/XJJSS.LLLI/XJSS..LLLI/XJXTTTLXXX/XXXXTXXXXX/XXXX..XXXX
+C|GT Cannon · 1|X|GT Cannon|1|0|I..SS...OO/IjSS....OO/Ijjj.ZZLLX/IJJJ..ZZLX/XXXJTTTXLX/XXXXXTXXXX/XXXX..XXXX
+C|GT Cannon · 1 (mirror)|X|GT Cannon (mirror)|1|0|OO...ZZ..I/OO....ZZlI/XJJSS.lllI/XJSS..LLLI/XJXTTTLXXX/XXXXTXXXXX/XXXX..XXXX
 C|GT Cannon · 1 · 1|T|GT Cannon · 1|1|2|..LS....../..LSS..IOO/ZZLLS..IOO/XZZXX..IXX/XXXX...IXX/XXXX.XXXXX/XXXX..XXXX/XXXX..XXXX
 C|GT Cannon · 1 · 1 (mirror)|T|GT Cannon · 1 (mirror)|1|2|......ZJ../OOI..ZZJ../OOI..ZJJSS/XXI..XXSSX/XXI...XXXX/XXXXX.XXXX/XXXX..XXXX/XXXX..XXXX
 C|GT Cannon · 2|T|GT Cannon|1|0|.........X/......JJJX/XXX....XJX/XXXXX.XXXX/XXXX..XXXX
@@ -4756,6 +4897,22 @@ C|Reuse TSD PC · 1|T|Reuse TSD PC|1|0|XXZZ....../XXXZZXXX../XXX...XXXX/XXXX.XXX
 C|Reuse TSD PC · 1 (mirror)|T|Reuse TSD PC (mirror)|1|0|......SSXX/..XXXSSXXX/XXXX...XXX/XXXXX.XXXX
 C|Reuse TSD PC · 2|T|Reuse TSD PC|1|0|XX.....ZZ./XXX..XXXZZ/XXX...XXXX/XXXX.XXXXX
 C|Reuse TSD PC · 2 (mirror)|T|Reuse TSD PC (mirror)|1|0|.SS.....XX/SSXXX..XXX/XXXX...XXX/XXXXX.XXXX
+C|Reuse TSD PC · 3 (part 1)|X|Reuse TSD PC|1|0|JJZ....OO./JZZ....OOI/JZ...ZZLLI/XX....ZZLI/XXX..XXXLI/XXXTTTXXXX/XXXXTXXXXX
+C|Reuse TSD PC · 3|T|Reuse TSD PC · 3 (part 1)|1|0|XXX....XX./XXX....XXX/XXS..XXXXX/XXSS..XXXX/XXXS.XXXXX
+C|Reuse TSD PC · 3 (mirror) (part 1)|X|Reuse TSD PC (mirror)|1|0|.OO....SLL/IOO....SSL/IJJSS...SL/IJSS....XX/IJXXX..XXX/XXXXTTTXXX/XXXXXTXXXX
+C|Reuse TSD PC · 3 (mirror)|T|Reuse TSD PC · 3 (mirror) (part 1)|1|0|.XX....XXX/XXX....XXX/XXXXX..ZXX/XXXX..ZZXX/XXXXX.ZXXX
+C|Reuse TSD PC · 3 · 1|T|Reuse TSD PC · 3|1|0|XXXJJ..XX./XXXJ...XXX/XXXJ.XXXXX/XXXX..XXXX/XXXX.XXXXX
+C|Reuse TSD PC · 3 · 1 (mirror)|T|Reuse TSD PC · 3 (mirror)|1|0|.XX..LLXXX/XXX...LXXX/XXXXX.LXXX/XXXX..XXXX/XXXXX.XXXX
+C|Reuse TSD PC · 3 · 1 · 1|T|Reuse TSD PC · 3 · 1|1|3|..Z......./.ZZ......I/.ZL....OOI/LLL....OOI/XXXXX..XXI/XXXX...XXX/XXXX.XXXXX/XXXX..XXXX/XXXX.XXXXX
+C|Reuse TSD PC · 3 · 1 · 1 (mirror)|T|Reuse TSD PC · 3 · 1 (mirror)|1|3|.......S../I......SS./IOO....JS./IOO....JJJ/IXX..XXXXX/XXX...XXXX/XXXXX.XXXX/XXXX..XXXX/XXXXX.XXXX
+C|Reuse TSD PC · 3 · 1 · 2|T|Reuse TSD PC · 3 · 1|1|3|.......L../.......L../..Z....LLI/.ZZSS..OOI/.ZSS...OOI/XXXXX..XXI/XXXX...XXX/XXXX.XXXXX/XXXX..XXXX/XXXX.XXXXX
+C|Reuse TSD PC · 3 · 1 · 2 (mirror)|T|Reuse TSD PC · 3 · 1 (mirror)|1|3|..J......./..J......./IJJ....S../IOO..ZZSS./IOO...ZZS./IXX..XXXXX/XXX...XXXX/XXXXX.XXXX/XXXX..XXXX/XXXXX.XXXX
+C|Reuse TSD PC · 4 (part 1)|X|Reuse TSD PC|1|0|.......I../JJZ....IL./JZZ....IL./JZ...ZZILL/XX....ZZOO/XXX..XXXOO/XXXTTTXXXX/XXXXTXXXXX
+C|Reuse TSD PC · 4|T|Reuse TSD PC · 4 (part 1)|1|0|.......X../XXX....XX./XXX....XX./XXS..XXXXX/XXSS..XXXX/XXXS.XXXXX
+C|Reuse TSD PC · 4 (mirror) (part 1)|X|Reuse TSD PC (mirror)|1|0|..I......./.JI....SLL/.JI....SSL/JJISS...SL/OOSS....XX/OOXXX..XXX/XXXXTTTXXX/XXXXXTXXXX
+C|Reuse TSD PC · 4 (mirror)|T|Reuse TSD PC · 4 (mirror) (part 1)|1|0|..X......./.XX....XXX/.XX....XXX/XXXXX..ZXX/XXXX..ZZXX/XXXXX.ZXXX
+C|Reuse TSD PC · 4 · 1|T|Reuse TSD PC · 4|1|3|I........./I.Z.....OO/IZZSS...OO/IZSS...XLL/XXXJJ..XXL/XXXJ...XXL/XXXJ.XXXXX/XXXX..XXXX/XXXX.XXXXX
+C|Reuse TSD PC · 4 · 1 (mirror)|T|Reuse TSD PC · 4 (mirror)|1|3|.........I/OO.....S.I/OO...ZZSSI/JJX...ZZSI/JXX..LLXXX/JXX...LXXX/XXXXX.LXXX/XXXX..XXXX/XXXXX.XXXX
 C|Reuse TSD PC · 5|X|Reuse TSD PC|1|0|.Z..J....I/ZZSSJ..OOI/ZSSJJ..OOI/XXLL...ZZI/XXXLTXXXZZ/XXXLTTXXXX/XXXXTXXXXX
 C|Reuse TSD PC · 5 (mirror)|X|Reuse TSD PC (mirror)|1|0|I....L..S./IOO..LZZSS/IOO..LLZZS/ISS...JJXX/SSXXXTJXXX/XXXXTTJXXX/XXXXXTXXXX
 C|Reuse TSD PC · 5 · 1|T|Reuse TSD PC · 5|1|2|.......LLI/........LI/.Z.....SLI/ZZOO...SSI/ZXOOX...SX/XXXXXJ.XXX/XXXXXJ.XXX/XXXXJJ.XXX
@@ -4852,6 +5009,10 @@ C|STSD.io · 1|T|STSD.io|1|2|..I......./..I......./..I......./..IOO...LL/..JOO..
 C|STSD.io · 1 (mirror)|T|STSD.io (mirror)|1|2|.......I../.......I../.......I../JJ...OOI../JS...OOL../JSS.ZLLL../XXSZZXX.../XXXZXXX.XX/XXXXXXX..X/XXXXXXX..X
 C|STSD.io · 2|T|STSD.io|1|2|...JJ...../...JI...../...JI...LL/..OOI...ZL/..OOIS.ZZL/...XXSSZXX/XX.XXXSXXX/X..XXXXXXX/X..XXXXXXX
 C|STSD.io · 2 (mirror)|T|STSD.io (mirror)|1|2|.....LL.../.....IL.../JJ...IL.../JS...IOO../JSS.ZIOO../XXSZZXX.../XXXZXXX.XX/XXXXXXX..X/XXXXXXX..X
+C|STSD.io · 3 (part 1)|X|STSD.io|1|0|JJJXXTTTXX/XXJXXXTXXX/X..XXXXXXX/X..XXXXXXX
+C|STSD.io · 3|T|STSD.io · 3 (part 1)|1|0|XOOXXXXXXX/XOOXXXXXXX
+C|STSD.io · 3 (mirror) (part 1)|X|STSD.io (mirror)|1|0|XXTTTXXLLL/XXXTXXXLXX/XXXXXXX..X/XXXXXXX..X
+C|STSD.io · 3 (mirror)|T|STSD.io · 3 (mirror) (part 1)|1|0|XXXXXXXOOX/XXXXXXXOOX
 O|Super Speed BT Cannon|X||0.02|0|IJJJ....S./IOOJ....SS/IOOL.T.ZZS/ILLLTTT.ZZ
 O|Super Speed BT Cannon (mirror)|X||0.02|0|.Z....LLLI/ZZ....LOOI/ZSS.T.JOOI/SS.TTTJJJI
 C|Super Speed BT Cannon · 1|T|Super Speed BT Cannon|1|2|..SS....../.SSZ...LLI/OOZZ....LI/OOZ.....LI/XXXXJJ..XI/XXXXJ...XX/XXXXJX.XXX/XXXXXXX.XX
@@ -4946,6 +5107,8 @@ C|Vase PC 2 · 1|T|Vase PC 2|1|2|IJJJ....../IOOJ....../IOOL....../ILLL....SS/XXX
 C|Vase PC 2 · 1 (mirror)|T|Vase PC 2 (mirror)|1|2|......LLLI/......LOOI/......JOOI/ZZ....JJJI/XZZ..XXXXX/XXS...XXXX/XXSS.XXXXX/XXXSXXXXXX
 C|Vase PC 2 · 2|T|Vase PC 2|1|2|I........./IJJLL...../IJOOL...../IJOOL...SS/XXXXX..SSX/XXXX...ZXX/XXXXX.ZZXX/XXXXXXZXXX
 C|Vase PC 2 · 2 (mirror)|T|Vase PC 2 (mirror)|1|2|.........I/.....JJLLI/.....JOOLI/ZZ...JOOLI/XZZ..XXXXX/XXS...XXXX/XXSS.XXXXX/XXXSXXXXXX
+C|Vase PC 2 · 3 (part 1)|T|Vase PC 2|1|0|XXXXX....X/XXXX...ZXX/XXXXX.ZZXX/XXXXXXZXXX
+C|Vase PC 2 · 3 (mirror) (part 1)|T|Vase PC 2 (mirror)|1|0|.......LOO/ZZ...LLLOO/XZZ..XXXXX/XXS...XXXX/XXSS.XXXXX/XXXSXXXXXX
 O|Vriwgurs|X||0.02|0|......ZZLL/I......ZZL/IJJ.....SL/IJOO...TSS/IJOO..TTTS
 O|Vriwgurs (mirror)|X||0.02|0|JJSS....../JSS......I/JZ.....LLI/ZZT...OOLI/ZTTT..OOLI
 C|Vriwgurs · 1|T|Vriwgurs|1|2|I.....JJLL/I.....JOOL/I.....JOOL/I.....XXXX/X....ZZXXX/XXX...ZZXX/XXXX.SSXXX/XXXXSSXXXX
@@ -4970,6 +5133,12 @@ C|ZH Mecha P · 1 · 1|T|ZH Mecha P · 1|1|2|JJ.......I/JOO...SLLI/JOO...SSLI/XX
 C|ZH Mecha P · 1 · 1 (mirror)|T|ZH Mecha P · 1 (mirror)|1|2|I.......LL/IJJZ...OOL/IJZZ...OOL/IJZ...SSXX/XXXX.SSXXX/XXXX....XX/XXXX...XXX/XXXX....XX
 C|ZH Mecha P · 2|T|ZH Mecha P|1|0|XZZ...XXXX/XXZZ..XXXX/XXX...XXXX/XX....XXXX
 C|ZH Mecha P · 2 (mirror)|T|ZH Mecha P (mirror)|1|0|XXXX...SSX/XXXX..SSXX/XXXX...XXX/XXXX....XX
+C|ZH Mecha P · 2 · 1 (part 1)|T|ZH Mecha P · 2|1|0|XXXZZ.XXXX/XXXXZZXXXX/XXX...XXXX/XX....XXXX
+C|ZH Mecha P · 2 · 1 (part 2)|T|ZH Mecha P · 2 · 1 (part 1)|1|0|..L...S.../..L...SSOO/..LL...SOO/XXXXX.XXXX/XXX...XXXX/XXIIIIXXXX
+C|ZH Mecha P · 2 · 1|T|ZH Mecha P · 2 · 1 (part 2)|1|2|.JX...X.../.JX...XXXX/JJXX...XXX/XXXXX.XXXX/XXX...XXXX
+C|ZH Mecha P · 2 · 1 (mirror) (part 1)|T|ZH Mecha P · 2 (mirror)|1|0|...Z....L./OOZZ....L./OOZ.....LL/XXXX.SSXXX/XXXXSSXXXX/XXXX...XXX/XXXX....XX
+C|ZH Mecha P · 2 · 1 (mirror) (part 2)|T|ZH Mecha P · 2 · 1 (mirror) (part 1)|1|0|...X....X./XXXX....X./XXX.....XX/XXXX.XXXXX/XXXX...XXX/XXXXIIIIXX
+C|ZH Mecha P · 2 · 1 (mirror)|T|ZH Mecha P · 2 · 1 (mirror) (part 2)|1|2|...X...JX./XXXX...JX./XXX...JJXX/XXXX.XXXXX/XXXX...XXX
 O|:-0 Stacking|X||0.02|0|.........I/.........I/.........I/...Z..T..I/OOZZSSTT.L/OOZSS.TLLL
 O|:-0 Stacking (mirror)|X||0.02|0|I........./I........./I........./I..T..S.../J.TTZZSSOO/JJJT.ZZSOO
 C|:-0 Stacking · 1|T|:-0 Stacking|1|0|.........X/.........X/J........X/JJJX..X..X/XXXXXXXX.X/XXXXX.XXXX
@@ -5520,14 +5689,14 @@ C|Diorama TD v4 · 3 · 1|T|Diorama TD v4 · 3|1|2|.........I/LOO......I/LOO....
 C|Diorama TD v4 · 3 · 1 (mirror)|T|Diorama TD v4 · 3 (mirror)|1|2|I........./I......OOJ/I......OOJ/I......ZJJ/X...S.ZZXX/XX..SSZXXX/XX...SXXXX/XXX.LXXXXX/XX..LXXXXX/XXX.LLXXXX
 O|ジオラマTD v5|X||0.0276|0|.SS......./SSL......J/LLL.OOTTTJ/IIIIOO.TJJ
 O|ジオラマTD v5 (mirror)|X||0.0276|0|.......ZZ./L......JZZ/LTTTOO.JJJ/LLT.OOIIII
-C|ジオラマTD v5 · 1|T|ジオラマTD v5|1|0|.......OO./.......OOI/JJSS...LLI/JSS.....LI/JXX.ZZZZLI/XXX..ZZZZX/XXX.XXXXXX/XXXXXX.XXX
-C|ジオラマTD v5 · 1 (mirror)|T|ジオラマTD v5 (mirror)|1|0|.OO......./IOO......./IJJ...ZZLL/IJ.....ZZL/IJSSSS.XXL/XSSSS..XXX/XXXXXX.XXX/XXX.XXXXXX
+C|ジオラマTD v5 · 1|T|ジオラマTD v5|1|0|.......OO./.......OOI/JJSS...LLI/JSS.....LI/JXX.ZZzzLI/XXX..ZZzzX/XXX.XXXXXX/XXXXXX.XXX
+C|ジオラマTD v5 · 1 (mirror)|T|ジオラマTD v5 (mirror)|1|0|.OO......./IOO......./IJJ...ZZLL/IJ.....ZZL/IJssSS.XXL/XssSS..XXX/XXXXXX.XXX/XXX.XXXXXX
 C|ジオラマTD v5 · 1 · 1|X|ジオラマTD v5 · 1|1|0|.......XX./.......XXX/XXXX...XXX/XXX.....XX/XXXTXXXXXX/XXXTTXXXXX/XXXTXXXXXX/XXXXXX.XXX
 C|ジオラマTD v5 · 1 · 1 (mirror)|X|ジオラマTD v5 · 1 (mirror)|1|0|.XX......./XXX......./XXX...XXXX/XX.....XXX/XXXXXXTXXX/XXXXXTTXXX/XXXXXXTXXX/XXX.XXXXXX
 C|ジオラマTD v5 · 1 · 1 · 1|T|ジオラマTD v5 · 1 · 1|1|2|.......LLI/.......ZLI/.J....ZZLI/.JOO..ZXXI/JJOO...XXX/XXXXSS.XXX/XXXSS...XX/XXXXXX.XXX
 C|ジオラマTD v5 · 1 · 1 · 1 (mirror)|T|ジオラマTD v5 · 1 · 1 (mirror)|1|2|IJJ......./IJS......./IJSS....L./IXXS..OOL./XXX...OOLL/XXX.ZZXXXX/XX...ZZXXX/XXX.XXXXXX
-C|ジオラマTD v5 · 2|T|ジオラマTD v5|1|0|.......IL./.......IL./JJSS...ILL/JSS....IOO/JXX.ZZZZOO/XXX..ZZZZX/XXX.XXXXXX/XXXXXX.XXX
-C|ジオラマTD v5 · 2 (mirror)|T|ジオラマTD v5 (mirror)|1|0|.JI......./.JI......./JJI...ZZLL/OOI....ZZL/OOSSSS.XXL/XSSSS..XXX/XXXXXX.XXX/XXX.XXXXXX
+C|ジオラマTD v5 · 2|T|ジオラマTD v5|1|0|.......IL./.......IL./JJSS...ILL/JSS....IOO/JXX.ZZzzOO/XXX..ZZzzX/XXX.XXXXXX/XXXXXX.XXX
+C|ジオラマTD v5 · 2 (mirror)|T|ジオラマTD v5 (mirror)|1|0|.JI......./.JI......./JJI...ZZLL/OOI....ZZL/OOssSS.XXL/XssSS..XXX/XXXXXX.XXX/XXX.XXXXXX
 C|ジオラマTD v5 · 2 · 1|X|ジオラマTD v5 · 2|1|0|.......XX./.......XX./XXXX...XXX/XXX....XXX/XXXTXXXXXX/XXXTTXXXXX/XXXTXXXXXX/XXXXXX.XXX
 C|ジオラマTD v5 · 2 · 1 (mirror)|X|ジオラマTD v5 · 2 (mirror)|1|0|.XX......./.XX......./XXX...XXXX/XXX....XXX/XXXXXXTXXX/XXXXXTTXXX/XXXXXXTXXX/XXX.XXXXXX
 C|ジオラマTD v5 · 2 · 1 · 1|T|ジオラマTD v5 · 2 · 1|1|3|I......Z../IJJ...ZZLL/IJOO..ZXXL/IJOO...XXL/XXXXSS.XXX/XXXSS..XXX/XXXXXX.XXX
@@ -5628,6 +5797,10 @@ C|Dot Cannon 3 · 1|T|Dot Cannon 3|1|3|JJJ......./ZZJ.....LL/XZZ....OOL/XX.....O
 C|Dot Cannon 3 · 1 (mirror)|T|Dot Cannon 3 (mirror)|1|3|.......LLL/JJ.....LSS/JOO....SSX/JOO.....XX/XXXIIII.XX/XXXXZZ..XX/XXXXXZZ.XX/XXXX...XXX
 C|Dot Cannon 3 · 2|T|Dot Cannon 3|1|2|I........./I........./I........./IJ......LL/XJJJ...OOL/XX.....OOL/XX...SSXXX/XX..SSXXXX/XX.ZZXXXXX/XXX.ZZXXXX
 C|Dot Cannon 3 · 2 (mirror)|T|Dot Cannon 3 (mirror)|1|2|.........I/.........I/.........I/JJ......LI/JOO...LLLX/JOO.....XX/XXXZZ...XX/XXXXZZ..XX/XXXXXSS.XX/XXXXSS.XXX
+C|Dot Cannon 3 · 2 · 1 (part 1)|T|Dot Cannon 3 · 2|1|0|X........./X........./X........./XX......XX/XXXX...XXX/XXZZ...XXX/XXXZZXXXXX/XXX.XXXXXX
+C|Dot Cannon 3 · 2 · 1|T|Dot Cannon 3 · 2 · 1 (part 1)|1|2|.I......../XI.....LS./XI.....LSS/XIJ....LLS/XXJJJ...XX/XXXXOO.XXX/XXXXOO.XXX/XXX.XXXXXX
+C|Dot Cannon 3 · 2 · 1 (mirror) (part 1)|T|Dot Cannon 3 · 2 (mirror)|1|0|.Z.......X/ZZ.......X/Z......L.X/XX...LLLXX/XXX...XXXX/XXX...SSXX/XXXXXSSXXX/XXXXXX.XXX
+C|Dot Cannon 3 · 2 · 1 (mirror)|T|Dot Cannon 3 · 2 · 1 (mirror) (part 1)|1|2|........I./.XJ.....IX/XXJ.....IX/XJJ....XIX/XX...XXXXX/XXX.OOXXXX/XXX.OOXXXX/XXXXXX.XXX
 C|Dot Cannon 3 · 3|T|Dot Cannon 3|1|3|LLL......./LOO.....ZJ/XOO....ZZJ/XX.....ZJJ/XX.IIIIXXX/XX..SSXXXX/XX.SSXXXXX/XXX...XXXX
 C|Dot Cannon 3 · 3 (mirror)|T|Dot Cannon 3 (mirror)|1|3|.......JJJ/LS.....OOJ/LSS....OOX/LLS.....XX/XXXIIII.XX/XXXXZZ..XX/XXXXXZZ.XX/XXXX...XXX
 O|Double Sided Cannon|X||0.0529|0|I........./I........./I.....OO.Z/I.....OOZZ/J.TTT.SSZL/JJJT.SSLLL
@@ -5746,18 +5919,23 @@ C|FinT Cannon 3 · 3|T|FinT Cannon 3|1|2|........ZI/.......ZZI/JJ.....ZLI/J...OO
 C|FinT Cannon 3 · 3 (mirror)|T|FinT Cannon 3 (mirror)|1|2|IS......../ISS......./IJS.....LL/IJJJOO...L/XXXXOOZ.XL/XXXX.ZZ.XX/XXXX.ZXXXX/XXXX.XXXXX
 O|Gamushiro Stacking|X||1.63|0|S......I../SS....TI../JS.ZZTTIOO/JJJ.ZZTIOO
 O|Gamushiro Stacking (mirror)|X||1.63|0|..I......Z/..IT....ZZ/OOITTSS.ZL/OOITSS.LLL
-C|Gamushiro Stacking · 1|T|Gamushiro Stacking|1|0|I........./I.....OO../IJJ...OOLL/IJ....SSLL/XJ.ZZSSXLL/XX..ZZXXLL/XX.XXXXXXX/XXX.XXXXXX
-C|Gamushiro Stacking · 1 (mirror)|T|Gamushiro Stacking (mirror)|1|0|.........I/..OO.....I/JJOO...LLI/JJZZ....LI/JJXZZSS.LX/JJXXSS..XX/XXXXXXX.XX/XXXXXX.XXX
+C|Gamushiro Stacking · 1|T|Gamushiro Stacking|1|0|I........./I.....OO../IJJ...OOll/IJ....SSLl/XJ.ZZSSXLl/XX..ZZXXLL/XX.XXXXXXX/XXX.XXXXXX
+C|Gamushiro Stacking · 1 (mirror)|T|Gamushiro Stacking (mirror)|1|0|.........I/..OO.....I/jjOO...LLI/jJZZ....LI/jJXZZSS.LX/JJXXSS..XX/XXXXXXX.XX/XXXXXX.XXX
 C|Gamushiro Stacking · 1 · 1|X|Gamushiro Stacking · 1|1|0|X........./X.....XX../XXX...XXXX/XX....XXXX/XXTXXXXXXX/XXTTXXXXXX/XXTXXXXXXX/XXX.XXXXXX
 C|Gamushiro Stacking · 1 · 1 (mirror)|X|Gamushiro Stacking · 1 (mirror)|1|0|.........X/..XX.....X/XXXX...XXX/XXXX....XX/XXXXXXXTXX/XXXXXXTTXX/XXXXXXXTXX/XXXXXX.XXX
 C|Gamushiro Stacking · 1 · 1 · 1|T|Gamushiro Stacking · 1 · 1|1|2|.....IIIIL/.....ZZLLL/X..JJJZZOO/X...SJXXOO/XXX.SSXXXX/XX...SXXXX/XXX.XXXXXX
 C|Gamushiro Stacking · 1 · 1 · 1 (mirror)|T|Gamushiro Stacking · 1 · 1 (mirror)|1|2|JIIII...../JJJSS...../OOSSLLL..X/OOXXLZ...X/XXXXZZ.XXX/XXXXZ...XX/XXXXXX.XXX
-C|Gamushiro Stacking · 2|T|Gamushiro Stacking|1|0|I.......OO/I.......OO/IJJ.....LL/IJ....SSLL/XJ.ZZSSXLL/XX..ZZXXLL/XX.XXXXXXX/XXX.XXXXXX
-C|Gamushiro Stacking · 2 (mirror)|T|Gamushiro Stacking (mirror)|1|0|OO.......I/OO.......I/JJ.....LLI/JJZZ....LI/JJXZZSS.LX/JJXXSS..XX/XXXXXXX.XX/XXXXXX.XXX
+C|Gamushiro Stacking · 2|T|Gamushiro Stacking|1|0|I.......OO/I.......OO/IJJ.....ll/IJ....SSLl/XJ.ZZSSXLl/XX..ZZXXLL/XX.XXXXXXX/XXX.XXXXXX
+C|Gamushiro Stacking · 2 (mirror)|T|Gamushiro Stacking (mirror)|1|0|OO.......I/OO.......I/jj.....LLI/jJZZ....LI/jJXZZSS.LX/JJXXSS..XX/XXXXXXX.XX/XXXXXX.XXX
 C|Gamushiro Stacking · 2 · 1|X|Gamushiro Stacking · 2|1|0|X.......XX/X.......XX/XXX.....XX/XX....XXXX/XXTXXXXXXX/XXTTXXXXXX/XXTXXXXXXX/XXX.XXXXXX
 C|Gamushiro Stacking · 2 · 1 (mirror)|X|Gamushiro Stacking · 2 (mirror)|1|0|XX.......X/XX.......X/XX.....XXX/XXXX....XX/XXXXXXXTXX/XXXXXXTTXX/XXXXXXXTXX/XXXXXX.XXX
 C|Gamushiro Stacking · 2 · 1 · 1|T|Gamushiro Stacking · 2 · 1|1|2|X.....LLXX/X.....ZLXX/XXX..ZZLXX/XX...ZXXXX/XXX.XXXXXX
 C|Gamushiro Stacking · 2 · 1 · 1 (mirror)|T|Gamushiro Stacking · 2 · 1 (mirror)|1|2|XXJJ.....X/XXJS.....X/XXJSS..XXX/XXXXS...XX/XXXXXX.XXX
+C|Gamushiro Stacking · 2 · 1 · 1 · 1 (part 1)|T|Gamushiro Stacking · 2 · 1 · 1|1|0|X.....XXXX/X...SSXXXX/XXXSSXXXXX
+C|Gamushiro Stacking · 2 · 1 · 1 · 1|T|Gamushiro Stacking · 2 · 1 · 1 · 1 (part 1)|1|0|XJIIIIXXXX/XJJJXXXXXX
+C|Gamushiro Stacking · 2 · 1 · 1 · 1 (mirror) (part 1)|T|Gamushiro Stacking · 2 · 1 · 1 (mirror)|1|0|XXXX.....X/XXXXZZ...X/XXXXXZZXXX
+C|Gamushiro Stacking · 2 · 1 · 1 · 1 (mirror) (part 2)|T|Gamushiro Stacking · 2 · 1 · 1 · 1 (mirror) (part 1)|1|0|XXXX....LX/XXXXXXLLLX
+C|Gamushiro Stacking · 2 · 1 · 1 · 1 (mirror)|T|Gamushiro Stacking · 2 · 1 · 1 · 1 (mirror) (part 2)|1|0|XXXXIIIIXX
 C|Gamushiro Stacking · 2 · 1 · 2|T|Gamushiro Stacking · 2 · 1|1|3|.........I/.........I/........LI/.....SLLLI/X..ZZSSJXX/X...ZZSJXX/XXX.OOJJXX/XX..OOXXXX/XXX.XXXXXX
 C|Gamushiro Stacking · 2 · 1 · 2 (mirror)|T|Gamushiro Stacking · 2 · 1 (mirror)|1|3|I........./I........./IJ......../IJJJZ...../XXLZZSS..X/XXLZSS...X/XXLLOO.XXX/XXXXOO..XX/XXXXXX.XXX
 C|Gamushiro Stacking · 2 · 1 · 3|T|Gamushiro Stacking · 2 · 1|1|2|I........./I........./I........L/I....ZZLLL/X..JJJZZXX/X...SJOOXX/XXX.SSOOXX/XX...SXXXX/XXX.XXXXXX
@@ -6032,16 +6210,16 @@ C|Possibly Mountainous Stacking, sources d · 6 · 1 · 2 · 3|T|Possibly Mounta
 C|Possibly Mountainous Stacking, sources d · 6 · 1 · 2 · 3 (mirror)|T|Possibly Mountainous Stacking, sources d · 6 · 1 · 2 (mirror)|1|2|L........./L..Z.....I/LLZZ....JI/OOZ...SSJI/OOXX.SSJJI/XXXX..XXXX/XXXX...XXX/XXXXX.XXXX
 O|山岳積み2号|X||4.56|0|IS......../ISS....T../IJS.ZZTTOO/IJJJ.ZZTOO
 O|山岳積み2号 (mirror)|X||4.56|0|........ZI/..T....ZZI/OOTTSS.ZLI/OOTSS.LLLI
-C|山岳積み2号 · 1|X|山岳積み2号|1|0|JJOO....../JSOO..L..I/JSS...LLLI/XXSTZZLLLI/XXXTTZZXLI/XXXTXXXXXX/XXXX.XXXXX
-C|山岳積み2号 · 1 (mirror)|X|山岳積み2号 (mirror)|1|0|......OOLL/I..J..OOZL/IJJJ...ZZL/IJJJSSTZXX/IJXSSTTXXX/XXXXXXTXXX/XXXXX.XXXX
+C|山岳積み2号 · 1|X|山岳積み2号|1|0|JJOO....../JSOO..l..I/JSS...lLLI/XXSTZZllLI/XXXTTZZXLI/XXXTXXXXXX/XXXX.XXXXX
+C|山岳積み2号 · 1 (mirror)|X|山岳積み2号 (mirror)|1|0|......OOLL/I..j..OOZL/IJJj...ZZL/IJjjSSTZXX/IJXSSTTXXX/XXXXXXTXXX/XXXXX.XXXX
 C|山岳積み2号 · 1 · 1|T|山岳積み2号 · 1|1|2|.........I/.J.......I/.J.......I/JJL....ZSI/LLL...ZZSS/XXXX..ZOOS/XXXX..XOOX/XXX...XXXX/XXXX.XXXXX
 C|山岳積み2号 · 1 · 1 (mirror)|T|山岳積み2号 · 1 (mirror)|1|2|I........./I.......L./I.......L./IZS....JLL/ZZSS...JJJ/ZOOS..XXXX/XOOX..XXXX/XXXX...XXX/XXXXX.XXXX
 C|山岳積み2号 · 1 · 2|T|山岳積み2号 · 1|1|2|.J......../.J......../JJL....SS./LLL...SSOO/XXXX..ZZOO/XXXX..XZZX/XXX...XXXX/XXXX.XXXXX
 C|山岳積み2号 · 1 · 2 (mirror)|T|山岳積み2号 · 1 (mirror)|1|2|........L./........L./.ZZ....JLL/OOZZ...JJJ/OOSS..XXXX/XSSX..XXXX/XXXX...XXX/XXXXX.XXXX
 C|山岳積み2号 · 1 · 3|T|山岳積み2号 · 1|1|2|.L......../.L......../JLL....SS./JJJ...SSOO/XXXX..ZZOO/XXXX..XZZX/XXX...XXXX/XXXX.XXXXX
 C|山岳積み2号 · 1 · 3 (mirror)|T|山岳積み2号 · 1 (mirror)|1|2|........J./........J./.ZZ....JJL/OOZZ...LLL/OOSS..XXXX/XSSX..XXXX/XXXX...XXX/XXXXX.XXXX
-C|山岳積み2号 · 2|X|山岳積み2号|1|0|.SS......./SS......../OOJJ..L..I/OOJ...LLLI/XXJTZZLLLI/XXXTTZZXLI/XXXTXXXXXX/XXXX.XXXXX
-C|山岳積み2号 · 2 (mirror)|X|山岳積み2号 (mirror)|1|0|.......ZZ./........ZZ/I..J..LLOO/IJJJ...LOO/IJJJSSTLXX/IJXSSTTXXX/XXXXXXTXXX/XXXXX.XXXX
+C|山岳積み2号 · 2|X|山岳積み2号|1|0|.SS......./SS......../OOJJ..l..I/OOJ...lLLI/XXJTZZllLI/XXXTTZZXLI/XXXTXXXXXX/XXXX.XXXXX
+C|山岳積み2号 · 2 (mirror)|X|山岳積み2号 (mirror)|1|0|.......ZZ./........ZZ/I..j..LLOO/IJJj...LOO/IJjjSSTLXX/IJXSSTTXXX/XXXXXXTXXX/XXXXX.XXXX
 C|山岳積み2号 · 2 · 1|T|山岳積み2号 · 2|1|2|IZZ......./IJZZ....../IJJJ....../IXXSS..LOO/XXSS...LOO/XXXX..XLLX/XXX...XXXX/XXXX.XXXXX
 C|山岳積み2号 · 2 · 1 (mirror)|T|山岳積み2号 · 2 (mirror)|1|2|.......SSI/......SSLI/......LLLI/OOJ..ZZXXI/OOJ...ZZXX/XJJX..XXXX/XXXX...XXX/XXXXX.XXXX
 C|山岳積み2号 · 2 · 2|T|山岳積み2号 · 2|1|2|.........I/.........I/.........I/LLLJ...OOI/LXXJ..SOOZ/XXJJ..SSZZ/XXXX..XSZX/XXX...XXXX/XXXX.XXXXX
@@ -6050,8 +6228,8 @@ C|山岳積み2号 · 2 · 3|T|山岳積み2号 · 2|1|2|.........I/.........I/.
 C|山岳積み2号 · 2 · 3 (mirror)|T|山岳積み2号 · 2 (mirror)|1|2|I........./I........./I........./IZS...LJJJ/ZZSS..LXXJ/ZOOS..LLXX/XOOX..XXXX/XXXX...XXX/XXXXX.XXXX
 C|山岳積み2号 · 2 · 4|T|山岳積み2号 · 2|1|2|IOO......./IOOL....../ILLL....../IXXSS..JJZ/XXSS...JZZ/XXXX..XJZX/XXX...XXXX/XXXX.XXXXX
 C|山岳積み2号 · 2 · 4 (mirror)|T|山岳積み2号 · 2 (mirror)|1|2|.......OOI/......JOOI/......JJJI/SLL..ZZXXI/SSL...ZZXX/XSLX..XXXX/XXXX...XXX/XXXXX.XXXX
-C|山岳積み2号 · 3|X|山岳積み2号|1|0|........SS/IIII..LSSL/JJJ...LLLL/XXJTZZLLOO/XXXTTZZXOO/XXXTXXXXXX/XXXX.XXXXX
-C|山岳積み2号 · 3 (mirror)|X|山岳積み2号 (mirror)|1|0|ZZ......../JZZJ..IIII/JJJJ...LLL/OOJJSSTLXX/OOXSSTTXXX/XXXXXXTXXX/XXXXX.XXXX
+C|山岳積み2号 · 3|X|山岳積み2号|1|0|........SS/IIII..LSSl/JJJ...Llll/XXJTZZLLOO/XXXTTZZXOO/XXXTXXXXXX/XXXX.XXXXX
+C|山岳積み2号 · 3 (mirror)|X|山岳積み2号 (mirror)|1|0|ZZ......../jZZJ..IIII/jjjJ...LLL/OOJJSSTLXX/OOXSSTTXXX/XXXXXXTXXX/XXXXX.XXXX
 C|山岳積み2号 · 3 · 1|T|山岳積み2号 · 3|1|2|.........I/.........I/.........I/LLLJ...ZZI/LSSJ..OOZZ/SSJJ..OOXX/XXXX..XXXX/XXX...XXXX/XXXX.XXXXX
 C|山岳積み2号 · 3 · 1 (mirror)|T|山岳積み2号 · 3 (mirror)|1|2|I........./I........./I........./ISS...LJJJ/SSOO..LZZJ/XXOO..LLZZ/XXXX..XXXX/XXXX...XXX/XXXXX.XXXX
 C|山岳積み2号 · 4|T|山岳積み2号|1|0|......L.../......L.../XX....LL../XXX....X../XXX.XXXXXX/XXXX.XXXXX
@@ -6124,6 +6302,12 @@ C|Loyal TD · 1|T|Loyal TD|1|3|JJ..LLLS../J...LXXSSI/J.ZZXXXXSI/X..ZZXXXXI/X.XXX
 C|Loyal TD · 1 (mirror)|T|Loyal TD (mirror)|1|3|..ZJJJ..LL/IZZXXJ...L/IZXXXXSS.L/IXXXXSS..X/IXXXXXXX.X/XXXXXXX.XX
 C|Loyal TD · 1 · 1|T|Loyal TD · 1|1|0|........OO/XX..XXXXOO/X...XXXXXX/XX.XXXXXXX
 C|Loyal TD · 1 · 1 (mirror)|T|Loyal TD · 1 (mirror)|1|0|OO......../OOXXXX..XX/XXXXXX...X/XXXXXXX.XX
+C|Loyal TD · 1 · 1 · 1 (part 1)|T|Loyal TD · 1 · 1|1|0|.....OOLLL/...SSOOLXX/XXSSXXXXXX/X...XXXXXX/XX.XXXXXXX
+C|Loyal TD · 1 · 1 · 1|T|Loyal TD · 1 · 1 · 1 (part 1)|1|0|JIIIIXXXXX/JJJXXXXXXX/X...XXXXXX/XX.XXXXXXX
+C|Loyal TD · 1 · 1 · 1 (mirror) (part 1)|T|Loyal TD · 1 · 1 (mirror)|1|0|XX...ZZ.../XXXXXXZZXX/XXXXXX...X/XXXXXXX.XX
+C|Loyal TD · 1 · 1 · 1 (mirror)|T|Loyal TD · 1 · 1 · 1 (mirror) (part 1)|1|0|JJJOOIIIIL/XXJOOXXLLL/XXXXXX...X/XXXXXXX.XX
+C|Loyal TD · 1 · 1 · 1 · 1|X|Loyal TD · 1 · 1 · 1|1|0|XTTTXXXXXX/XXTXXXXXXX
+C|Loyal TD · 1 · 1 · 1 · 1 (mirror)|X|Loyal TD · 1 · 1 · 1 (mirror)|1|0|XXXXXXTTTX/XXXXXXXTXX
 C|Loyal TD · 2|T|Loyal TD|1|3|....LLL.../....LOO.../JJ...OOS../J....XXSSI/J.ZZXXXXSI/X..ZZXXXXI/X.XXXXXXXI/XX.XXXXXXX
 C|Loyal TD · 2 (mirror)|T|Loyal TD (mirror)|1|3|...JJJ..../...OOJ..../..ZOO...LL/IZZXX....L/IZXXXXSS.L/IXXXXSS..X/IXXXXXXX.X/XXXXXXX.XX
 O|Luck TST|X||0.0632|0|........JJ/LLL.....JI/LZ......JI/ZZSST..OOI/ZSSTTT.OOI
@@ -6208,8 +6392,8 @@ C|山岳積み3号 · 2 · 1|T|山岳積み3号 · 2|1|3|.S......../.SS......./O
 C|山岳積み3号 · 2 · 1 (mirror)|T|山岳積み3号 · 2 (mirror)|1|3|........Z./.......ZZ./.......ZOO/........OO/......LLXX/IJ.....LXX/IJJJSS.LXX/IXXSS..XXX/IXXXXX.XXX/XXXXX.XXXX
 C|山岳積み3号 · 2 · 2|T|山岳積み3号 · 2|1|3|.OO......./.OO......./.SS......./SS......../XXJJ....../XXJ.....LI/XXJ.ZZLLLI/XXX..ZZXXI/XXX.XXXXXI/XXXX.XXXXX
 C|山岳積み3号 · 2 · 2 (mirror)|T|山岳積み3号 · 2 (mirror)|1|3|.......OO./.......OO./.......ZZ./........ZZ/......LLXX/IJ.....LXX/IJJJSS.LXX/IXXSS..XXX/IXXXXX.XXX/XXXXX.XXXX
-C|山岳積み3号 · 3|X|山岳積み3号|1|0|OO......../OO......../OOJJ..LS../OOJ...LSSI/XXJTZZLLSI/XXXTTZZXXI/XXXTXXXXXI/XXXX.XXXXX
-C|山岳積み3号 · 3 (mirror)|X|山岳積み3号 (mirror)|1|0|........OO/........OO/..ZJ..LLOO/IZZJ...LOO/IZJJSSTLXX/IXXSSTTXXX/IXXXXXTXXX/XXXXX.XXXX
+C|山岳積み3号 · 3|X|山岳積み3号|1|0|oo......../oo......../OOJJ..LS../OOJ...LSSI/XXJTZZLLSI/XXXTTZZXXI/XXXTXXXXXI/XXXX.XXXXX
+C|山岳積み3号 · 3 (mirror)|X|山岳積み3号 (mirror)|1|0|........oo/........oo/..ZJ..LLOO/IZZJ...LOO/IZJJSSTLXX/IXXSSTTXXX/IXXXXXTXXX/XXXXX.XXXX
 C|山岳積み3号 · 3 · 1|T|山岳積み3号 · 3|1|2|I........./I........./IOO...S.../IOOZ..SS../XXZZ...SLL/XXZ...JJJL/XXXX..XXJL/XXX...XXXX/XXXX.XXXXX
 C|山岳積み3号 · 3 · 1 (mirror)|T|山岳積み3号 · 3 (mirror)|1|2|.........I/.........I/...Z...OOI/..ZZ..SOOI/JJZ...SSXX/JLLL...SXX/JLXX..XXXX/XXXX...XXX/XXXXX.XXXX
 C|山岳積み3号 · 4|T|山岳積み3号|1|0|.......OO./XX.....OO./XXX....XX./XXX.XXXXX./XXXX.XXXXX
@@ -6230,12 +6414,21 @@ C|メロンパフェ(T端) · 1|T|メロンパフェ(T端)|1|0|.....J..../X....J
 C|メロンパフェ(T端) · 1 (mirror)|T|メロンパフェ(T端) (mirror)|1|0|....L...../....L....X/X...LL.XXX/XXX.XXXXXX
 C|メロンパフェ(T端) · 1 · 1|X|メロンパフェ(T端) · 1|1|0|.........J/.........J/S.T.....JJ/SSTTZXILOO/XSTZZXILOO/XXXZXXILLX/XXXXXXIXXX
 C|メロンパフェ(T端) · 1 · 1 (mirror)|X|メロンパフェ(T端) · 1 (mirror)|1|0|L........./L........./LL.....T.Z/OOJIXSTTZZ/OOJIXSSTZX/XJJIXXSXXX/XXXIXXXXXX
+C|メロンパフェ(T端) · 1 · 1 · 1 (part 1)|T|メロンパフェ(T端) · 1 · 1|1|0|S...ZJL..X/SS.ZZJL..X/XSXZJJLLXX
+C|メロンパフェ(T端) · 1 · 1 · 1|X|メロンパフェ(T端) · 1 · 1 · 1 (part 1)|1|0|XTTTXXXOOX/XXTXXXXOOX
+C|メロンパフェ(T端) · 1 · 1 · 1 (mirror) (part 1)|T|メロンパフェ(T端) · 1 · 1 (mirror)|1|0|X..JLS...Z/X..JLSS.ZZ/XXJJLLSXZX
+C|メロンパフェ(T端) · 1 · 1 · 1 (mirror)|X|メロンパフェ(T端) · 1 · 1 · 1 (mirror) (part 1)|1|0|XOOXXXTTTX/XOOXXXXTXX
 C|メロンパフェ(T端) · 2|T|メロンパフェ(T端)|1|0|...J....../...J....../X.JJ....../XXX......X/XXXXXX.XXX
 C|メロンパフェ(T端) · 2 (mirror)|T|メロンパフェ(T端) (mirror)|1|0|......L.../......L.../......LL.X/X......XXX/XXX.XXXXXX
 C|メロンパフェ(T端) · 2 · 1|T|メロンパフェ(T端) · 2|1|3|I......J../I......J../I.ZX..JJ../IZZX...LOO/XZXXSS.LOO/XXXSS..LLX/XXXXXX.XXX
 C|メロンパフェ(T端) · 2 · 1 (mirror)|T|メロンパフェ(T端) · 2 (mirror)|1|3|..L......I/..L......I/..LL..XS.I/OOJ...XSSI/OOJ.ZZXXSX/XJJ..ZZXXX/XXX.XXXXXX
 C|メロンパフェ(T端) · 3|T|メロンパフェ(T端)|1|0|XJJJ....../XXXJ.....X/XXXXXX.XXX
 C|メロンパフェ(T端) · 3 (mirror)|T|メロンパフェ(T端) (mirror)|1|0|......LLLX/X.....LXXX/XXX.XXXXXX
+C|メロンパフェ(T端) · 3 · 1 (part 1)|T|メロンパフェ(T端) · 3|1|0|XXXX....../XXXX..LLLX/XXXXXXLXXX
+C|メロンパフェ(T端) · 3 · 1 (part 2)|T|メロンパフェ(T端) · 3 · 1 (part 1)|1|0|XXXXOO..../XXXXOOXXXX
+C|メロンパフェ(T端) · 3 · 1|T|メロンパフェ(T端) · 3 · 1 (part 2)|1|0|XXXXXXIIII
+C|メロンパフェ(T端) · 3 · 1 (mirror) (part 1)|T|メロンパフェ(T端) · 3 (mirror)|1|0|IIIIOOXXXX/X...OOXXXX/XXX.XXXXXX
+C|メロンパフェ(T端) · 3 · 1 (mirror)|T|メロンパフェ(T端) · 3 · 1 (mirror) (part 1)|1|0|XJJJXXXXXX/XXXJXXXXXX
 O|Mismatch TD (Edge)|X||0.0644|0|......OO../....ZZOOI./L....ZZJI./L.TTTSSJI./LL.TSSJJI.
 O|Mismatch TD (Edge) (mirror)|X||0.0644|0|..OO....../.IOOSS..../.ILSS....J/.ILZZTTT.J/.ILLZZT.JJ
 C|Mismatch TD (Edge) · 1|T|Mismatch TD (Edge)|1|3|....LOOS../JJ..LOOSS./J...LLXXS./J.ZZXXXXXI/X..ZZXXXXI/X.XXXXXXXI/XX.XXXXXXI
@@ -6272,10 +6465,16 @@ C|暁闇砲 · 1 · 1|T|暁闇砲 · 1|1|3|JJZ......./JZZ......./JZXX.....L/OOX.
 C|暁闇砲 · 1 · 1 (mirror)|T|暁闇砲 · 1 (mirror)|1|3|.......SLL/.......SSL/J.....XXSL/JJJ....XOO/XXIIII.XOO/XXXZZ..XXX/XXXXZZ.XXX/XXX.XXXXXX
 C|暁闇砲 · 1 · 2|T|暁闇砲 · 1|1|3|.......JJZ/.......JZZ/..XX...JZL/OOX....LLL/OOX.IIIIXX/XXX..SSXXX/XXX.SSXXXX/XXXXXX.XXX
 C|暁闇砲 · 1 · 2 (mirror)|T|暁闇砲 · 1 (mirror)|1|3|SLL......./SSL......./JSL...XX../JJJ....XOO/XXIIII.XOO/XXXZZ..XXX/XXXXZZ.XXX/XXX.XXXXXX
-C|暁闇砲 · 2|X|暁闇砲|1|0|...Z....../..ZZ....../..Z.....LL/.JJJ...OOL/.JJ....OOL/JJJTIIIIXX/XXXTTSSXXX/XXXTSSXXXX/XXXXXX.XXX
-C|暁闇砲 · 2 (mirror)|X|暁闇砲 (mirror)|1|0|......S.../......SS../JJ.....S../JOO...LLL./JOO....LL./XXIIIITLLL/XXXZZTTXXX/XXXXZZTXXX/XXX.XXXXXX
+C|暁闇砲 · 2|X|暁闇砲|1|0|...Z....../..ZZ....../..Z.....LL/.Jjj...OOL/.Jj....OOL/JJjTIIIIXX/XXXTTSSXXX/XXXTSSXXXX/XXXXXX.XXX
+C|暁闇砲 · 2 (mirror)|X|暁闇砲 (mirror)|1|0|......S.../......SS../JJ.....S../JOO...llL./JOO....lL./XXIIIITlLL/XXXZZTTXXX/XXXXZZTXXX/XXX.XXXXXX
 C|暁闇砲 · 2 · 1|T|暁闇砲 · 2|1|2|........LL/.JJX...OOL/IJXX...OOL/IJXZZ...XX/IXXXZZ.XXX/IXX....XXX/XXXXXX.XXX
 C|暁闇砲 · 2 · 1 (mirror)|T|暁闇砲 · 2 (mirror)|1|2|JJ......../JOO...XLL./JOO...XXLI/XX...SSXLI/XXX.SSXXXI/XXX....XXI/XXX.XXXXXX
+C|暁闇砲 · 3 (part 1)|T|暁闇砲|1|0|I.......LL/IJJZ...OOL/IJZZ...OOL/IJZ...SSXX/XXXJ.SSXXX/XXXJJJXXXX/XXXXXX.XXX
+C|暁闇砲 · 3|X|暁闇砲 · 3 (part 1)|1|0|X.......XX/XXXX...XXX/XXXX...XXX/XXXTTTXXXX/XXXXTXXXXX/XXXXXX.XXX
+C|暁闇砲 · 3 (mirror) (part 1)|T|暁闇砲 (mirror)|1|0|.......LL./........L./XXZZ....L./XXXZZ.LXXX/XXXXLLLXXX/XXX.XXXXXX
+C|暁闇砲 · 3 (mirror)|X|暁闇砲 · 3 (mirror) (part 1)|1|0|JJ.......I/JOO...SXXI/JOO...SSXI/XXXXTTTSXI/XXXXXTXXXX/XXX.XXXXXX
+C|暁闇砲 · 3 · 1|T|暁闇砲 · 3|1|2|I........./I.......LL/IJJZ...OOL/IJZZ...OOL/XJZ...SSXX/XXXX.SSXXX/XXXX...XXX/XXXXXX.XXX
+C|暁闇砲 · 3 · 1 (mirror)|T|暁闇砲 · 3 (mirror)|1|2|.........I/JJ.......I/JOO...SLLI/JOO...SSLI/XXZZ...SLX/XXXZZ.XXXX/XXX...XXXX/XXX.XXXXXX
 O|New C-Spin|X||0.0482|0|......SSOO/L....SSJOO/L.ZZTTTJJJ/LL.ZZTIIII
 O|New C-Spin (mirror)|X||0.0482|0|OOZZ....../OOLZZ....J/LLLTTTSS.J/IIIITSS.JJ
 C|New C-Spin · 1|T|New C-Spin|1|3|.........I/......LLLI/JJ....LOOI/J....SSOOI/J.ZZSSXXXX/X..ZZXXXXX/X.XXXXXXXX/XX.XXXXXXX
@@ -6828,8 +7027,8 @@ C|Tourmaline Stacking · 5|T|Tourmaline Stacking|1|3|S........I/SS.....OOI/XS...
 C|Tourmaline Stacking · 5 (mirror)|T|Tourmaline Stacking (mirror)|1|3|I........Z/IOO.....ZZ/IOO.....ZX/IJJJ.....X/LLLJXXSS.X/LXXXXSS..X/XXXXXXXX.X/XXXXX.XXXX
 O|トルマリン積み|X||0.02|0|I........./I........./I........./I......LS./J.TTTOOLSS/JJJT.OOLLS
 O|トルマリン積み (mirror)|X||0.02|0|.........I/.........I/.........I/.ZJ......I/ZZJOOTTT.L/ZJJOO.TLLL
-C|トルマリン積み · 1|X|トルマリン積み|1|0|S........L/SS.....LLL/XS.....OOI/X.....JOOI/XTZZZZJJJI/XTTZZZZXXI/XTXXXXXXXX/XXXX.XXXXX
-C|トルマリン積み · 1 (mirror)|X|トルマリン積み (mirror)|1|0|J........Z/JJJ.....ZZ/IOO.....ZX/IOOL.....X/ILLLSSSSTX/IXXSSSSTTX/XXXXXXXXTX/XXXXX.XXXX
+C|トルマリン積み · 1|X|トルマリン積み|1|0|S........L/SS.....LLL/XS.....OOI/X.....JOOI/XTZZzzJJJI/XTTZZzzXXI/XTXXXXXXXX/XXXX.XXXXX
+C|トルマリン積み · 1 (mirror)|X|トルマリン積み (mirror)|1|0|J........Z/JJJ.....ZZ/IOO.....ZX/IOOL.....X/ILLLssSSTX/IXXssSSTTX/XXXXXXXXTX/XXXXX.XXXX
 C|トルマリン積み · 1 · 1|T|トルマリン積み · 1|1|2|........J./........J./.......JJL/.......LLL/X....IIIIX/XXS...ZXXX/XXSS.ZZXXX/X..S.ZXXXX/XXXX.XXXXX
 C|トルマリン積み · 1 · 1 (mirror)|T|トルマリン積み · 1 (mirror)|1|2|.L......../.L......../JLL......./JJJ......./XIIII....X/XXXS...ZXX/XXXSS.ZZXX/XXXXS.Z..X/XXXXX.XXXX
 C|トルマリン積み · 1 · 2|T|トルマリン積み · 1|1|2|I........./I........./I......LOO/I..Z...LOO/X.ZZ..JLLX/XXZ...JXXX/XXSS.JJXXX/XSS...XXXX/XXXX.XXXXX
@@ -6838,8 +7037,8 @@ C|トルマリン積み · 1 · 3|T|トルマリン積み · 1|1|2|S..Z....../SS
 C|トルマリン積み · 1 · 3 (mirror)|T|トルマリン積み · 1 (mirror)|1|2|......S..Z/.OOI..SSZZ/XOOI...SZX/XXXIJJ.LXX/XXXIJ..LXX/XXXXJ..LLX/XXXXX.XXXX
 C|トルマリン積み · 1 · 4|T|トルマリン積み · 1|1|2|.L.......I/.L.......I/JLL......I/JJJ....OOI/XZZ....OOX/XXZZ...XXX/XXSS...XXX/XSS...XXXX/XXXX.XXXXX
 C|トルマリン積み · 1 · 4 (mirror)|T|トルマリン積み · 1 (mirror)|1|2|I.......J./I.......J./I......JJL/IOO....LLL/XOO....SSX/XXX...SSXX/XXX...ZZXX/XXXX...ZZX/XXXXX.XXXX
-C|トルマリン積み · 2|X|トルマリン積み|1|0|S........./SS...LLL../XS...LJJ.I/X.....JOOI/XTZZZZJOOI/XTTZZZZXXI/XTXXXXXXXX/XXXX.XXXXX
-C|トルマリン積み · 2 (mirror)|X|トルマリン積み (mirror)|1|0|.........Z/..JJJ...ZZ/I.LLJ...ZX/IOOL.....X/IOOLSSSSTX/IXXSSSSTTX/XXXXXXXXTX/XXXXX.XXXX
+C|トルマリン積み · 2|X|トルマリン積み|1|0|S........./SS...LLL../XS...LJJ.I/X.....JOOI/XTZZzzJOOI/XTTZZzzXXI/XTXXXXXXXX/XXXX.XXXXX
+C|トルマリン積み · 2 (mirror)|X|トルマリン積み (mirror)|1|0|.........Z/..JJJ...ZZ/I.LLJ...ZX/IOOL.....X/IOOLssSSTX/IXXssSSTTX/XXXXXXXXTX/XXXXX.XXXX
 C|トルマリン積み · 2 · 1|T|トルマリン積み · 2|1|2|.S......../.SS......I/ZZS..OO..I/XZZ..OOLLI/XXJ..XXXLI/XXJ..XXXLX/XJJ...XXXX/XXXX.XXXXX
 C|トルマリン積み · 2 · 1 (mirror)|T|トルマリン積み · 2 (mirror)|1|2|........Z./I......ZZ./I..OO..ZSS/IJJOO..SSX/IJXXX..LXX/XJXXX..LXX/XXXX...LLX/XXXXX.XXXX
 C|トルマリン積み · 2 · 2|T|トルマリン積み · 2|1|2|.I......../.I..JJLL../.I..JOOL../XI..JOOL.Z/XX...XXXZZ/XXSS.XXXZX/XSS...XXXX/XXXX.XXXXX
@@ -7018,8 +7217,8 @@ C|Yamaha Stacking · 1 · 3|T|Yamaha Stacking · 1|1|2|OOI......./OOI......./XXI
 C|Yamaha Stacking · 1 · 3 (mirror)|T|Yamaha Stacking · 1 (mirror)|1|2|.......IOO/.......IOO/S......IXX/SSJJZ..IXX/XSJZZ..XXX/XXJZ...XXX/XXXXX.LXXX/XXXXLLLXXX
 O|Yamaha Stacking 2|X||0.031|0|JJJ......I/OOJ.....TI/OOL..ZZTTI/LLL...ZZTI
 O|Yamaha Stacking 2 (mirror)|X||0.031|0|I......LLL/IT.....LOO/ITTSS..JOO/ITSS...JJJ
-C|Yamaha Stacking 2 · 1|X|Yamaha Stacking 2|1|0|.OO......./.OO.....LL/.SSSS...JL/SSSS....JL/XXXITZZJJX/XXXITTZZXX/XXXITXXXXX/XXXI..XXXX
-C|Yamaha Stacking 2 · 1 (mirror)|X|Yamaha Stacking 2 (mirror)|1|0|.......OO./JJ.....OO./JL...ZZZZ./JL....ZZZZ/XLLSSTIXXX/XXSSTTIXXX/XXXXXTIXXX/XXXX..IXXX
+C|Yamaha Stacking 2 · 1|X|Yamaha Stacking 2|1|0|.OO......./.OO.....LL/.SSss...JL/SSss....JL/XXXITZZJJX/XXXITTZZXX/XXXITXXXXX/XXXI..XXXX
+C|Yamaha Stacking 2 · 1 (mirror)|X|Yamaha Stacking 2 (mirror)|1|0|.......OO./JJ.....OO./JL...zzZZ./JL....zzZZ/XLLSSTIXXX/XXSSTTIXXX/XXXXXTIXXX/XXXX..IXXX
 C|Yamaha Stacking 2 · 1 · 1|T|Yamaha Stacking 2 · 1|1|2|..J......./..J.....LL/IJJ..S..ZL/IXX..SSZZL/IXX...SZXX/IXXXX.OOXX/XXXX..OOXX/XXXX..XXXX
 C|Yamaha Stacking 2 · 1 · 1 (mirror)|T|Yamaha Stacking 2 · 1 (mirror)|1|2|.......L../JJ.....L../JS..Z..LLI/JSSZZ..XXI/XXSZ...XXI/XXOO.XXXXI/XXOO..XXXX/XXXX..XXXX
 C|Yamaha Stacking 2 · 1 · 2|T|Yamaha Stacking 2 · 1|1|2|..J......./..J.....LL/IJJ..OO.ZL/IXX..OOZZL/IXX...SZXX/IXXXX.SSXX/XXXX...SXX/XXXX..XXXX
@@ -7072,6 +7271,11 @@ C|Line PC · 2|X|Line PC|1|0|..T......./S.TTOO..../SSTZOO..../XSZZXX.LLL/XXZXXX.
 C|Line PC · 2 (mirror)|X|Line PC (mirror)|1|0|.......T../....OOTT.Z/....OOSTZZ/JJJ.XXSSZX/XXJ.XXXSXX/XXX.XXXXXX/XXX.XXXXXX
 C|Line PC · 2 · 1|T|Line PC · 2|1|0|..X......./X.XXXX..../XXXXXX..../XXXXXXIXXX/XXXXXXIXXX/XXXXXXIXXX/XXXXXXIXXX
 C|Line PC · 2 · 1 (mirror)|T|Line PC · 2 (mirror)|1|0|.......X../....XXXX.X/....XXXXXX/XXXIXXXXXX/XXXIXXXXXX/XXXIXXXXXX/XXXIXXXXXX
+C|Line PC · 2 · 1 · 1 (part 1)|T|Line PC · 2 · 1|1|0|SJJJOOIIII/SSXJOO..LL/XSXXXX...L/XXXXXX...L
+C|Line PC · 2 · 1 · 1 (part 2)|T|Line PC · 2 · 1 · 1 (part 1)|1|0|XXXXXX..XX/XXXXXXJ..X/XXXXXXJJJX
+C|Line PC · 2 · 1 · 1|T|Line PC · 2 · 1 · 1 (part 2)|1|0|XXXXXXZZXX/XXXXXXXZZX
+C|Line PC · 2 · 1 · 1 (mirror) (part 1)|T|Line PC · 2 · 1 (mirror)|1|0|IIIIOOLLLZ/..SSOOLXZZ/.SSLXXXXZX/.LLLXXXXXX
+C|Line PC · 2 · 1 · 1 (mirror)|T|Line PC · 2 · 1 · 1 (mirror) (part 1)|1|0|JJXXXXXXXX/JXXXXXXXXX/JXXXXXXXXX
 C|Line PC · 3|X|Line PC|1|0|STTTOO.JJJ/SSTZOO...J/XSZZXX.LLL/XXZXXX.LXX/XXXXXX.XXX/XXXXXX.XXX
 C|Line PC · 3 (mirror)|X|Line PC (mirror)|1|0|LLL.OOTTTZ/L...OOSTZZ/JJJ.XXSSZX/XXJ.XXXSXX/XXX.XXXXXX/XXX.XXXXXX
 C|Line PC · 3 · 1|T|Line PC · 3|1|0|XXXXXX.XXX/XXXXXX...X/XXXXXXIXXX/XXXXXXIXXX/XXXXXXIXXX/XXXXXXIXXX
@@ -7102,6 +7306,10 @@ C|QUAFECT · 1|X|QUAFECT|1|0|.........Z/S...OO.TZZ/SSJ.OOTTZX/XSJ.LLLTXX/XJJ.LXX
 C|QUAFECT · 1 (mirror)|X|QUAFECT (mirror)|1|0|S........./SST.OO...Z/XSTTOO.LZZ/XXTJJJ.LZX/XXXXXJ.LLX/XXXXXX.XXX/XXXXXX.XXX
 C|QUAFECT · 1 · 1|T|QUAFECT · 1|1|0|.........X/X...XX.XXX/XXX.XXXXXX/XXXIXXXXXX/XXXIXXXXXX/XXXIXXXXXX/XXXIXXXXXX
 C|QUAFECT · 1 · 1 (mirror)|T|QUAFECT · 1 (mirror)|1|0|X........./XXX.XX...X/XXXXXX.XXX/XXXXXXIXXX/XXXXXXIXXX/XXXXXXIXXX/XXXXXXIXXX
+C|QUAFECT · 1 · 1 · 1 (part 1)|T|QUAFECT · 1 · 1|1|0|ZZLL.....X/XZZLXX.XXX/XXXLXXXXXX
+C|QUAFECT · 1 · 1 · 1|T|QUAFECT · 1 · 1 · 1 (part 1)|1|0|IIIIOOJJSS/XXXXOOJSSX/XXXXXXJXXX
+C|QUAFECT · 1 · 1 · 1 (mirror) (part 1)|T|QUAFECT · 1 · 1 (mirror)|1|0|ZZLLOOIIII/XZZLOO..SS/XXXLXX.SSX/XXXXXX.XXX
+C|QUAFECT · 1 · 1 · 1 (mirror)|T|QUAFECT · 1 · 1 · 1 (mirror) (part 1)|1|0|XXXXXXJJXX/XXXXXXJXXX/XXXXXXJXXX
 O|BTREN|X||0.0583|0|J......LLI/JJJZ....LI/OOZZSS.TLI/OOZSS.TTTI
 O|BTREN (mirror)|X||0.0583|0|IJJ......L/IJ....SLLL/IJT.ZZSSOO/ITTT.ZZSOO
 C|BTREN · 1|T|BTREN|1|2|..L......./.ZL.JJ..../ZZLLJ...../ZOOSJ.IIII/XOOSS..XXX/XXXXS...XX/XXXXXX.XXX/XXXXX.XXXX
@@ -7128,6 +7336,24 @@ C|Gassho TSD PC · 4|T|Gassho TSD PC|1|0|XXXJJJLLLX/XXXXXJLXXX
 C|Gassho TSD PC · 4 (mirror)|T|Gassho TSD PC (mirror)|1|0|XJJJLLLXXX/XXXJLXXXXX
 O|I Base MKO|T||0.0281|0|.....Z..../L...ZZSSOO/L...ZSSJOO/LL.IIIIJJJ
 O|I Base MKO (mirror)|T||0.0281|0|....S...../OOZZSS...J/OOLZZS...J/LLLIIII.JJ
+C|I Base MKO · 1 (part 1)|X|I Base MKO|1|0|.........I/...JJJOO.I/....ZJOOLI/...ZZXLLLI/X..ZXXXXXX/XTTTXXXXXX/XXTXXXXXXX
+C|I Base MKO · 1|T|I Base MKO · 1 (part 1)|1|0|.........X/...XXXXX.X/S...XXXXXX/SS.XXXXXXX/XS.XXXXXXX
+C|I Base MKO · 1 (mirror) (part 1)|X|I Base MKO (mirror)|1|0|I........./I.OOLLL.../IJOOL....Z/IJJJX...ZZ/XXXXXX..ZX/XXXXXXTTTX/XXXXXXXTXX
+C|I Base MKO · 1 (mirror)|T|I Base MKO · 1 (mirror) (part 1)|1|0|X........./X.XXXXX.../XXXXXS...X/XXXXXSS.XX/XXXXXXS.XX
+C|I Base MKO · 1 · 1|X|I Base MKO · 1|1|0|.........X/...XXXXX.X/XTTTXXXXXX/XXTXXXXXXX/XX.XXXXXXX
+C|I Base MKO · 1 · 1 (mirror)|X|I Base MKO · 1 (mirror)|1|0|X........./X.XXXXX.../XXXXXXTTTX/XXXXXXXTXX/XXXXXXX.XX
+C|I Base MKO · 1 · 1 · 1|T|I Base MKO · 1 · 1|1|2|.........I/....ZS...I/...ZZSS..I/L..ZOOS..I/L...OOJJJX/LL.XXXXXJX/XX.XXXXXXX
+C|I Base MKO · 1 · 1 · 1 (mirror)|T|I Base MKO · 1 · 1 (mirror)|1|2|I........./I...ZS..../I..ZZSS.../I..ZOOS..J/XLLLOO...J/XLXXXXX.JJ/XXXXXXX.XX
+C|I Base MKO · 2 (part 1)|X|I Base MKO|1|0|.....OOJ../....ZOOJJJ/...ZZXIIII/X..ZXXXXXX/XTTTXXXXXX/XXTXXXXXXX
+C|I Base MKO · 2|T|I Base MKO · 2 (part 1)|1|0|L........./L........./LL...XXX../S...XXXXXX/SS.XXXXXXX/XS.XXXXXXX
+C|I Base MKO · 2 (mirror) (part 1)|X|I Base MKO (mirror)|1|0|.........J/.........J/..LOO...JJ/LLLOO....Z/IIIIX...ZZ/XXXXXX..ZX/XXXXXXTTTX/XXXXXXXTXX
+C|I Base MKO · 2 (mirror)|T|I Base MKO · 2 (mirror) (part 1)|1|0|.........X/.........X/..XXX...XX/XXXXXS...X/XXXXXSS.XX/XXXXXXS.XX
+C|I Base MKO · 2 · 1|X|I Base MKO · 2|1|0|X........./X........./XX...XXX../XTTTXXXXXX/XXTXXXXXXX/XX.XXXXXXX
+C|I Base MKO · 2 · 1 (mirror)|X|I Base MKO · 2 (mirror)|1|0|.........X/.........X/..XXX...XX/XXXXXXTTTX/XXXXXXXTXX/XXXXXXX.XX
+C|I Base MKO · 2 · 1 · 1|T|I Base MKO · 2 · 1|1|2|.........I/...OOJJJ.I/X..OOZZJLI/X...SSZZLI/XX.SSXXXLL/XX.XXXXXXX
+C|I Base MKO · 2 · 1 · 1 (mirror)|T|I Base MKO · 2 · 1 (mirror)|1|2|I........./I.LLLOO.../IJLSSOO..X/IJSSZZ...X/JJXXXZZ.XX/XXXXXXX.XX
+C|I Base MKO · 2 · 1 · 2|T|I Base MKO · 2 · 1|1|2|L........./L........./LL...S..../X....SSOOJ/XZZ...SOOJ/XXZZ.XXXJJ/XX.XXXXXXX
+C|I Base MKO · 2 · 1 · 2 (mirror)|T|I Base MKO · 2 · 1 (mirror)|1|2|.........J/.........J/....Z...JJ/LOOZZ....X/LOOZ...SSX/LLXXX.SSXX/XXXXXXX.XX
 O|Magellan P System|T||0.0294|0|.......ZOO/...LLLZZOO/...LSSZJJJ/...SSIIIIJ
 O|Magellan P System (mirror)|T||0.0294|0|OOS......./OOSSJJJ.../LLLSZZJ.../LIIIIZZ...
 C|Magellan P System · 1|X|Magellan P System|1|0|.......XXX/...XXXXXXX/.T.XXXXXXX/TTTXXXXXXX
@@ -7180,6 +7406,10 @@ O|Rainbow Parfait|X||0.0448|0|...OO....Z/.SSOO.T.ZZ/SSJJJ.TTZL/IIIIJ.TLLL
 O|Rainbow Parfait (mirror)|X||0.0448|0|S....OO.../SS.T.OOZZ./JSTT.LLLZZ/JJJT.LIIII
 C|Rainbow Parfait · 1|X|Rainbow Parfait|1|0|.......LOO/.......LOO/.......LLZ/JJSS...TZZ/JSSXXITTZX/JXXXXIXTXX/XXXXXIXXXX/XXXXXIXXXX
 C|Rainbow Parfait · 1 (mirror)|X|Rainbow Parfait (mirror)|1|0|OOJ......./OOJ......./SJJ......./SST...ZZLL/XSTTIXXZZL/XXTXIXXXXL/XXXXIXXXXX/XXXXIXXXXX
+C|Rainbow Parfait · 1 · 1 (part 1)|T|Rainbow Parfait · 1|1|0|JJZIIIIXXX/JZZSSLLXXX/JZSS..LXXX/XXXX..LXXX
+C|Rainbow Parfait · 1 · 1|T|Rainbow Parfait · 1 · 1 (part 1)|1|0|XXXXOOXXXX/XXXXOOXXXX
+C|Rainbow Parfait · 1 · 1 (mirror) (part 1)|T|Rainbow Parfait · 1 (mirror)|1|0|XXXIIIISLL/XXX..ZZSSL/XXX.OOZZSL/XXX.OOXXXX
+C|Rainbow Parfait · 1 · 1 (mirror)|T|Rainbow Parfait · 1 · 1 (mirror) (part 1)|1|0|XXXJJXXXXX/XXXJXXXXXX/XXXJXXXXXX
 C|Rainbow Parfait · 2|X|Rainbow Parfait|1|0|LLLXXITTTX/LXXXXIXTXX/XXXXXIXXXX/XXXXXIXXXX
 C|Rainbow Parfait · 2 (mirror)|X|Rainbow Parfait (mirror)|1|0|XTTTIXXJJJ/XXTXIXXXXJ/XXXXIXXXXX/XXXXIXXXXX
 C|Rainbow Parfait · 3|T|Rainbow Parfait|1|2|......L.../ZZ....L.../IZZ...LL../IOOJJJS.../IOOXXJSS.X/IXXXX.XSXX/XXXXX.XXXX/XXXXX.XXXX
@@ -7214,6 +7444,11 @@ C|Ginzan PC · 2|X|Ginzan PC|1|0|.......XXX/X.....XXXX/XTTTXXXXXX/XXTXXXXXXX
 C|Ginzan PC · 2 (mirror)|X|Ginzan PC (mirror)|1|0|XXX......./XXXX.....X/XXXXXXTTTX/XXXXXXXTXX
 C|Ginzan PC · 2 · 1|T|Ginzan PC · 2|1|2|L......OOJ/L......OOJ/LL..IIIIJJ/ZZ...SSXXX/XZZ.SSXXXX
 C|Ginzan PC · 2 · 1 (mirror)|T|Ginzan PC · 2 (mirror)|1|2|LOO......J/LOO......J/LLIIII..JJ/XXXZZ...SS/XXXXZZ.SSX
+C|Ginzan PC · 2 · 1 · 1 (part 1)|T|Ginzan PC · 2 · 1|1|0|...LLL..../XS.LZ..XXX/XSSZZ..XXX/XXSZXXXXXX
+C|Ginzan PC · 2 · 1 · 1 (part 2)|T|Ginzan PC · 2 · 1 · 1 (part 1)|1|0|JJJXXXIIII/XXJXX..XXX/XXXXX..XXX
+C|Ginzan PC · 2 · 1 · 1|T|Ginzan PC · 2 · 1 · 1 (part 2)|1|0|XXXXXOOXXX/XXXXXOOXXX
+C|Ginzan PC · 2 · 1 · 1 (mirror) (part 1)|T|Ginzan PC · 2 · 1 (mirror)|1|0|.......LLL/XXXOOS.LZX/XXXOOSSZZX/XXXXXXSZXX
+C|Ginzan PC · 2 · 1 · 1 (mirror)|T|Ginzan PC · 2 · 1 · 1 (mirror) (part 1)|1|0|IIIIJJJXXX/XXXXXXJXXX
 C|Ginzan PC · 2 · 2|T|Ginzan PC · 2|1|0|.......SLL/.......SSL/...ZZ...SL/...JZZ.XXX/X..JJJXXXX
 C|Ginzan PC · 2 · 2 (mirror)|T|Ginzan PC · 2 (mirror)|1|0|JJZ......./JZZ......./JZ...SS.../XXX.SSL.../XXXXLLL..X
 C|Ginzan PC · 2 · 2 · 1|T|Ginzan PC · 2 · 2|1|2|.......XXX/..I....XXX/OOIXX...XX/OOIXXX.XXX/X.IXXXXXXX
@@ -7226,6 +7461,10 @@ C|Grace System · 1|X|Grace System|1|0|XXXXXX..../XXXXXXT.../XXXXXXTT../XXXXXXT.
 C|Grace System · 1 (mirror)|X|Grace System (mirror)|1|0|....XXXXXX/...TXXXXXX/..TTXXXXXX/...TXXXXXX
 C|Grace System · 1 · 1|T|Grace System · 1|1|0|XXXXXX..../XXXXXXX.../XXXXXXXXSS/XXXXXXXSS.
 C|Grace System · 1 · 1 (mirror)|T|Grace System · 1 (mirror)|1|0|....XXXXXX/...XXXXXXX/ZZXXXXXXXX/.ZZXXXXXXX
+C|Grace System · 1 · 1 · 1 (part 1)|T|Grace System · 1 · 1|1|0|XXXXXXIIII/XXXXXXX.../XXXXXXXXX.
+C|Grace System · 1 · 1 · 1|T|Grace System · 1 · 1 · 1 (part 1)|1|0|XXXXXXXJJJ/XXXXXXXXXJ
+C|Grace System · 1 · 1 · 1 (mirror) (part 1)|T|Grace System · 1 · 1 (mirror)|1|0|....XXXXXX/LLLXXXXXXX/LXXXXXXXXX
+C|Grace System · 1 · 1 · 1 (mirror)|T|Grace System · 1 · 1 · 1 (mirror) (part 1)|1|0|IIIIXXXXXX
 O|Guzzu Nineeto p|X||0.0362|0|OOIIII..../OOSSZ...../JSSZZT..../JJJZTTT...
 O|Guzzu Nineeto p (mirror)|X||0.0362|0|....IIIIOO/.....SZZOO/....TSSZZL/...TTTSLLL
 C|Guzzu Nineeto p · 1|T|Guzzu Nineeto p|1|0|XXXXXX..../XXXXX...../XXXXXX...L/XXXXXXXLLL
@@ -7268,6 +7507,12 @@ O|Mr. Good’s Grace System 2|X||0.0335|0|JIIII....T/JJJSS...TT/OOSSL..ZZT/OOLLL
 O|Mr. Good’s Grace System 2 (mirror)|X||0.0335|0|T....IIIIL/TT...ZZLLL/TSS..JZZOO/SS...JJJOO
 C|Mr. Good’s Grace System 2 · 1|T|Mr. Good’s Grace System 2|1|2|I........./I.Z......./IZZSS..LOO/IZSS...LOO/XXXXX..LLX/XXXXX...XX/XXXXXJ.XXX/XXXXXJJJXX
 C|Mr. Good’s Grace System 2 · 1 (mirror)|T|Mr. Good’s Grace System 2 (mirror)|1|2|.........I/.......S.I/OOJ..ZZSSI/OOJ...ZZSI/XJJ..XXXXX/XX...XXXXX/XXX.LXXXXX/XXLLLXXXXX
+C|Mr. Good’s Grace System 2 · 2 (part 1)|T|Mr. Good’s Grace System 2|1|0|XXXXXIIIIX/XXXXX...XX/XXXXX..XXX/XXXXX...XX
+C|Mr. Good’s Grace System 2 · 2 (part 2)|T|Mr. Good’s Grace System 2 · 2 (part 1)|1|0|XXXXX...XX/XXXXXJ.XXX/XXXXXJJJXX
+C|Mr. Good’s Grace System 2 · 2|X|Mr. Good’s Grace System 2 · 2 (part 2)|1|0|XXXXXTTTXX/XXXXXXTXXX
+C|Mr. Good’s Grace System 2 · 2 (mirror) (part 1)|T|Mr. Good’s Grace System 2 (mirror)|1|0|X....XXXXX/XX...XXXXX/XXX.LXXXXX/XXLLLXXXXX
+C|Mr. Good’s Grace System 2 · 2 (mirror) (part 2)|T|Mr. Good’s Grace System 2 · 2 (mirror) (part 1)|1|0|XIIIIXXXXX/XX...XXXXX/XXX.XXXXXX
+C|Mr. Good’s Grace System 2 · 2 (mirror)|X|Mr. Good’s Grace System 2 · 2 (mirror) (part 2)|1|0|XXTTTXXXXX/XXXTXXXXXX
 O|Partial bag 1 21|X||0.02|0|JJJ.....SS/OOJ....SST/OOL...ZZTT/LLL....ZZT
 O|Partial bag 1 21 (mirror)|X||0.02|0|ZZ.....LLL/TZZ....LOO/TTSS...JOO/TSS....JJJ
 C|Partial bag 1 21 · 1|T|Partial bag 1 21|1|0|XXX.....XX/XXXIIIIXXX/XXX...XXXX/XXX....XXX
@@ -7292,12 +7537,26 @@ C|Perfect Clear Opener 2 · 2 · 1|T|Perfect Clear Opener 2 · 2|1|3|.........I/
 C|Perfect Clear Opener 2 · 2 · 1 (mirror)|T|Perfect Clear Opener 2 · 2 (mirror)|1|3|I........./I..OO...../I.ZOO...../IZZSS...../XZSS....LL/XXXX.JJJXL/XXXX..XJXL/XXXX.XXXXX/XXXX..XXXX/XXXX...XXX
 C|Perfect Clear Opener 2 · 2 · 2|T|Perfect Clear Opener 2 · 2|1|3|.........I/.....ZZ..I/.....SZZ.I/.....SSOOI/JJ....SOOX/JXLLL.XXXX/JXLX..XXXX/XXXXX.XXXX/XXXX..XXXX/XXX...XXXX
 C|Perfect Clear Opener 2 · 2 · 2 (mirror)|T|Perfect Clear Opener 2 · 2 (mirror)|1|3|I........./I..SS...../I.SSZ...../IOOZZ...../XOOZ....LL/XXXX.JJJXL/XXXX..XJXL/XXXX.XXXXX/XXXX..XXXX/XXXX...XXX
+C|Perfect Clear Opener 2 · 3 (part 1)|X|Perfect Clear Opener 2|1|0|XX....XXXX/XXX...XXXX/XXXXT.XXXX/XXXTTTXXXX
+C|Perfect Clear Opener 2 · 3|T|Perfect Clear Opener 2 · 3 (part 1)|1|0|XXZZLLXXXX/XXXZZLXXXX/XXXXXLXXXX
+C|Perfect Clear Opener 2 · 3 (mirror) (part 1)|X|Perfect Clear Opener 2 (mirror)|1|0|XXXX....XX/XXXX...XXX/XXXX.TXXXX/XXXXTTTXXX
+C|Perfect Clear Opener 2 · 3 (mirror)|T|Perfect Clear Opener 2 · 3 (mirror) (part 1)|1|0|XXXXJJSSXX/XXXXJSSXXX/XXXXJXXXXX
 O|Sus PC|X||0.0399|0|.T.....JJJ/TTTZ...LSJ/OOZZ...LSS/OOZIIIILLS
 O|Sus PC (mirror)|X||0.0399|0|LLL.....T./LZJ...STTT/ZZJ...SSOO/ZJJIIIISOO
 C|Sus PC · 1|T|Sus PC|1|2|.........L/I.....SLLL/I.....SSOO/IZZ....SOO/IXZZJJ.XXX/XXXXJ..XXX/XXXXJ..XXX
 C|Sus PC · 1 (mirror)|T|Sus PC (mirror)|1|2|J........./JJJZ.....I/OOZZ.....I/OOZ....SSI/XXX.LLSSXI/XXX..LXXXX/XXX..LXXXX
 O|Sus PC 2|X||0.0399|0|.Z.....JJJ/ZZOO...LSJ/ZTOO...LSS/TTTIIIILLS
 O|Sus PC 2 (mirror)|X||0.0399|0|LLL.....S./LZJ...OOSS/ZZJ...OOTS/ZJJIIIITTT
+C|Sus PC 2 · 1 (part 1)|T|Sus PC 2|1|0|.......Z../......ZZ../.X....ZXXX/XXXXLLLXXX/XXXXL..XXX
+C|Sus PC 2 · 1 (part 2)|T|Sus PC 2 · 1 (part 1)|1|0|JJSS...XOO/JSS...XXOO/JXIIIIXXXX/XXXXX..XXX
+C|Sus PC 2 · 1|X|Sus PC 2 · 1 (part 2)|1|0|XXXXT..XXX/XXXTTTXXXX/XXXXX..XXX
+C|Sus PC 2 · 1 (mirror) (part 1)|T|Sus PC 2 (mirror)|1|0|OOS...ZZLL/OOSS...ZZL/XXXSIIIIXL/XXX...XXXX/XXX...XXXX
+C|Sus PC 2 · 1 (mirror) (part 2)|T|Sus PC 2 · 1 (mirror) (part 1)|1|0|XXX...XXXX/XXXX...XXX/XXXJJJXXXX/XXX..JXXXX
+C|Sus PC 2 · 1 (mirror)|X|Sus PC 2 · 1 (mirror) (part 2)|1|0|XXX..TXXXX/XXXXTTTXXX/XXX..XXXXX
+C|Sus PC 2 · 1 · 1|X|Sus PC 2 · 1|1|0|JJSS.....I/JSS....LLI/JTZZ....LI/TTTZZ...LI/XXXXXOOXXX/XXXXXOOXXX
+C|Sus PC 2 · 1 · 1 (mirror)|X|Sus PC 2 · 1 (mirror)|1|0|I.....ZZLL/IJJ....ZZL/IJ....SSTL/IJ...SSTTT/XXXOOXXXXX/XXXOOXXXXX
+C|Sus PC 2 · 1 · 2|X|Sus PC 2 · 1|1|0|STTT.....I/SST....LLI/JSZZ....LI/JJJZZ...LI/XXXXXOOXXX/XXXXXOOXXX
+C|Sus PC 2 · 1 · 2 (mirror)|X|Sus PC 2 · 1 (mirror)|1|0|I.....TTTZ/IJJ....TZZ/IJ....SSZL/IJ...SSLLL/XXXOOXXXXX/XXXOOXXXXX
 O|優勝ST|X||0.02|0|..ZZ....../..TZZ....I/..TTJJJS.I/OOTLLLJSSI/OO.L....SI
 O|優勝ST (mirror)|X||0.02|0|......SS../I....SST../I.ZLLLTT../IZZLJJJTOO/IZ....J.OO
 C|優勝ST · 1|T|優勝ST|1|3|........JJ/........JI/L.......JI/L..ZZ....I/LLXXZZSS.I/OOXXXSS..X/OOXXXXXX.X/XX.X....XX
@@ -7426,6 +7685,10 @@ C|開幕TSD(Flat Top) · 10|T|開幕TSD(Flat Top)|1|2|...ZZ....I/S...ZZLLLI/SS.X
 C|開幕TSD(Flat Top) · 10 (mirror)|T|開幕TSD(Flat Top) (mirror)|1|2|I....SS.../IJJJSS...Z/IOOJXXX.ZZ/IOOXXXX.ZX
 C|開幕TSD(Flat Top) · 11|T|開幕TSD(Flat Top)|1|2|.....L..../...LLLZZ.I/S...JJJZZI/SS.XXXJOOI/XS.XXXXOOI
 C|開幕TSD(Flat Top) · 11 (mirror)|T|開幕TSD(Flat Top) (mirror)|1|2|....J...../I.SSJJJ.../ISSLLL...Z/IOOLXXX.ZZ/IOOXXXX.ZX
+C|開幕TSD(Flat Top) · 12 (part 1)|T|開幕TSD(Flat Top)|1|0|.....Z..../....ZZ..../....Z...../.OOXXX...L/XOOXXXXLLL
+C|開幕TSD(Flat Top) · 12|T|開幕TSD(Flat Top) · 12 (part 1)|1|2|I....X..../IJ..XX..../IJJJX...SS/IXXXXX.SSX
+C|開幕TSD(Flat Top) · 12 (mirror) (part 1)|T|開幕TSD(Flat Top) (mirror)|1|0|....S....I/....SS..LI/.....SLLLI/J...XXXOOI/JJJXXXXOOX
+C|開幕TSD(Flat Top) · 12 (mirror)|T|開幕TSD(Flat Top) · 12 (mirror) (part 1)|1|2|....X....X/....XX..XX/ZZ...XXXXX/XZZ.XXXXXX
 C|開幕TSD(Flat Top) · 13|T|開幕TSD(Flat Top)|1|0|OOJJSS..../OOJSS...../ZZJXXX..../XZZXXXX...
 C|開幕TSD(Flat Top) · 13 (mirror)|T|開幕TSD(Flat Top) (mirror)|1|0|....ZZLLOO/.....ZZLOO/....XXXLSS/...XXXXSSX
 C|開幕TSD(Flat Top) · 13 · 1|X|開幕TSD(Flat Top) · 13|1|0|XXXXXXTI../XXXXXTTIL./XXXXXXTIL./XXXXXXXILL
@@ -7718,6 +7981,12 @@ C|Inno Cannon · 1 · 2|T|Inno Cannon · 1|1|2|S........./SS......../XSJJ.....L/
 C|Inno Cannon · 1 · 2 (mirror)|T|Inno Cannon · 1 (mirror)|1|2|.........Z/........ZZ/J.....LLZX/JJJ....LXX/OO...SSLXX/OOX.SSXXXX/XX..XXXXXX
 C|Inno Cannon · 1 · 2 · 1|T|Inno Cannon · 1 · 2|1|0|X........./XX......../XXXX.....X/XXXIIIIXXX/XXXXXX..XX
 C|Inno Cannon · 1 · 2 · 1 (mirror)|T|Inno Cannon · 1 · 2 (mirror)|1|0|.........X/........XX/X.....XXXX/XXXIIIIXXX/XX..XXXXXX
+C|Inno Cannon · 1 · 2 · 1 · 1 (part 1)|T|Inno Cannon · 1 · 2 · 1|1|0|XZZ.....OO/XXZZ....OO/XXXX...SSX/XXXXXXSSXX
+C|Inno Cannon · 1 · 2 · 1 · 1 (part 2)|T|Inno Cannon · 1 · 2 · 1 · 1 (part 1)|1|0|XXXIIIILXX/XXXX.LLLXX/XXXX...XXX
+C|Inno Cannon · 1 · 2 · 1 · 1|T|Inno Cannon · 1 · 2 · 1 · 1 (part 2)|1|0|XXXXJXXXXX/XXXXJJJXXX
+C|Inno Cannon · 1 · 2 · 1 · 1 (mirror) (part 1)|T|Inno Cannon · 1 · 2 · 1 (mirror)|1|0|.........X/........XX/XZZ...XXXX/XXZZXXXXXX
+C|Inno Cannon · 1 · 2 · 1 · 1 (mirror) (part 2)|T|Inno Cannon · 1 · 2 · 1 · 1 (mirror) (part 1)|1|0|.........X/.....L..XX/XXXLLLXXXX
+C|Inno Cannon · 1 · 2 · 1 · 1 (mirror)|T|Inno Cannon · 1 · 2 · 1 · 1 (mirror) (part 2)|1|0|OOJIIIISSX/OOJJJXSSXX
 O|Azyara Spin|X||0.02|0|JJ......../J....SS.../J...SSI.../L....TI.../L.ZZTTIOO./LL.ZZTIOO.
 O|Azyara Spin (mirror)|X||0.02|0|........LL/...ZZ....L/...IZZ...L/...IT....J/.OOITTSS.J/.OOITSS.JJ
 C|Azyara Spin · 1|T|Azyara Spin|1|3|OO..S...../OO..SS..../XX...SLL../X....XXLJ./X.ZZXXXLJI/X..ZZXXJJI/X.XXXXXXXI/XX.XXXXXXI
@@ -7746,6 +8015,10 @@ C|C-Spin Perfect Clear · 9|T|C-Spin Perfect Clear|1|3|I........./I........./I..
 C|C-Spin Perfect Clear · 9 (mirror)|T|C-Spin Perfect Clear (mirror)|1|3|.........I/.........I/.........I/...SS....I/..SSOO..XX/..ZZOO...X/JJXZZLLL.X/JXXXXLX..X/JXXXXXXX.X/XXXXXXX.XX
 C|C-Spin Perfect Clear · 10|T|C-Spin Perfect Clear|1|3|XX..IIIIOO/X.....SSOO/X.JJJSSXLL/X..XJXXXXL/X.XXXXXXXL/XX.XXXXXXX
 C|C-Spin Perfect Clear · 10 (mirror)|T|C-Spin Perfect Clear (mirror)|1|3|OOIIII..XX/OOZZ.....X/JJXZZLLL.X/JXXXXLX..X/JXXXXXXX.X/XXXXXXX.XX
+C|C-Spin Perfect Clear · 10 · 1 (part 1)|X|C-Spin Perfect Clear · 10|1|0|XXT.XXXXXX/XTT...XXXX/XXTXXXXXXX
+C|C-Spin Perfect Clear · 10 · 1|T|C-Spin Perfect Clear · 10 · 1 (part 1)|1|0|XXXJXXXXXX/XXXJJJXXXX
+C|C-Spin Perfect Clear · 10 · 1 (mirror) (part 1)|X|C-Spin Perfect Clear · 10 (mirror)|1|0|XXXXXX.TXX/XXXX...TTX/XXXXXXXTXX
+C|C-Spin Perfect Clear · 10 · 1 (mirror)|T|C-Spin Perfect Clear · 10 · 1 (mirror) (part 1)|1|0|XXXXXXLXXX/XXXXLLLXXX
 O|Unnamed bag 1 49|X||0.02|0|....S...../....SS..../..JJJS..../L..TJZZ.../L.TTOOZZ../LL.TOOIIII
 O|Unnamed bag 1 49 (mirror)|X||0.02|0|.....Z..../....ZZ..../....ZLLL../...SSLT..J/..SSOOTT.J/IIIIOOT.JJ
 C|Unnamed bag 1 49 · 1|T|Unnamed bag 1 49|1|3|.........I/.........I/JJ..X....I/J...XXOOSI/J.XXXXOOSS/X..XXXXZZS/X.XXXXXXZZ/XX.XXXXXXX
@@ -8246,12 +8519,21 @@ C|JD Cannon · 1|X|JD Cannon|1|0|........XX/.XX......X/.XX..X..XX/XXTTTXXXXX/.XX
 C|JD Cannon · 1 (mirror)|X|JD Cannon (mirror)|1|0|XX......../X......XX./XX..X..XX./XXXXXTTTXX/X.XXXXTXX.
 C|JD Cannon · 1 · 1|T|JD Cannon · 1|1|3|.....ZJJ../...LZZJ.../ILLLZSJ.XX/IXXOOSS..X/IXXOOXS.XX/IXXXXXXX.X
 C|JD Cannon · 1 · 1 (mirror)|T|JD Cannon · 1 (mirror)|1|3|..LLS...../...LSSJ.../XX.LZSJJJI/X..ZZOOXXI/XX.ZXOOXXI/X.XXXXXXXI
+C|JD Cannon · 1 · 1 · 1 (part 1)|X|JD Cannon · 1 · 1|1|0|JJZZIIII../JOOZZXXXT./JOOXXXXTT./XXXXXXXXTX
+C|JD Cannon · 1 · 1 · 1|T|JD Cannon · 1 · 1 · 1 (part 1)|1|0|XXXXXXXXLL/XXXXXXXXXL/XXXXXXXXXL
+C|JD Cannon · 1 · 1 · 1 (mirror) (part 1)|X|JD Cannon · 1 · 1 (mirror)|1|0|..IIIISSLL/.TXXXSS..L/.TTXXXX..L/XTXXXXXXXX
+C|JD Cannon · 1 · 1 · 1 (mirror) (part 2)|T|JD Cannon · 1 · 1 · 1 (mirror) (part 1)|1|0|JJXXXXXXXX/JXXXXXX..X/JXXXXXX..X
+C|JD Cannon · 1 · 1 · 1 (mirror)|T|JD Cannon · 1 · 1 · 1 (mirror) (part 2)|1|0|XXXXXXXOOX/XXXXXXXOOX
 O|Partial bag 1 25|T||0.02|0|...S....../...SS....I/....S...JI/ZZ.OOLLLJI/.ZZOOL.JJI
 O|Partial bag 1 25 (mirror)|T||0.02|0|......Z.../I....ZZ.../IL...Z..../ILJJJOO.SS/ILL.JOOSS.
 C|Partial bag 1 25 · 1|X|Partial bag 1 25|1|0|...X....../..TXX....X/..TTX...XX/XXTXXXXXXX/.XXXXX.XXX
 C|Partial bag 1 25 · 1 (mirror)|X|Partial bag 1 25 (mirror)|1|0|......X.../X....XXT../XX...XTT../XXXXXXXTXX/XXX.XXXXX.
 C|Partial bag 1 25 · 1 · 1|T|Partial bag 1 25 · 1|1|3|..OOJJ..../..OOJ...../LLLXJ.IIII/LZXXX..SSX/ZZXXX.SSXX/ZXXXXX.XXX
 C|Partial bag 1 25 · 1 · 1 (mirror)|T|Partial bag 1 25 · 1 (mirror)|1|3|....LLOO../.....LOO../IIII.LXJJJ/XZZ..XXXSJ/XXZZ.XXXSS/XXX.XXXXXS
+C|Partial bag 1 25 · 1 · 1 · 1 (part 1)|T|Partial bag 1 25 · 1 · 1|1|0|IIIIJJJSLL/OOXXXXJSSL/OOXXX...SL/XXXXXX.XXX
+C|Partial bag 1 25 · 1 · 1 · 1|X|Partial bag 1 25 · 1 · 1 · 1 (part 1)|1|0|XXXXXTTTXX/XXXXXXTXXX
+C|Partial bag 1 25 · 1 · 1 · 1 (mirror) (part 1)|T|Partial bag 1 25 · 1 · 1 (mirror)|1|0|JJZLLLIIII/JZZLXXXXOO/JZ...XXXOO/XXX.XXXXXX
+C|Partial bag 1 25 · 1 · 1 · 1 (mirror)|X|Partial bag 1 25 · 1 · 1 · 1 (mirror) (part 1)|1|0|XXTTTXXXXX/XXXTXXXXXX
 C|Partial bag 1 25 · 1 · 2|T|Partial bag 1 25 · 1|1|3|....OO..../....OO..../....JJ..../..Z.J...../LZZXJ.IIII/LZXXX..SSX/LLXXX.SSXX/.XXXXX.XXX
 C|Partial bag 1 25 · 1 · 2 (mirror)|T|Partial bag 1 25 · 1 (mirror)|1|3|....OO..../....OO..../....LL..../.....L.S../IIII.LXSSJ/XZZ..XXXSJ/XXZZ.XXXJJ/XXX.XXXXX.
 C|Partial bag 1 25 · 1 · 2 · 1|T|Partial bag 1 25 · 1 · 2|1|2|..S......./..SS....../...S....../JJ.IXX..../J..IXX..../JZ.IXX..OO/ZZXIX...OO/ZXXXXX.XXX
@@ -8260,6 +8542,10 @@ O|GWTSD|T||0.02|2|...S....../...SS.Z.../....SZZ..J/OOLLLZ...J/OOLIIII.JJ
 O|GWTSD (mirror)|T||0.02|2|......Z.../...S.ZZ.../L..SSZ..../L...SJJJOO/LL.IIIIJOO
 C|GWTSD · 1|T|GWTSD|1|2|......SLLI/......SSLI/JJZX...SLI/JZZXX.XOOI/JZ..XXXOOX
 C|GWTSD · 1 (mirror)|T|GWTSD (mirror)|1|2|IJJZ....../IJZZ....../IJZ...XSLL/IOOX.XXSSL/XOOXXX..SL
+C|GWTSD · 1 · 1 (part 1)|T|GWTSD · 1|1|0|JJZSLLIIII/JZZSSLXXXX/JZ..SLXXXX/XX..XXXXXX
+C|GWTSD · 1 · 1|T|GWTSD · 1 · 1 (part 1)|1|0|XXOOXXXXXX/XXOOXXXXXX
+C|GWTSD · 1 · 1 (mirror) (part 1)|T|GWTSD · 1 (mirror)|1|0|IIIIJJZSLL/XXXXJZZSSL/XXXXJZ..SL/XXXXXX..XX
+C|GWTSD · 1 · 1 (mirror)|T|GWTSD · 1 · 1 (mirror) (part 1)|1|0|XXXXXXOOXX/XXXXXXOOXX
 C|GWTSD · 2|T|GWTSD|1|2|.........I/......OO.I/J.....OOZI/JJJX...ZZI/LLLXX.XZSS/L...XXXSSX
 C|GWTSD · 2 (mirror)|T|GWTSD (mirror)|1|2|I........./I.OO....../ISOO.....L/ISS...XLLL/ZZSX.XXJJJ/XZZXXX...J
 C|GWTSD · 3|T|GWTSD|1|2|......L..I/......L..I/......LLZI/JJJX...ZZI/OOJXX.XZSS/OO..XXXSSX
@@ -8276,6 +8562,10 @@ C|GWTSD · 8|T|GWTSD|1|2|IS....ZZLL/ISSX...ZZL/IJSXX.XOOL/IJJJXXXOOX
 C|GWTSD · 8 (mirror)|T|GWTSD (mirror)|1|2|JJSS....ZI/JSS...XZZI/JOOX.XXZLI/XOOXXXLLLI
 C|GWTSD · 8 · 1|T|GWTSD · 8|1|0|XXIIIIXXXX
 C|GWTSD · 8 · 1 (mirror)|T|GWTSD · 8 (mirror)|1|0|XXXXIIIIXX
+C|GWTSD · 9 (part 1)|T|GWTSD|1|0|......LLOO/...X...LOO/...XX.XLSS/IIIIXXXSSX
+C|GWTSD · 9|T|GWTSD · 9 (part 1)|1|2|ZZ....XXXX/JZZX...XXX/JJJXX.XXXX
+C|GWTSD · 9 (mirror) (part 1)|T|GWTSD (mirror)|1|0|OO......../OO....X.../ZZ.X.XX.../XZZXXXIIII
+C|GWTSD · 9 (mirror)|T|GWTSD · 9 (mirror) (part 1)|1|2|XXJJ....SS/XXJ...XSSL/XXJX.XXLLL
 C|GWTSD · 10|T|GWTSD|1|2|......IIII/......LLOO/JJZX...LOO/JZZXX.XLSS/JZ..XXXSSX
 C|GWTSD · 10 (mirror)|T|GWTSD (mirror)|1|2|IIII....../OOJJ....../OOJ...XSLL/ZZJX.XXSSL/XZZXXX..SL
 O|Surrealist S|T||0.02|0|...S....../...SS....I/....S.JJJI/ZZ.OOLLLJI/.ZZOOL...I
@@ -8756,6 +9046,11 @@ O|Jigsaw PC Loop|T||0.02|0|ILLL....../ILZ......./IZZSSOOJJJ/IZSS.OO..J
 O|Jigsaw PC Loop (mirror)|T||0.02|0|......JJJI/.......SJI/LLLOOZZSSI/L..OO.ZZSI
 C|Jigsaw PC Loop · 1|X|Jigsaw PC Loop|1|0|XXXX....../XXXTTT..../XXXXTXX..X
 C|Jigsaw PC Loop · 1 (mirror)|X|Jigsaw PC Loop (mirror)|1|0|......XXXX/....TTTXXX/X..XXTXXXX
+C|Jigsaw PC Loop · 1 · 1 (part 1)|T|Jigsaw PC Loop · 1|1|0|XXXX....../XXXXXXZZ../XXXXXXXZZX
+C|Jigsaw PC Loop · 1 · 1 (part 2)|T|Jigsaw PC Loop · 1 · 1 (part 1)|1|0|XXXX....OO/XXXXXXXXOO
+C|Jigsaw PC Loop · 1 · 1|T|Jigsaw PC Loop · 1 · 1 (part 2)|1|0|XXXXIIIIXX
+C|Jigsaw PC Loop · 1 · 1 (mirror) (part 1)|T|Jigsaw PC Loop · 1 (mirror)|1|0|OOIIIIXXXX/OO..XXXXXX/X..XXXXXXX
+C|Jigsaw PC Loop · 1 · 1 (mirror)|T|Jigsaw PC Loop · 1 · 1 (mirror) (part 1)|1|0|XXSSXXXXXX/XSSXXXXXXX
 O|Periscope|T||0.02|0|..JJ.....I/.ZJ......I/ZZJL.SSOOI/ZLLLSS.OOI
 O|Periscope (mirror)|T||0.02|0|I.....LL../I......LS./IOOZZ.JLSS/IOO.ZZJJJS
 O|Partial bag 1 27|T||0.02|0|...OO....I/L..OO..ZJI/L...SSZZJI/LL.SS.ZJJI
@@ -8768,6 +9063,11 @@ C|Partial bag 1 27 · 1 · 1 · 1|T|Partial bag 1 27 · 1 · 1|1|0|.....SS.../..
 C|Partial bag 1 27 · 1 · 1 · 1 (mirror)|T|Partial bag 1 27 · 1 · 1 (mirror)|1|0|...ZZ...../....ZZ..../LLL.IIIISS/LX..XXXSSX/XX..XXXOOX/XX...XXOOX
 C|Partial bag 1 27 · 1 · 1 · 1 · 1|T|Partial bag 1 27 · 1 · 1 · 1|1|3|.....XX.../....XX..../XXXXXX.XXX/XXXXXX..XX/XXXXXX.LXX/XXXXXLLLXX
 C|Partial bag 1 27 · 1 · 1 · 1 · 1 (mirror)|T|Partial bag 1 27 · 1 · 1 · 1 (mirror)|1|3|...XX...../....XX..../XXX.XXXXXX/XX..XXXXXX/XXJ.XXXXXX/XXJJJXXXXX
+C|Partial bag 1 27 · 1 · 1 · 2 (part 1)|X|Partial bag 1 27 · 1 · 1|1|0|ZZIIIITJJJ/XZZXXXTTXJ/X..XXXTLXX/X..XXLLLXX
+C|Partial bag 1 27 · 1 · 1 · 2|T|Partial bag 1 27 · 1 · 1 · 2 (part 1)|1|0|XOOXXXXXXX/XOOXXXXXXX
+C|Partial bag 1 27 · 1 · 1 · 2 (mirror) (part 1)|T|Partial bag 1 27 · 1 · 1 (mirror)|1|0|....IIIISS/.X..XXXSSX/XXJ.XXXOOX/XXJJJXXOOX
+C|Partial bag 1 27 · 1 · 1 · 2 (mirror) (part 2)|X|Partial bag 1 27 · 1 · 1 · 2 (mirror) (part 1)|1|0|...TXXXXXX/.XTTXXXXXX/XXXTXXXXXX
+C|Partial bag 1 27 · 1 · 1 · 2 (mirror)|T|Partial bag 1 27 · 1 · 1 · 2 (mirror) (part 2)|1|0|LLLXXXXXXX/LXXXXXXXXX
 O|恐縮積み(形1)|X||0.02|0|IL......../ILZZ....../ILLZZ..J../ISST...JOO/SSTTT.JJOO
 O|恐縮積み(形1) (mirror)|X||0.02|0|........JI/......SSJI/..L..SSJJI/OOL...TZZI/OOLL.TTTZZ
 C|恐縮積み(形1) · 1|T|恐縮積み(形1)|1|0|I........./IL......../IL.......J/ILLSSZ...J/XXSSZZ..JJ/XXXXZ...OO/XXXXX..XOO/XXXX...XXX/XXXXX.XXXX
@@ -8778,6 +9078,19 @@ C|恐縮積み(形1) · 1 · 1 · 1|T|恐縮積み(形1) · 1 · 1|1|2|ZZ.......
 C|恐縮積み(形1) · 1 · 1 · 1 (mirror)|T|恐縮積み(形1) · 1 · 1 (mirror)|1|2|........SS/.......SSZ/....IIIIZZ/....JJLLZX/....JOOLXX/X...JOOLXX/X...XXXXXX/XX..XXXXXX/XX...XXXXX/XXX.XXXXXX/XXX.XXXXXX
 O|Partial bag 1 28|T||0.02|0|I........./I...SSZOO./IJ.SSZZOOL/IJJJ.Z.LLL
 O|Partial bag 1 28 (mirror)|T||0.02|0|.........I/.OOSZZ...I/JOOSSZZ.LI/JJJ.S.LLLI
+C|Partial bag 1 28 · 1 (part 1)|T|Partial bag 1 28|1|0|.Z......../ZZ......../Z......OO./XS.LLL.OO./XSSLXXXXX./XXSXXXXXXX/XXXX.X.XXX
+C|Partial bag 1 28 · 1 (part 2)|T|Partial bag 1 28 · 1 (part 1)|1|0|.X......../XX.......I/X......XXI/XX.XXX.XXI/XXXXXXXXXI/XXXX.X.XXX
+C|Partial bag 1 28 · 1|X|Partial bag 1 28 · 1 (part 2)|1|0|.X......../XX.......X/XTTTJJJXXX/XXTXXXJXXX/XXXX.X.XXX
+C|Partial bag 1 28 · 1 (mirror) (part 1)|T|Partial bag 1 28 (mirror)|1|0|........ZX/.XXXXX.ZZX/XXXXXXXZXX/XXX.X.XXXX
+C|Partial bag 1 28 · 1 (mirror) (part 2)|T|Partial bag 1 28 · 1 (mirror) (part 1)|1|0|........S./I.......SS/IOOLLL...S/IOOLJJJ.XX/IXXXXXJXXX/XXX.X.XXXX
+C|Partial bag 1 28 · 1 (mirror)|X|Partial bag 1 28 · 1 (mirror) (part 2)|1|0|........X./X.......XX/XXXXXXTTTX/XXXXXXXTXX/XXX.X.XXXX
+C|Partial bag 1 28 · 1 · 1|X|Partial bag 1 28 · 1|1|0|.X......../XX...TTT.X/XXXX.XTXXX
+C|Partial bag 1 28 · 1 · 1 (mirror)|X|Partial bag 1 28 · 1 (mirror)|1|0|........X./X.TTT...XX/XXXTX.XXXX
+C|Partial bag 1 28 · 1 · 1 · 1 (part 1)|T|Partial bag 1 28 · 1 · 1|1|0|LLLIIIISSZ/LXOO..SSZZ/XXOO.XXXZX/XXXX.XXXXX
+C|Partial bag 1 28 · 1 · 1 · 1|T|Partial bag 1 28 · 1 · 1 · 1 (part 1)|1|0|XXXXJJXXXX/XXXXJXXXXX/XXXXJXXXXX
+C|Partial bag 1 28 · 1 · 1 · 1 (mirror) (part 1)|T|Partial bag 1 28 · 1 · 1 (mirror)|1|0|....LL..X./X.XXXL..XX/XXXXXLXXXX
+C|Partial bag 1 28 · 1 · 1 · 1 (mirror) (part 2)|T|Partial bag 1 28 · 1 · 1 · 1 (mirror) (part 1)|1|0|S........./SS..XXOOX./XSXXXXOOXX
+C|Partial bag 1 28 · 1 · 1 · 1 (mirror)|T|Partial bag 1 28 · 1 · 1 · 1 (mirror) (part 2)|1|0|XZZIIIIJJJ/XXZZXXXXXJ
 O|Partial bag 1 29|X||0.02|0|ILLL....../ILZ.....OO/IZZT...JOO/IZTTT..JJJ
 O|Partial bag 1 29 (mirror)|X||0.02|0|......JJJI/OO.....SJI/OOL...TSSI/LLL..TTTSI
 C|Partial bag 1 29 · 1|T|Partial bag 1 29|1|0|XXXX....../XXX...SSXX/XXXX.SSXXX/XXXXX..XXX
@@ -8834,6 +9147,10 @@ O|Partial bag 1 34|X||0.02|0|.........T/JJ......TT/JOO....ZZT/JOO.....ZZ
 O|Partial bag 1 34 (mirror)|X||0.02|0|T........./TT......LL/TSS....OOL/SS.....OOL
 C|Partial bag 1 34 · 1|T|Partial bag 1 34|1|0|...I...SSX/XX.IL.SSXX/XXXIL..XXX/XXXILL..XX
 C|Partial bag 1 34 · 1 (mirror)|T|Partial bag 1 34 (mirror)|1|0|XZZ...I.../XXZZ.JI.XX/XXX..JIXXX/XX..JJIXXX
+C|Partial bag 1 34 · 1 · 1 (part 1)|X|Partial bag 1 34 · 1|1|0|JJJXTTTXXX/XXJXXTXXXX/XXXXX..XXX/XXXXXX..XX
+C|Partial bag 1 34 · 1 · 1|T|Partial bag 1 34 · 1 · 1 (part 1)|1|0|XXXXXZZXXX/XXXXXXZZXX
+C|Partial bag 1 34 · 1 · 1 (mirror) (part 1)|X|Partial bag 1 34 · 1 (mirror)|1|0|XXXTTTXLLL/XXXXTXXLXX/XXX..XXXXX/XX..XXXXXX
+C|Partial bag 1 34 · 1 · 1 (mirror)|T|Partial bag 1 34 · 1 · 1 (mirror) (part 1)|1|0|XXXSSXXXXX/XXSSXXXXXX
 O|Partial bag 1 35|X||0.02|0|......SS../...ZZSST../IIIIZZTTT.
 O|Partial bag 1 35 (mirror)|X||0.02|0|..ZZ....../..TZZSS.../.TTTSSIIII
 C|Partial bag 1 35 · 1|X|Partial bag 1 35|1|0|ZZTTTSSLLI/JZZTSSXXLI/JJJXXXXXLI/XXXXXXXXXI
@@ -8962,6 +9279,10 @@ C|Mアルファ · 1 · 2|T|Mアルファ · 1|1|2|....S.I.OO/....SSIJOO/ZZ...SI
 C|Mアルファ · 1 · 2 (mirror)|T|Mアルファ · 1 (mirror)|1|2|OO.I.Z..../OOLIZZ..../LLLIZ...SS/JJXIXX.SSX/JXXXX...XX/JXXXXX.XXX
 O|塩焼き式メカニカルTSD其の壱|X||0.02|0|OO......../OOLS...JJJ/LLLSS.TZZJ/IIIISTTTZZ
 O|塩焼き式メカニカルTSD其の壱 (mirror)|X||0.02|0|........OO/LLL...ZJOO/LSST.ZZJJJ/SSTTTZIIII
+C|塩焼き式メカニカルTSD其の壱 · 1 (part 1)|X|塩焼き式メカニカルTSD其の壱|1|0|XX...TIIII/XXXX.TTXXX/XXXXXTXXXX
+C|塩焼き式メカニカルTSD其の壱 · 1|T|塩焼き式メカニカルTSD其の壱 · 1 (part 1)|1|0|XXJJJXXXXX/XXXXJXXXXX
+C|塩焼き式メカニカルTSD其の壱 · 1 (mirror) (part 1)|X|塩焼き式メカニカルTSD其の壱 (mirror)|1|0|....TLLLXX/XXXTTLXXXX/XXXXTXXXXX
+C|塩焼き式メカニカルTSD其の壱 · 1 (mirror)|T|塩焼き式メカニカルTSD其の壱 · 1 (mirror) (part 1)|1|0|IIIIXXXXXX
 C|塩焼き式メカニカルTSD其の壱 · 2|T|塩焼き式メカニカルTSD其の壱|1|2|I........./I........./I........./I........./OOJJ...SLL/OOJ....SSL/XXJZZ...SL/XXXXZZ.XXX/XXXXX.XXXX
 C|塩焼き式メカニカルTSD其の壱 · 2 (mirror)|T|塩焼き式メカニカルTSD其の壱 (mirror)|1|2|.........I/.........I/.........I/.........I/JJZ...LLOO/JZZ....LOO/JZ...SSLXX/XXX.SSXXXX/XXXX.XXXXX
 C|塩焼き式メカニカルTSD其の壱 · 2 · 1|T|塩焼き式メカニカルTSD其の壱 · 2|1|2|OO......../OO......../XI......../XIJJ...SLL/XIJ....SSL/XIJZZ...SL/XXXXZZ.XXX/XXX....XXX/XXXXX.XXXX
@@ -9069,6 +9390,8 @@ C|ストーンヘンジ · 1|X|ストーンヘンジ|1|0|I........./I.Z.....LL/I
 C|ストーンヘンジ · 1 · 1|T|ストーンヘンジ · 1|1|2|JJ......../JI.....LS./JIOO...LSS/XIOO...LLS/XIX.....XX/XXX.ZZ.XXX/XXX..ZZXXX/XXX.XXXXXX
 O|壺パフェ|T||0.02|0|..JJJLLL../...SJLZ.../...SSZZ.../....SZ....
 C|壺パフェ · 1|X|壺パフェ|1|0|..XXXXXX../.OOXXXX.../.OOXXXXT../IIIIXXTTT.
+C|壺パフェ · 1 · 1 (part 1)|X|壺パフェ · 1|1|0|JJXXXXXX../JXXXXXX..T/JXXXXXXXTT/XXXXXXXXXT
+C|壺パフェ · 1 · 1|T|壺パフェ · 1 · 1 (part 1)|1|0|XXXXXXXXSS/XXXXXXXSSX
 O|てらパフェ|X||0.02|0|.........I/JJTTTSSLLI/JZZTSSOOLI/J.ZZ..OOLI
 O|てらパフェ (mirror)|X||0.02|0|I........./IJJZZTTTLL/IJOOZZTSSL/IJOO..SS.L
 C|てらパフェ · 1|X|てらパフェ|1|0|TTTZZIIIIX/XTXXZZXXXX
@@ -9081,6 +9404,10 @@ C|てらパフェ · 3|T|てらパフェ|1|2|..IIIILJJJ/..ZZLLLOOJ/...ZZSSOOX/X.
 C|てらパフェ · 3 (mirror)|T|てらパフェ (mirror)|1|2|LLLJIIII../LOOJJJSS../XOOZZSS.../XXXXZZXX.X
 O|ねこじゃらし|X||0.02|0|...IIII.../....SLL.OO/.TZZSSLJOO/TTTZZSLJJJ
 O|ねこじゃらし (mirror)|X||0.02|0|...IIII.../OO.JJZ..../OOLJZZSST./LLLJZSSTTT
+C|ねこじゃらし · 1 (part 1)|X|ねこじゃらし|1|0|T..XXXXLLL/TT..XXXLXX/TXXXXXXXXX
+C|ねこじゃらし · 1|T|ねこじゃらし · 1 (part 1)|1|0|XZZXXXXXXX/XXZZXXXXXX
+C|ねこじゃらし · 1 (mirror) (part 1)|X|ねこじゃらし (mirror)|1|0|JJJXXXX..T/XXJXXX..TT/XXXXXXXXXT
+C|ねこじゃらし · 1 (mirror)|T|ねこじゃらし · 1 (mirror) (part 1)|1|0|XXXXXXXSSX/XXXXXXSSXX
 O|Sパフェ|T||0.02|0|JJ...SS.../JOO.SS..../JOOZZ....L/IIIIZZ.LLL
 O|Sパフェ (mirror)|T||0.02|0|...ZZ...LL/....ZZ.OOL/J....SSOOL/JJJ.SSIIII
 C|Sパフェ · 1|X|Sパフェ|1|0|XX...XX.../XXX.XXT.../XXXXXTT..X/XXXXXXTXXX
@@ -9089,8 +9416,20 @@ C|Sパフェ · 1 · 1|T|Sパフェ · 1|1|2|J........./JJJ....I../XX...XXIOO/XX
 C|Sパフェ · 1 · 1 (mirror)|T|Sパフェ · 1 (mirror)|1|2|.........L/..I....LLL/OOIXX...XX/OOIXXX.XXX/X.IXXXXXXX
 O|SSパフェ|X||0.02|0|L..ZZ...OO/LTTTZZ.JOO/LLTIIIIJJJ
 O|SSパフェ (mirror)|X||0.02|0|OO...SS..J/OOL.SSTTTJ/LLLIIIITJJ
+C|SSパフェ · 1 (part 1)|X|SSパフェ|1|0|ZZ....TLLL/XZZXXTTLXX/XXXXXXTXXX
+C|SSパフェ · 1|T|SSパフェ · 1 (part 1)|1|0|XXIIIIXXXX
+C|SSパフェ · 1 (mirror) (part 1)|X|SSパフェ (mirror)|1|0|...TIIIISS/XX.TTXXSSX/XXXTXXXXXX
+C|SSパフェ · 1 (mirror)|T|SSパフェ · 1 (mirror) (part 1)|1|0|JJJXXXXXXX/XXJXXXXXXX
+C|SSパフェ · 1 · 1|T|SSパフェ · 1|1|2|.....S..../L..ZZSS.OO/L...ZZSJOO/LL.IIIIJJJ
+C|SSパフェ · 1 · 1 (mirror)|T|SSパフェ · 1 (mirror)|1|2|....Z...../OO.ZZSS..J/OOLZSS...J/LLLIIII.JJ
 O|ライチパフェ|X||0.02|0|S........./SS..ZZ..../JSTTTZZ.OO/JJJTIIIIOO
 O|ライチパフェ (mirror)|X||0.02|0|.........Z/....SS..ZZ/OO.SSTTTZL/OOIIIITLLL
+C|ライチパフェ · 1 (part 1)|T|ライチパフェ|1|0|XZZIIIIJJJ/XXZZXX...J/XXXXXXX.XX
+C|ライチパフェ · 1|X|ライチパフェ · 1 (part 1)|1|0|XXXXXXTTTX/XXXXXXXTXX
+C|ライチパフェ · 1 (mirror) (part 1)|T|ライチパフェ (mirror)|1|0|LLLIIIISSX/L...XXSSXX/XX.XXXXXXX
+C|ライチパフェ · 1 (mirror)|X|ライチパフェ · 1 (mirror) (part 1)|1|0|XTTTXXXXXX/XXTXXXXXXX
+C|ライチパフェ · 1 · 1|T|ライチパフェ · 1|1|2|S........./SS..ZZ.LLL/JS...ZZLOO/JJJ.IIIIOO
+C|ライチパフェ · 1 · 1 (mirror)|T|ライチパフェ · 1 (mirror)|1|2|.........Z/JJJ.SS..ZZ/OOJSS...ZL/OOIIII.LLL
 O|ITパフェ|X||0.02|0|IIII....../LOO...ZJJJ/LOOT.ZZSSJ/LLTTTZSS..
 O|ITパフェ (mirror)|X||0.02|0|......IIII/LLLS...OOJ/LZZSS.TOOJ/..ZZSTTTJJ
 C|ITパフェ · 1|T|ITパフェ|1|3|....S...../OO..SS..../OO...SZJ../XXXX.ZZJJJ/XXX..ZXXXX/XXXX.XXXXX/XXXXXXXX..
@@ -9117,6 +9456,18 @@ O|開社|T||0.02|0|I........./I..ZZ...LL/IOOJZZ.SSL/IOOJJJSS.L
 O|開社 (mirror)|T||0.02|0|.........I/JJ...SS..I/JZZ.SSLOOI/J.ZZLLLOOI
 C|開社 · 1|X|開社|1|0|X........./X..XXTTTXX/XXXXXXTXXX/XXXXXXXX.X
 C|開社 · 1 (mirror)|X|開社 (mirror)|1|0|.........X/XXTTTXX..X/XXXTXXXXXX/X.XXXXXXXX
+C|開社 · 1 · 1 (part 1)|T|開社 · 1|1|0|XOO......./XOOXXXXXXX/XXXXXXXX.X
+C|開社 · 1 · 1|T|開社 · 1 · 1 (part 1)|1|0|I........./ILLL....../ILSS....../ISSJ....../XXXJJJ..../XXXXXXXX.X
+C|開社 · 1 · 1 (mirror) (part 1)|T|開社 · 1 (mirror)|1|0|......L.../....LLLOOX/XXXXXXXOOX/X.XXXXXXXX
+C|開社 · 1 · 1 (mirror)|T|開社 · 1 · 1 (mirror) (part 1)|1|0|.........I/......JJJI/......ZZJI/......XZZI/....XXXXXX/X.XXXXXXXX
+C|開社 · 1 · 1 · 1|T|開社 · 1 · 1|1|2|X........./XXXX....../XXXX...Z../XXXX..ZZ../XXXXXXZ.../XXXXXXXX.X
+C|開社 · 1 · 1 · 1 (mirror)|T|開社 · 1 · 1 (mirror)|1|2|.........X/......XXXX/..S...XXXX/..SS..XXXX/...SXXXXXX/X.XXXXXXXX
+C|開社 · 1 · 2 (part 1)|T|開社 · 1|1|0|....OO..../X.SSOO..../XSSXXXXXXX/XXXXXXXX.X
+C|開社 · 1 · 2|T|開社 · 1 · 2 (part 1)|1|0|I........./IJ......../IJJJ....../ILLLXX..../XLXXXX..../XXXXXXXX.X
+C|開社 · 1 · 2 (mirror) (part 1)|T|開社 · 1 (mirror)|1|0|......ZZ.X/XXXXXXXZZX/X.XXXXXXXX
+C|開社 · 1 · 2 (mirror)|T|開社 · 1 · 2 (mirror) (part 1)|1|0|.........I/........LI/......LLLI/....OOJJJI/....OOXXJX/X.XXXXXXXX
+C|開社 · 1 · 2 · 1|T|開社 · 1 · 2|1|2|X........./XX......../XXXX...Z../XXXXXXZZ../XXXXXXZ.../XXXXXXXX.X
+C|開社 · 1 · 2 · 1 (mirror)|T|開社 · 1 · 2 (mirror)|1|2|.........X/........XX/..S...XXXX/..SSXXXXXX/...SXXXXXX/X.XXXXXXXX
 C|開社 · 2|X|開社|1|0|X.....T.../X..XX.TTXX/XXXXXXTXXX/XXXXXXXX.X
 C|開社 · 2 (mirror)|X|開社 (mirror)|1|0|...T.....X/XXTT.XX..X/XXXTXXXXXX/X.XXXXXXXX
 O|ミズゲイル積み|X||0.02|0|SLL......T/SSL..OO.TT/JSL..OOZZT/JJJ.IIIIZZ
@@ -9267,6 +9618,10 @@ C|I'm FIST · 4 · 1|T|I'm FIST · 4|1|2|JJ......../JLL......./JXL....S.I/XXL...
 C|I'm FIST · 4 · 1 (mirror)|T|I'm FIST · 4 (mirror)|1|2|........LL/.......JJL/I.Z....JXL/IZZ....JXX/IZ...OOXXX/IXS.XOOXXX/XXSSX.XXXX/XXXSX.XXXX
 C|I'm FIST · 5|T|I'm FIST|1|2|S........./SS.....ZZ./XS......ZZ/XXXLIJJ.OO/XLLLIJ..OO/XX..IJX.XX/XXXXIX.XXX
 C|I'm FIST · 5 (mirror)|T|I'm FIST (mirror)|1|2|.........Z/.SS.....ZZ/SS......ZX/OO.LLIJXXX/OO..LIJJJX/XX.XLI..XX/XXX.XIXXXX
+C|I'm FIST · 5 · 1 (part 1)|T|I'm FIST · 5|1|0|S........I/SS.....OOI/XS.....OOI/XXJJZ..XXI/XXJZZ...XX/XXJZXXXXXX/XXXXXX.XXX
+C|I'm FIST · 5 · 1|T|I'm FIST · 5 · 1 (part 1)|1|2|XLL......X/XXL....XXX/XXL....XXX/XXXXX..XXX/XXXXX...XX/XXXXXX.XXX
+C|I'm FIST · 5 · 1 (mirror) (part 1)|T|I'm FIST · 5 (mirror)|1|0|.........Z/.OO.....ZZ/.OO.....ZX/.XX..SLLXX/XX...SSLXX/XXXXXXSLXX/XXX.XXXXXX
+C|I'm FIST · 5 · 1 (mirror)|T|I'm FIST · 5 · 1 (mirror) (part 1)|1|2|I......JJX/IXX....JXX/IXX....JXX/IXX..XXXXX/XX...XXXXX/XXX.XXXXXX
 C|I'm FIST · 6|T|I'm FIST|1|2|.JJ......./.J.....OOI/XJ.....OOI/XXXLS...ZI/XLLLSS.ZZI/XX...SXZXX/XXXX.X.XXX
 C|I'm FIST · 6 (mirror)|T|I'm FIST (mirror)|1|2|.......LL./IOO.....L./IOO.....LX/IS...ZJXXX/ISS.ZZJJJX/XXSXZ...XX/XXX.X.XXXX
 C|I'm FIST · 6 · 1|T|I'm FIST · 6|1|2|IOO......J/IOO..ZZ..J/IXX..SZZJJ/IXL..SSXXX/XXL...SXXX/XXLL.XXXXX/XXXX.X.XXX
@@ -9347,6 +9702,10 @@ C|塩焼き式メカニカルTSD其の弐 · 1|X|塩焼き式メカニカルTSD�
 C|塩焼き式メカニカルTSD其の弐 · 1 (mirror)|X|塩焼き式メカニカルTSD其の弐 (mirror)|1|0|X...XXT.../X..XXTT.XX/XXXXXXTXXX/XX...XXXXX
 C|塩焼き式メカニカルTSD其の弐 · 1 · 1|T|塩焼き式メカニカルTSD其の弐 · 1|1|2|........LL/...JJZ...L/..IJZZ...L/OOIJZ...SS/OOIXXX.SSX/XXIXXXX..X/XXXXX...XX
 C|塩焼き式メカニカルTSD其の弐 · 1 · 1 (mirror)|T|塩焼き式メカニカルTSD其の弐 · 1 (mirror)|1|2|JJ......../J...SLL.../J...SSLI../ZZ...SLIOO/XZZ.XXXIOO/X..XXXXIXX/XX...XXXXX
+C|塩焼き式メカニカルTSD其の弐 · 1 · 2 (part 1)|T|塩焼き式メカニカルTSD其の弐 · 1|1|0|.....Z..../....ZZ..../....Z...../...XXX...X/XX.XXXXL.X/XXXXXLLLXX
+C|塩焼き式メカニカルTSD其の弐 · 1 · 2|T|塩焼き式メカニカルTSD其の弐 · 1 · 2 (part 1)|1|2|...JJX..../..IJXX..../OOIJX...SS/OOIXXX.SSX/XXIXXXXX.X
+C|塩焼き式メカニカルTSD其の弐 · 1 · 2 (mirror) (part 1)|T|塩焼き式メカニカルTSD其の弐 · 1 (mirror)|1|0|....SLL.../....SSLI../.....SLIOO/X...XXXIOO/X.JXXXXIXX/XXJJJXXXXX
+C|塩焼き式メカニカルTSD其の弐 · 1 · 2 (mirror)|T|塩焼き式メカニカルTSD其の弐 · 1 · 2 (mirror) (part 1)|1|2|....XXX.../....XXXX../ZZ...XXXXX/XZZ.XXXXXX/X.XXXXXXXX
 O|2BX砲|X||0.02|0|S........./SS.TZZ.LLL/JS.TTZZLOO/JJJTIIIIOO
 O|2BX砲 (mirror)|X||0.02|0|.........Z/JJJ.SST.ZZ/OOJSSTT.ZL/OOIIIITLLL
 C|2BX砲 · 1|T|2BX砲|1|2|......I.../......IJ../...SLLIJJJ/...SSLIZOO/X...SLZZOO/XX.XXXZXXX/XX.XXXXXXX
@@ -9355,6 +9714,12 @@ C|2BX砲 · 2|T|2BX砲|1|2|........S./...ZZ...SS/X...ZZLLLS/XX.XXXLXXX/XX.XXXXXX
 C|2BX砲 · 2 (mirror)|T|2BX砲 (mirror)|1|2|.Z......../ZZ...SS.../ZJJJSS...X/XXXJXXX.XX/XXXXXXX.XX
 C|2BX砲 · 3|T|2BX砲|1|2|L........./L.......S./LL....ZZSS/X...JJJZZS/XX.XXXJXXX/XX.XXXXXXX
 C|2BX砲 · 3 (mirror)|T|2BX砲 (mirror)|1|2|.........J/.Z.......J/ZZSS....JJ/ZSSLLL...X/XXXLXXX.XX/XXXXXXX.XX
+C|2BX砲 · 4 (part 1)|X|2BX砲|1|0|........I./........I./LLL..Z..IJ/LS..ZZ..IJ/XSS.ZTTTJJ/XXSXXXTXXX/XX.XXXXXXX
+C|2BX砲 · 4|T|2BX砲 · 4 (part 1)|1|0|........X./........X./XXX..XOOXX/XX..XXOOXX/XXX.XXXXXX/XX.XXXXXXX
+C|2BX砲 · 4 (mirror) (part 1)|X|2BX砲 (mirror)|1|0|.I......../.I......../LI..S..JJJ/LI..SS..ZJ/LLTTTS.ZZX/XXXTXXXZXX/XXXXXXX.XX
+C|2BX砲 · 4 (mirror)|T|2BX砲 · 4 (mirror) (part 1)|1|0|.X......../.X......../XXOOX..XXX/XXOOXX..XX/XXXXXX.XXX/XXXXXXX.XX
+C|2BX砲 · 4 · 1|T|2BX砲 · 4|1|3|...OOS..ZI/...OOSSZZI/...LLJSZXI/....LJJJXI/XXX.LXXXXX/XX..XXXXXX/XXX.XXXXXX/XX.XXXXXXX
+C|2BX砲 · 4 · 1 (mirror)|T|2BX砲 · 4 (mirror)|1|3|IS..ZOO.../ISSZZOO.../IXSZLJJ.../IXLLLJ..../XXXXXJ.XXX/XXXXXX..XX/XXXXXX.XXX/XXXXXXX.XX
 C|2BX砲 · 5|T|2BX砲|1|2|.J.......I/.J.......I/JJ...SS..I/X...SSLLLI/XX.XXXLXXX/XX.XXXXXXX
 C|2BX砲 · 5 (mirror)|T|2BX砲 (mirror)|1|2|I.......L./I.......L./I..ZZ...LL/IJJJZZ...X/XXXJXXX.XX/XXXXXXX.XX
 C|2BX砲 · 6|T|2BX砲|1|2|.LLL.....I/SL.......I/SS....ZZ.I/XS..JJJZZI/XX.XXXJXXX/XX.XXXXXXX
@@ -9453,6 +9818,12 @@ C|スウィフトDTD · 1|T|スウィフトDTD|1|0|........LL/.........L/...SIII
 C|スウィフトDTD · 1 (mirror)|T|スウィフトDTD (mirror)|1|0|JJ......../J........./J.IIIIZ.../L..XXZZ.../L.XXXZSSOO/LL.XXSSXOO
 C|スウィフトDTD · 1 · 1|X|スウィフトDTD · 1|1|0|........XX/.........X/...XXXXXTX/...XXXXTTX/XXXXXXXXTX/XXXXXXX.XX
 C|スウィフトDTD · 1 · 1 (mirror)|X|スウィフトDTD · 1 (mirror)|1|0|XX......../X........./XTXXXXX.../XTTXXXX.../XTXXXXXXXX/XX.XXXXXXX
+C|スウィフトDTD · 1 · 1 · 1 (part 1)|T|スウィフトDTD · 1 · 1|1|0|.........I/.........I/.........I/.........I/....OO..XX/....OO...X/J..XXXXXXX/JJJXXXXXXX/XXXXXXX.XX
+C|スウィフトDTD · 1 · 1 · 1 (part 2)|T|スウィフトDTD · 1 · 1 · 1 (part 1)|1|0|.........X/.........X/.........X/.........X/....XX..XX/ZZ..XX...X/XZZXXXXXXX/XXXXXXX.XX
+C|スウィフトDTD · 1 · 1 · 1|T|スウィフトDTD · 1 · 1 · 1 (part 2)|1|2|.........X/.........X/.........X/.SLL.....X/.SSLXX..XX/XXSLXX...X/XXXXXXX.XX
+C|スウィフトDTD · 1 · 1 · 1 (mirror) (part 1)|T|スウィフトDTD · 1 · 1 (mirror)|1|0|XX......../X........./XXXXXXX..L/XXXXXXXLLL/XX.XXXXXXX
+C|スウィフトDTD · 1 · 1 · 1 (mirror) (part 2)|T|スウィフトDTD · 1 · 1 · 1 (mirror) (part 1)|1|0|XX..OO..../X...OO..SS/XXXXXXXSSX/XX.XXXXXXX
+C|スウィフトDTD · 1 · 1 · 1 (mirror)|T|スウィフトDTD · 1 · 1 · 1 (mirror) (part 2)|1|2|I........./I........./I........./I.....JJZ./XX..XXJZZ./X...XXJZXX/XX.XXXXXXX
 C|スウィフトDTD · 2|T|スウィフトDTD|1|2|.......J../.....Z.J../I...ZZJJ../IOOSZXX.../IOOSSXXX.L/I.X.SXXLLL
 C|スウィフトDTD · 2 (mirror)|T|スウィフトDTD (mirror)|1|2|..L......./..L.S...../..LLSS...I/...XXSZOOI/J.XXXZZOOI/JJJXXZ.X.I
 C|スウィフトDTD · 3|T|スウィフトDTD|1|2|.....Z..../....ZZ..../....ZOO.../.....OO..I/JJSS.XXLLI/JSS..XXXLI/J.X..XX.LI
@@ -9485,6 +9856,10 @@ C|いちご御殿積み · 1|T|いちご御殿積み|1|0|JJ......../JS....ZZLL/J
 C|いちご御殿積み · 1 (mirror)|T|いちご御殿積み (mirror)|1|0|........LL/JJSS....ZL/JSSOO..ZZL/JXXOO..ZXX/XXXXX..XXX/XXXX...XXX/XXXXX.XXXX
 O|スピアード積み 2|X||0.02|0|T......JJJ/TTSS...OOJ/TSSZZ..OOL/IIIIZZ.LLL
 O|スピアード積み 2 (mirror)|X||0.02|0|LLL......T/LOO...ZZTT/JOO..SSZZT/JJJ.SSIIII
+C|スピアード積み 2 · 1 (part 1)|X|スピアード積み 2|1|0|XIIII..XXX/XXXX..TXXX/XXXXXTTXXX/XXXXXXTXXX
+C|スピアード積み 2 · 1|T|スピアード積み 2 · 1 (part 1)|1|0|XXXXXSSXXX/XXXXSSXXXX
+C|スピアード積み 2 · 1 (mirror) (part 1)|X|スピアード積み 2 (mirror)|1|0|XXX..IIIIX/XXXT..XXXX/XXXTTXXXXX/XXXTXXXXXX
+C|スピアード積み 2 · 1 (mirror)|T|スピアード積み 2 · 1 (mirror) (part 1)|1|0|XXXZZXXXXX/XXXXZZXXXX
 C|スピアード積み 2 · 2|T|スピアード積み 2|1|2|.........I/..OO.....I/..OO.....I/...SSZLLLI/X.SSZZLXXX/XXXXZ..XXX/XXXXX..XXX/XXXXXX.XXX
 C|スピアード積み 2 · 2 (mirror)|T|スピアード積み 2 (mirror)|1|2|I........./I.....OO../I.....OO../IJJJSZZ.../XXXJSSZZ.X/XXX..SXXXX/XXX..XXXXX/XXX.XXXXXX
 C|スピアード積み 2 · 2 · 1|T|スピアード積み 2 · 2|1|0|....JJ...X/..XXJ....X/..XXJ....X/XXXXX..XXX/XXXXX..XXX/XXXXXX.XXX
@@ -9547,6 +9922,10 @@ C|SFDパフェ · 5|T|SFDパフェ|1|2|IL......../IL....S.../ILL...SS../IXZZ...S
 C|SFDパフェ · 5 (mirror)|T|SFDパフェ (mirror)|1|2|........JI/...Z....JI/..ZZ...JJI/OOZ...SSXI/OOXL.SSXXX/XXXL...XXX/XXXLL.XXXX
 C|SFDパフェ · 6|T|SFDパフェ|1|2|IL...JJ.../IL...JS.../ILL..JSS../IX.....SOO/XXX....XOO/XXXZZ..XXX/XXXXZZ.XXX
 C|SFDパフェ · 6 (mirror)|T|SFDパフェ (mirror)|1|2|...LL...JI/...ZL...JI/..ZZL..JJI/OOZ.....XI/OOX....XXX/XXX..SSXXX/XXX.SSXXXX
+C|SFDパフェ · 7 (part 1)|T|SFDパフェ|1|0|.Z......../ZZ......../ZX......../XXX....X../XXX...LXXX/XXXXLLLXXX
+C|SFDパフェ · 7|T|SFDパフェ · 7 (part 1)|1|3|.XJJ....../XXJ......./XXJ.IIIIOO/XXX..SSXOO/XXX.SSXXXX
+C|SFDパフェ · 7 (mirror) (part 1)|T|SFDパフェ (mirror)|1|0|......LLS./.......LSS/OOIIII.LXS/OOX....XXX/XXXJ...XXX/XXXJJJXXXX
+C|SFDパフェ · 7 (mirror)|T|SFDパフェ · 7 (mirror) (part 1)|1|3|......XXX./.......XXX/XXXXXX.XXX/XXXZZ..XXX/XXXXZZ.XXX
 O|Egret Stacking|X||0.02|0|ZZ......../SZZ......./SS..T...../JS.TT..LOO/JJJ.TLLLOO
 O|Egret Stacking (mirror)|X||0.02|0|........SS/.......SSZ/.....T..ZZ/OOJ..TT.ZL/OOJJJT.LLL
 O|クォーツST|X||0.02|0|..TLL....I/..TTLS...I/ZZTJLSSOOI/.ZZJJJSOOI
@@ -9657,6 +10036,19 @@ C|社畜トレイン亜種型不確定メカニカルTSD v6 · 1 · 1|T|社畜�
 C|社畜トレイン亜種型不確定メカニカルTSD v6 · 1 · 1 (mirror)|T|社畜トレイン亜種型不確定メカニカルTSD v6 · 1 (mirror)|1|2|JJ......../JOO......I/JOO......I/XX...ZZLLI/XXX.SSZZLI/XXXSS...LX/XXXXX..XXX/XXXX.XXXXX
 O|笹式メカニカルTSD v3|X||0.02|0|ZZ......../IZZ....T../IJJ...TT../IJOO.SSTL./IJOOSSLLL.
 O|笹式メカニカルTSD v3 (mirror)|X||0.02|0|........SS/..T....SSI/..TT...LLI/.JTZZ.OOLI/.JJJZZOOLI
+C|笹式メカニカルTSD v3 · 1 (part 1)|T|笹式メカニカルTSD v3|1|0|OO......../OO......../XX....ZLL./XXXS.ZZXLI/XXXSSZXXLI/XXXXSXXXXI/XXXXXXXXXI
+C|笹式メカニカルTSD v3 · 1|X|笹式メカニカルTSD v3 · 1 (part 1)|1|0|XXT......./XXTT...JJJ/XXT...XXXJ/XXXX.XXXXX
+C|笹式メカニカルTSD v3 · 1 (mirror) (part 1)|T|笹式メカニカルTSD v3 (mirror)|1|0|........OO/........OO/...S....XX/I.XSS.ZXXX/I.XXSZZXXX/IXXXXZXXXX/IXXXXXXXXX
+C|笹式メカニカルTSD v3 · 1 (mirror) (part 2)|T|笹式メカニカルTSD v3 · 1 (mirror) (part 1)|1|0|........XX/........XX/.JJX....XX/XJXXX.XXXX/XJXXXXXXXX
+C|笹式メカニカルTSD v3 · 1 (mirror)|X|笹式メカニカルTSD v3 · 1 (mirror) (part 2)|1|0|.......TXX/LLL...TTXX/LXXX...TXX/XXXXX.XXXX
+C|笹式メカニカルTSD v3 · 1 · 1|T|笹式メカニカルTSD v3 · 1|1|2|I........./IJJ......./IJOO...SLL/IJOO...SSL/XXXZZ...SL/XXXXZZ.XXX/XXX...XXXX/XXXX.XXXXX
+C|笹式メカニカルTSD v3 · 1 · 1 (mirror)|T|笹式メカニカルTSD v3 · 1 (mirror)|1|2|.........I/.......LLI/JJZ...OOLI/JZZ...OOLI/JZ...SSXXX/XXX.SSXXXX/XXXX...XXX/XXXXX.XXXX
+C|笹式メカニカルTSD v3 · 1 · 2|T|笹式メカニカルTSD v3 · 1|1|2|I........./IOO......./IOOL...JJJ/ILLL...ZZJ/XXX...SSZZ/XXXX.SSXXX/XXX...XXXX/XXXX.XXXXX
+C|笹式メカニカルTSD v3 · 1 · 2 (mirror)|T|笹式メカニカルTSD v3 · 1 (mirror)|1|2|.........I/.......OOI/LLL...JOOI/LSS...JJJI/SSZZ...XXX/XXXZZ.XXXX/XXXX...XXX/XXXXX.XXXX
+C|笹式メカニカルTSD v3 · 1 · 3|T|笹式メカニカルTSD v3 · 1|1|2|JJLL.....I/JOOL...S.I/JOOL...SSI/XXXZZ...SI/XXXXZZ.XXX/XXX...XXXX/XXXX.XXXXX
+C|笹式メカニカルTSD v3 · 1 · 3 (mirror)|T|笹式メカニカルTSD v3 · 1 (mirror)|1|2|I.....JJLL/I.Z...JOOL/IZZ...JOOL/IZ...SSXXX/XXX.SSXXXX/XXXX...XXX/XXXXX.XXXX
+C|笹式メカニカルTSD v3 · 1 · 4|T|笹式メカニカルTSD v3 · 1|1|2|I.......LL/IZZ......L/IJZZ.....L/IJJJ....OO/XXX...SSOO/XXXX.SSXXX/XXX...XXXX/XXXX.XXXXX
+C|笹式メカニカルTSD v3 · 1 · 4 (mirror)|T|笹式メカニカルTSD v3 · 1 (mirror)|1|2|JJ.......I/J......SSI/J.....SSLI/OO....LLLI/OOZZ...XXX/XXXZZ.XXXX/XXXX...XXX/XXXXX.XXXX
 O|マジカルブリッジ|T||0.02|0|IIII...S../JJ.....SS./JOOZZ...SL/JOO.ZZ.LLL
 O|マジカルブリッジ (mirror)|T||0.02|0|..Z...IIII/.ZZ.....LL/JZ...SSOOL/JJJ.SS.OOL
 C|マジカルブリッジ · 1|X|マジカルブリッジ|1|0|XXXX...X../XX.....XX./XXXXXTTTXX/XXX.XXTXXX
@@ -9933,6 +10325,11 @@ C|罰k…DT砲でよくね? · 1 · 1 · 1|T|罰k…DT砲でよくね? · 1 · 1
 C|罰k…DT砲でよくね? · 1 · 1 · 1 (mirror)|T|罰k…DT砲でよくね? · 1 · 1 (mirror)|1|2|........X./........XX/XXXXXX..XX/XXXXXX..XX/XXXXX...LX/XXXXX.LLLX/XXXXX..XXX/XXXX.....X/XXXXX....X/XXXXXXX..X/XXXXXXXX.X/XXXXX.XXXX
 O|SQパフェ|X||0.02|0|.........J/T......Z.J/TTSS..ZZJJ/TSS...ZLOO/IIII.LLLOO
 O|SQパフェ (mirror)|X||0.02|0|L........./L.S......T/LLSS..ZZTT/OOJS...ZZT/OOJJJ.IIII
+C|SQパフェ · 1 (part 1)|X|SQパフェ|1|0|SLL....ZJJ/SSL...ZZJX/XSL...ZXJX/XXXXT.XXXX/XXXTT.XXXX/XXXXTXXXXX
+C|SQパフェ · 1|T|SQパフェ · 1 (part 1)|1|0|XXX....XXX/XXXOOIXXXX/XXXOOIXXXX/XXXXXIXXXX/XXXXXIXXXX
+C|SQパフェ · 1 (mirror) (part 1)|X|SQパフェ (mirror)|1|0|LLS....JJZ/XLSS...JZZ/XLXS...JZX/XXXX.TXXXX/XXXX.TTXXX/XXXXXTXXXX
+C|SQパフェ · 1 (mirror)|T|SQパフェ · 1 (mirror) (part 1)|1|0|XXX....XXX/XXXXIOOXXX/XXXXIOOXXX/XXXXIXXXXX/XXXXIXXXXX
+C|SQパフェ · 1 · 1|T|SQパフェ · 1|1|0|XXXIIIIXXX
 C|SQパフェ · 2|T|SQパフェ|1|2|......IIII/.OO....JJJ/SOOZ...LLJ/SSZZ....LX/XSZ....XLX/XXXX..XXXX/XXX...XXXX/XXXX.XXXXX
 C|SQパフェ · 2 (mirror)|T|SQパフェ (mirror)|1|2|IIII....../LLL....OO./LJJ...SOOZ/XJ....SSZZ/XJX....SZX/XXXX..XXXX/XXXX...XXX/XXXXX.XXXX
 C|SQパフェ · 3|T|SQパフェ|1|2|I.......OO/I.......OO/ILS....ZJJ/ILSS..ZZJX/XLLS..ZXJX/XXXX..XXXX/XXX...XXXX/XXXX.XXXXX
@@ -9961,6 +10358,10 @@ O|LJfuture|X||0.02|0|....TTT.../.LSZZT..../.LSSZZ..OO/.LLS...JOO/IIII...JJJ
 O|LJfuture (mirror)|X||0.02|0|...TTT..../....TSSZJ./OO..SSZZJ./OOL...ZJJ./LLL...IIII
 C|LJfuture · 1|T|LJfuture|1|2|.ZJ....S../ZZJ....SS./ZJJL....S./ILLLXXX.OO/IXXXXX..OO/IXXXXX..XX/IXXX...XXX/XXXX...XXX
 C|LJfuture · 1 (mirror)|T|LJfuture (mirror)|1|2|..Z....LS./.ZZ....LSS/.Z....JLLS/OO.XXXJJJI/OO..XXXXXI/XX..XXXXXI/XXX...XXXI/XXX...XXXX
+C|LJfuture · 1 · 1 (part 1)|T|LJfuture · 1|1|0|.XX....X../XXX....XX./XXXX....X./XXXXXX.XXX/XXXXLLLXXX/XXXXL..XXX
+C|LJfuture · 1 · 1|T|LJfuture · 1 · 1 (part 1)|1|2|.......Z../......ZZOO/......ZSOO/.......SSI/.XX.JJ.XSI/XXX.J..XXI/XXXXJ...XI/XXXXXX.XXX/XXXXX..XXX
+C|LJfuture · 1 · 1 (mirror) (part 1)|T|LJfuture · 1 (mirror)|1|0|..S......./OOSS....../OOZS....../IZZ......./IZX....XX./IXX....XXX/IX....XXXX/XXX.XXXXXX/XXXJJJXXXX/XXX..JXXXX
+C|LJfuture · 1 · 1 (mirror)|T|LJfuture · 1 · 1 (mirror) (part 1)|1|2|..X......./XXXX....../XXXX....../XXX......./XXX.LL.XX./XXX..L.XXX/XX...LXXXX/XXX.XXXXXX/XXX..XXXXX
 O|LJfuture 2|X||0.02|0|....TTT.../.JJZZT..../.JOOZZ..SS/.JOO...SSL/IIII...LLL
 O|LJfuture 2 (mirror)|X||0.02|0|...TTT..../....TSSLL./ZZ..SSOOL./JZZ...OOL./JJJ...IIII
 C|LJfuture 2 · 1|T|LJfuture 2|1|2|.LLL...S../.LZJ...SS./.ZZJ....S./IZJJXXX.OO/IXXXXX..OO/IXXXXX..XX/IXXX...XXX/XXXX...XXX
@@ -9995,6 +10396,11 @@ O|Unnamed bag 1 58|X||0.02|0|.........I/.L.......I/.L.......I/.LL..JJJ.I/ZZTTTSS
 O|Unnamed bag 1 58 (mirror)|X||0.02|0|I........./I.......J./I.......J./I.LLL..JJ./OOLZZTTTSS/OO..ZZTSS.
 C|Unnamed bag 1 58 · 1|T|Unnamed bag 1 58|1|3|.OOJJ...../.OOJ.....X/IXSJ.ZZLLX/IXSS..ZZLX/IXXS.XXXLX/IXXXXX..XX
 C|Unnamed bag 1 58 · 1 (mirror)|T|Unnamed bag 1 58 (mirror)|1|3|.....LLOO./X.....LOO./XJJSS.LZXI/XJSS..ZZXI/XJXXX.ZXXI/XX..XXXXXI
+C|Unnamed bag 1 58 · 1 · 1 (part 1)|T|Unnamed bag 1 58 · 1|1|0|.........Z/.XXXX...ZZ/.XXX..OOZX/XXXXXXOOXX
+C|Unnamed bag 1 58 · 1 · 1 (part 2)|T|Unnamed bag 1 58 · 1 · 1 (part 1)|1|0|JJIIII...X/JXXXXSS.XX/JXXXSSXXXX
+C|Unnamed bag 1 58 · 1 · 1|X|Unnamed bag 1 58 · 1 · 1 (part 2)|1|0|XXXXXXTTTX/XXXXXXXTXX
+C|Unnamed bag 1 58 · 1 · 1 (mirror) (part 1)|X|Unnamed bag 1 58 · 1 (mirror)|1|0|STTTIIIILL/SSTZZXXXXL/XS..ZZXXXL/XX..XXXXXX
+C|Unnamed bag 1 58 · 1 · 1 (mirror)|T|Unnamed bag 1 58 · 1 · 1 (mirror) (part 1)|1|0|XXOOXXXXXX/XXOOXXXXXX
 C|Unnamed bag 1 58 · 2|T|Unnamed bag 1 58|1|3|.........J/.........J/....L...JJ/...ZL....X/IXZZLLSS.X/IXZOOSS..X/IXXOOXXX.X/IXXXXX..XX
 C|Unnamed bag 1 58 · 2 (mirror)|T|Unnamed bag 1 58 (mirror)|1|3|L........./L........./LL...J..../X....JS.../X.ZZJJSSXI/X..ZZOOSXI/X.XXXOOXXI/XX..XXXXXI
 C|Unnamed bag 1 58 · 2 · 1|T|Unnamed bag 1 58 · 2|1|2|I........Z/I.......ZZ/I..JJ...ZX/ILLJ...SSX/OOLJX.SSXX/OOLXX....X/XXXXXX..XX
@@ -10073,6 +10479,12 @@ C|みりょん砲 · 9|T|みりょん砲|1|2|I........./I........./I........./I.
 C|みりょん砲 · 9 (mirror)|T|みりょん砲 (mirror)|1|2|.........I/.........I/.........I/JJ...L...I/JOO..L...X/JOO..LLS.X/XZZ...XSSX/XXZZ.XXXSX/XXXX.XX.XX/XXXXXXX.XX
 O|中開けメカニカルTSD|X||0.02|0|ITZZ...JJJ/ITTZZ..OOJ/ITSS...OOL/ISS....LLL
 O|中開けメカニカルTSD (mirror)|X||0.02|0|LLL...SSTI/LOO..SSTTI/JOO...ZZTI/JJJ....ZZI
+C|中開けメカニカルTSD · 1 (part 1)|T|中開けメカニカルTSD|1|0|XXXX...XXX/XXXXX..XXX/XXXX...XXX/XXXIIIIXXX
+C|中開けメカニカルTSD · 1 (part 2)|T|中開けメカニカルTSD · 1 (part 1)|1|0|XXXX...XXX/XXXXX.LXXX/XXXXLLLXXX
+C|中開けメカニカルTSD · 1|X|中開けメカニカルTSD · 1 (part 2)|1|0|XXXXTTTXXX/XXXXXTXXXX
+C|中開けメカニカルTSD · 1 (mirror) (part 1)|T|中開けメカニカルTSD (mirror)|1|0|XXX...XXXX/XXX..XXXXX/XXX...XXXX/XXXIIIIXXX
+C|中開けメカニカルTSD · 1 (mirror) (part 2)|T|中開けメカニカルTSD · 1 (mirror) (part 1)|1|0|XXX...XXXX/XXXJ.XXXXX/XXXJJJXXXX
+C|中開けメカニカルTSD · 1 (mirror)|X|中開けメカニカルTSD · 1 (mirror) (part 2)|1|0|XXXTTTXXXX/XXXXTXXXXX
 C|中開けメカニカルTSD · 2|T|中開けメカニカルTSD|1|2|..JJ...SLL/OOJ....SSL/OOJZZ...SL/XXXXZZ.XXX/XXXXX..XXX/XXXX...XXX/XXXIIIIXXX
 C|中開けメカニカルTSD · 2 (mirror)|T|中開けメカニカルTSD (mirror)|1|2|JJZ...LL../JZZ....LOO/JZ...SSLOO/XXX.SSXXXX/XXX..XXXXX/XXX...XXXX/XXXIIIIXXX
 C|中開けメカニカルTSD · 3|T|中開けメカニカルTSD|1|2|I........./I........./I........./I.JJ...SLL/OOJ....SSL/OOJZZ...SL/XXXXZZ.XXX/XXXXX..XXX/XXXX...XXX/XXX....XXX
@@ -10411,14 +10823,20 @@ C|形影積み · 1|X|形影積み|1|0|.........X/XXTTTXXXXX/XXXTXXXXXX/XXX.X..X
 C|形影積み · 1 (mirror)|X|形影積み (mirror)|1|0|X........./XXXXXTTTXX/XXXXXXTXXX/XXX..X.XXX
 C|形影積み · 1 · 1|T|形影積み · 1|1|2|..OO....../I.OO....../I.Z......./IZZ.LLJJSS/IZ...LJSSX/XXX.XLJXXX
 C|形影積み · 1 · 1 (mirror)|T|形影積み · 1 (mirror)|1|2|......OO../......OO.I/.......S.I/ZZLLJJ.SSI/XZZLJ...SI/XXXLJX.XXX
-C|形影積み · 2|X|形影積み|1|0|.ZJJ....S./ZZJ.....SS/ZTJ....OOS/TTT....OOX/XXTTTXXXXX/XXXTXXXXXX/XXX.X..XXX
-C|形影積み · 2 (mirror)|X|形影積み (mirror)|1|0|.Z....LLS./ZZ.....LSS/ZOO....LTS/XOO....TTT/XXXXXTTTXX/XXXXXXTXXX/XXX..X.XXX
+C|形影積み · 1 · 1 · 1 (part 1)|T|形影積み · 1 · 1|1|0|LLXXIIIIZJ/XLXX...ZZJ/XLX....ZJJ/XXXX.XXXXX
+C|形影積み · 1 · 1 · 1 (part 2)|X|形影積み · 1 · 1 · 1 (part 1)|1|0|XXXXT..XXX/XXXTT..XXX/XXXXTXXXXX
+C|形影積み · 1 · 1 · 1|T|形影積み · 1 · 1 · 1 (part 2)|1|0|XXXXXOOXXX/XXXXXOOXXX
+C|形影積み · 1 · 1 · 1 (mirror) (part 1)|T|形影積み · 1 · 1 (mirror)|1|0|LSIIIIXXJJ/LSS...XXJX/LLS....XJX/XXXXX.XXXX
+C|形影積み · 1 · 1 · 1 (mirror) (part 2)|X|形影積み · 1 · 1 · 1 (mirror) (part 1)|1|0|XXX..TXXXX/XXX..TTXXX/XXXXXTXXXX
+C|形影積み · 1 · 1 · 1 (mirror)|T|形影積み · 1 · 1 · 1 (mirror) (part 2)|1|0|XXXOOXXXXX/XXXOOXXXXX
+C|形影積み · 2|X|形影積み|1|0|.ZJJ....S./ZZJ.....SS/ZtJ....OOS/ttt....OOX/XXTTTXXXXX/XXXTXXXXXX/XXX.X..XXX
+C|形影積み · 2 (mirror)|X|形影積み (mirror)|1|0|.Z....LLS./ZZ.....LSS/ZOO....LtS/XOO....ttt/XXXXXTTTXX/XXXXXXTXXX/XXX..X.XXX
 C|形影積み · 2 · 1|T|形影積み · 2|1|0|.XXX....X./XXX...I.XX/XXX.LLIXXX/XXX..LIXXX/XXX.XLIXXX
 C|形影積み · 2 · 1 (mirror)|T|形影積み · 2 (mirror)|1|0|.X....XXX./XX.I...XXX/XXXIJJ.XXX/XXXIJ..XXX/XXXIJX.XXX
 C|形影積み · 2 · 1 · 1|T|形影積み · 2 · 1|1|3|IJJ......./IJOO..ZZLL/IJOO..SZZL/IXXX..SSXL/XXX...XSXX/XXX.XXXXXX/XXX..XXXXX/XXX.XXXXXX
 C|形影積み · 2 · 1 · 1 (mirror)|T|形影積み · 2 · 1 (mirror)|1|3|.......LLI/JJSS..OOLI/JSSZ..OOLI/JXZZ..XXXI/XXZX...XXX/XXXXXX.XXX/XXXXX..XXX/XXXXXX.XXX
-C|形影積み · 3|X|形影積み|1|0|.ZJJ....OO/ZZJ.....OO/ZTJ.....SS/TTT....SSX/XXTTTXXXXX/XXXTXXXXXX/XXX.X..XXX
-C|形影積み · 3 (mirror)|X|形影積み (mirror)|1|0|OO....LLS./OO.....LSS/ZZ.....LTS/XZZ....TTT/XXXXXTTTXX/XXXXXXTXXX/XXX..X.XXX
+C|形影積み · 3|X|形影積み|1|0|.ZJJ....OO/ZZJ.....OO/ZtJ.....SS/ttt....SSX/XXTTTXXXXX/XXXTXXXXXX/XXX.X..XXX
+C|形影積み · 3 (mirror)|X|形影積み (mirror)|1|0|OO....LLS./OO.....LSS/ZZ.....LtS/XZZ....ttt/XXXXXTTTXX/XXXXXXTXXX/XXX..X.XXX
 C|形影積み · 3 · 1|T|形影積み · 3|1|0|.XXX....XX/XXX...I.XX/XXX.LLI.XX/XXX..LIXXX/XXX.XLIXXX
 C|形影積み · 3 · 1 (mirror)|T|形影積み · 3 (mirror)|1|0|XX....XXX./XX.I...XXX/XX.IJJ.XXX/XXXIJ..XXX/XXXIJX.XXX
 C|形影積み · 3 · 1 · 1|T|形影積み · 3 · 1|1|3|JJSS....../JSS......./JXXX..LLXX/XXX...XLXX/XXX.XXXLXX/XXX..XXXXX/XXX.XXXXXX
@@ -11267,6 +11685,16 @@ O|呼隊の岩|T||0.02|0|.Z...I..../ZZ...I..../Z....I..../OO.SSILJJJ/OOSSLLL..J
 O|呼隊の岩 (mirror)|T||0.02|0|....I...S./....I...SS/....I....S/LLLJIZZ.OO/L..JJJZZOO
 C|呼隊の岩 · 1|X|呼隊の岩|1|0|.X...X..../XX...X..../XTTT.X..../XXTXXXXXXX/XXXXXXX..X
 C|呼隊の岩 · 1 (mirror)|X|呼隊の岩 (mirror)|1|0|....X...X./....X...XX/....X.TTTX/XXXXXXXTXX/X..XXXXXXX
+C|呼隊の岩 · 1 · 1 (part 1)|T|呼隊の岩 · 1|1|0|.X...X..../XX...XS..Z/XXXX.XSSZZ/XXXXXXXSZX
+C|呼隊の岩 · 1 · 1 (part 2)|X|呼隊の岩 · 1 · 1 (part 1)|1|0|IJJ......./IJ......../IJ......../IX..TX.OO./XX.TTXXOOX/XXXXTXXXXX
+C|呼隊の岩 · 1 · 1|T|呼隊の岩 · 1 · 1 (part 2)|1|0|XXX......./XX...L..../XX.LLL..../XX..XX.XX./XX.XXXXXXX
+C|呼隊の岩 · 1 · 1 (mirror) (part 1)|T|呼隊の岩 · 1 (mirror)|1|0|.......LL./........L./........L./....X...X./S..ZX...XX/SSZZX.XXXX/XSZXXXXXXX
+C|呼隊の岩 · 1 · 1 (mirror) (part 2)|X|呼隊の岩 · 1 · 1 (mirror) (part 1)|1|0|.......XXI/........XI/........XI/.OO.XT..XI/XOOXXTT.XX/XXXXXTXXXX
+C|呼隊の岩 · 1 · 1 (mirror)|T|呼隊の岩 · 1 · 1 (mirror) (part 2)|1|0|.......XXX/....J...XX/....JJJ.XX/.XX.XX..XX/XXXXXXX.XX
+C|呼隊の岩 · 1 · 1 · 1|T|呼隊の岩 · 1 · 1|1|3|JJ......../JOO......./JOO..S..../XXX..SSLLI/XX...XSZLI/XX.XXXZZLI/XX..XXZXXI/XX.XXXXXXX
+C|呼隊の岩 · 1 · 1 · 1 (mirror)|T|呼隊の岩 · 1 · 1 (mirror)|1|3|........LL/.......OOL/....Z..OOL/IJJZZ..XXX/IJSZX...XX/IJSSXXX.XX/IXXSXX..XX/XXXXXXX.XX
+C|呼隊の岩 · 1 · 1 · 2|T|呼隊の岩 · 1 · 1|1|3|ZZ......../JZZ......./JJJ..S..../XXX..SSOOI/XX...XSOOI/XX.XXXLLLI/XX..XXLXXI/XX.XXXXXXX
+C|呼隊の岩 · 1 · 1 · 2 (mirror)|T|呼隊の岩 · 1 · 1 (mirror)|1|3|........SS/.......SSL/....Z..LLL/IOOZZ..XXX/IOOZX...XX/IJJJXXX.XX/IXXJXX..XX/XXXXXXX.XX
 O|丙砲|T||0.02|0|I....S.J../I....SSJJJ/IZZ...SLOO/I.ZZ.LLLOO
 O|丙砲 (mirror)|T||0.02|0|..L.Z....I/LLLZZ....I/OOJZ...SSI/OOJJJ.SS.I
 C|丙砲 · 1|X|丙砲|1|0|X....X.X../X....XXXXX/XXXTTTXXXX/X.XXTXXXXX
@@ -11417,14 +11845,14 @@ C|決心積み · 1 · 1|T|決心積み · 1|1|3|.......LLI/......OOLI/JJ....OOL
 C|決心積み · 1 · 1 (mirror)|T|決心積み · 1 (mirror)|1|3|IJJ......./IJOO....../IJOO....LL/ISS......L/SSXXXXXX.L/XXXXXZZ..X/XXXXXXZZ.X/XXXXXXX.XX
 C|決心積み · 1 · 2|T|決心積み · 1|1|3|.......OOI/.......OOI/JJ....LLLI/J.....LZZI/J.XXXXXXZZ/X..SSXXXXX/X.SSXXXXXX/XX.XXXXXXX
 C|決心積み · 1 · 2 (mirror)|T|決心積み · 1 (mirror)|1|3|IOO......./IOO......./IJJJ....LL/ISSJ.....L/SSXXXXXX.L/XXXXXZZ..X/XXXXXXZZ.X/XXXXXXX.XX
-C|決心積み · 2|X|決心積み|1|0|.......SS./......SSII/JJ....OOII/J....ZOOII/JTLLZZXXII/XTTLZXXXXX/XT.LXXXXXX/XX.XXXXXXX
-C|決心積み · 2 (mirror)|X|決心積み (mirror)|1|0|.ZZ......./IIZZ....../IIOO....LL/IIOOS....L/IIXXSSJJTL/XXXXXSJTTX/XXXXXXJ.TX/XXXXXXX.XX
+C|決心積み · 2|X|決心積み|1|0|.......SS./......SSIi/JJ....OOIi/J....ZOOIi/JTLLZZXXIi/XTTLZXXXXX/XT.LXXXXXX/XX.XXXXXXX
+C|決心積み · 2 (mirror)|X|決心積み (mirror)|1|0|.ZZ......./iIZZ....../iIOO....LL/iIOOS....L/iIXXSSJJTL/XXXXXSJTTX/XXXXXXJ.TX/XXXXXXX.XX
 C|決心積み · 2 · 1|T|決心積み · 2|1|2|J......ZS./JJJ..IZZSS/OO...IZXXS/OO.LLIXXXX/XX..LIXXXX/X...LXXXXX/XX.XXXXXXX/XX.XXXXXXX
 C|決心積み · 2 · 1 (mirror)|T|決心積み · 2 (mirror)|1|2|.ZS......L/ZZSSI..LLL/ZXXSI...OO/XXXXIJJ.OO/XXXXIJ..XX/XXXXXJ...X/XXXXXXX.XX/XXXXXXX.XX
 C|決心積み · 2 · 2|T|決心積み · 2|1|2|.OO......./.OO....ZS./.JJ..IZZSS/.J...IZXXS/.J.LLIXXXX/XX..LIXXXX/X...LXXXXX/XX.XXXXXXX/XX.XXXXXXX
 C|決心積み · 2 · 2 (mirror)|T|決心積み · 2 (mirror)|1|2|.......OO./.ZS....OO./ZZSSI..LL./ZXXSI...L./XXXXIJJ.L./XXXXIJ..XX/XXXXXJ...X/XXXXXXX.XX/XXXXXXX.XX
-C|決心積み · 3|X|決心積み|1|0|........Z./.......ZZ./OO...J.ZII/OO...JJJII/S....LLLII/SS...LXXII/XS...XXXXX/XTTTXXXXXX/XXTXXXXXXX
-C|決心積み · 3 (mirror)|X|決心積み (mirror)|1|0|.S......../.SS......./IIS.L...OO/IILLL...OO/IIJJJ....Z/IIXXJ...ZZ/XXXXX...ZX/XXXXXXTTTX/XXXXXXXTXX
+C|決心積み · 3|X|決心積み|1|0|........Z./.......ZZ./OO...J.ZIi/OO...JJJIi/S....LLLIi/SS...LXXIi/XS...XXXXX/XTTTXXXXXX/XXTXXXXXXX
+C|決心積み · 3 (mirror)|X|決心積み (mirror)|1|0|.S......../.SS......./iIS.L...OO/iILLL...OO/iIJJJ....Z/iIXXJ...ZZ/XXXXX...ZX/XXXXXXTTTX/XXXXXXXTXX
 C|決心積み · 3 · 1|T|決心積み · 3|1|2|.........I/JJZ......I/JZZ..S..XI/JZ...SSXXI/XX.LLXSXXX/XX..LXXXXX/X...LXXXXX/XX.OOXXXXX/XX.OOXXXXX
 C|決心積み · 3 · 1 (mirror)|T|決心積み · 3 (mirror)|1|2|I........./I......SLL/IX..Z..SSL/IXXZZ...SL/XXXZXJJ.XX/XXXXXJ..XX/XXXXXJ...X/XXXXXOO.XX/XXXXXOO.XX
 C|決心積み · 3 · 2|T|決心積み · 3|1|2|........OO/I.......OO/I...S...LL/I...SSJJXL/I....SJXXL/XX...XJXXX/XX...XXXXX/X...ZXXXXX/XX.ZZXXXXX/XX.Z.XXXXX
@@ -11983,10 +12411,22 @@ O|Cater|X||0.02|0|.........Z/........ZZ/........ZI/T...J..LLI/TTSSJ.OOLI/TSSJJ.O
 O|Cater (mirror)|X||0.02|0|S........./SS......../IS......../IJJ..L...T/IJOO.LZZTT/IJOO.LLZZT
 C|Cater · 1|X|Cater|1|0|.......LLL/.......LSS/.......SSX/OOJT...ZXX/OOJTTIZZXX/XJJTXIZXXX/XXXXXIXXXX/XXXXXIXXXX
 C|Cater · 1 (mirror)|X|Cater (mirror)|1|0|JJJ......./ZZJ......./XZZ......./XXS...TLOO/XXSSITTLOO/XXXSIXTLLX/XXXXIXXXXX/XXXXIXXXXX
+C|Cater · 1 · 1 (part 1)|T|Cater · 1|1|0|JJZIIIIXXX/JZZSSLLXXX/JZSS..LXXX/XXXX..LXXX
+C|Cater · 1 · 1|T|Cater · 1 · 1 (part 1)|1|0|XXXXOOXXXX/XXXXOOXXXX
+C|Cater · 1 · 1 (mirror) (part 1)|T|Cater · 1 (mirror)|1|0|XXXIIIISLL/XXX..ZZSSL/XXX.OOZZSL/XXX.OOXXXX
+C|Cater · 1 · 1 (mirror)|T|Cater · 1 · 1 (mirror) (part 1)|1|0|XXXJJXXXXX/XXXJXXXXXX/XXXJXXXXXX
 C|Cater · 1 · 2|T|Cater · 1|1|2|.........I/.......LLI/........LI/..SS....LI/.SSZ...XXX/OOZZ..JXXX/OOZ...JXXX/XXXX.JJXXX
 C|Cater · 1 · 2 (mirror)|T|Cater · 1 (mirror)|1|2|I........./IJJ......./IJ......../IJ....ZZ../XXX...SZZ./XXXL..SSOO/XXXL...SOO/XXXLL.XXXX
 O|ペストリー|X||0.02|0|.T.....I../TTT.SLLI.J/OOZZSSLI.J/OO.ZZSLIJJ
 O|ペストリー (mirror)|X||0.02|0|..I.....T./L.IJJZ.TTT/L.IJZZSSOO/LLIJZSS.OO
+C|ペストリー · 1 (part 1)|T|ペストリー|1|0|........LL/........IL/.X.....XIL/XXX.XXXXIX/XXXXXXXXIX/XX.XXXXXXX
+C|ペストリー · 1|T|ペストリー · 1 (part 1)|1|2|.....ZS.../JJ..ZZSSXX/J...ZOOSXX/JX...OOXXX/XXX.XXXXXX/XX.XXXXXXX
+C|ペストリー · 1 (mirror) (part 1)|T|ペストリー (mirror)|1|0|...ZS...../..ZZSS..LL/.IZOOS...L/.IXOO...XL/XIXXXX.XXX/XIXXXXXXXX/XXXXXXX.XX
+C|ペストリー · 1 (mirror)|T|ペストリー · 1 (mirror) (part 1)|1|2|...XX...../JJXXXX..XX/JXXXXX...X/JXXXX...XX/XXXXXX.XXX/XXXXXXX.XX
+C|ペストリー · 1 · 1|T|ペストリー · 1|1|2|........LL/........IL/........IL/.....ZS.IJ/OO..ZZSSIJ/OO..ZXXSJJ/XX..XXXXXX/X...XXXXXX/XX.XXXXXXX
+C|ペストリー · 1 · 1 (mirror)|T|ペストリー · 1 (mirror)|1|2|JJ......../JI......../JI......../LI.ZS...../LIZZSS..OO/LLZXXS..OO/XXXXXX..XX/XXXXXX...X/XXXXXXX.XX
+C|ペストリー · 1 · 2|T|ペストリー · 1|1|2|........JJ/........JI/........JI/.....ZS.LI/OO..ZZSSLI/OO..ZXXSLL/XX..XXXXXX/X...XXXXXX/XX.XXXXXXX
+C|ペストリー · 1 · 2 (mirror)|T|ペストリー · 1 (mirror)|1|2|LL......../IL......../IL......../IJ.ZS...../IJZZSS..OO/JJZXXS..OO/XXXXXX..XX/XXXXXX...X/XXXXXXX.XX
 O|マスクメロンパフェ|X||0.02|0|........J./L.......J./L......JJ./LLT.....S./OOTT..ZZSS/OOTIIIIZZS
 O|マスクメロンパフェ (mirror)|X||0.02|0|.L......../.L.......J/.LL......J/.Z.....TJJ/ZZSS..TTOO/ZSSIIIITOO
 C|マスクメロンパフェ · 1|T|マスクメロンパフェ|1|2|LLJJ..OOXI/XLJ...OOXI/XLJS.ZZXXI/XXXSS.ZZXI/XXXXS.XXXX
@@ -12017,6 +12457,13 @@ C|どら焼き積み · 3|T|どら焼き積み|1|3|...OO...../...OO...../...SS..
 C|どら焼き積み · 3 (mirror)|T|どら焼き積み (mirror)|1|3|.....OO.../.....OO.../.....ZZ.../......ZZ../......XXLL/IJ.....XXL/IJJJSS.XXL/IXXSS..XXX/IXXXXX.XXX/XXXXX.XXXX
 O|NEW TKI|X||0.02|0|JJ......../J........./J.ZZ....../L..ZZ...../L.TTTSS.../LL.TSSIIII
 O|NEW TKI (mirror)|X||0.02|0|........LL/.........L/......SS.L/.....SS..J/...ZZTTT.J/IIIIZZT.JJ
+C|NEW TKI · 1 (part 1)|X|NEW TKI|1|0|.SS......./SS......../XX......../X.......OO/XTXXIIIIOO/XTTXX...OO/XTXXXXX.OO/XX.XXXXXXX
+C|NEW TKI · 1 (part 2)|T|NEW TKI · 1 (part 1)|1|0|.XX......./XX..L...../XX..L...../X...LL..XX/XXXXXJJJXX/XXXXXXXJXX/XX.XXXXXXX
+C|NEW TKI · 1|T|NEW TKI · 1 (part 2)|1|0|.XX......./XX..X...../XX..XZZ.../X...XXZZXX/XX.XXXXXXX
+C|NEW TKI · 1 (mirror) (part 1)|X|NEW TKI (mirror)|1|0|.......ZZ./........ZZ/...SS...XX/OOSS.....X/OOIIIIXXTX/OOLLLXXTTX/OOLXXXXXTX/XXXXXXX.XX
+C|NEW TKI · 1 (mirror)|T|NEW TKI · 1 (mirror) (part 1)|1|0|.......XX./.....J..XX/...XXJ..XX/XXXXJJ...X/XXXXXXX.XX
+C|NEW TKI · 1 · 1|T|NEW TKI · 1|1|2|I........./I..LL.S.../I...L.SS../IXX.LOOSZJ/XX..XOOZZJ/XX..XXXZJJ/X...XXXXXX/XX.XXXXXXX
+C|NEW TKI · 1 · 1 (mirror)|T|NEW TKI · 1 (mirror)|1|2|.........I/...Z.JJ..I/..ZZ.J...I/LSZOOJ.XXI/LSSOOX..XX/LLSXXX..XX/XXXXXX...X/XXXXXXX.XX
 C|NEW TKI · 2|T|NEW TKI|1|0|XX......../X........./X.XX....../X..XX...OO/X.XXXXX.OO/XX.XXXXXXX
 C|NEW TKI · 2 (mirror)|T|NEW TKI (mirror)|1|0|........XX/.........X/......XX.X/OO...XX..X/OO.XXXXX.X/XXXXXXX.XX
 C|NEW TKI · 2 · 1|T|NEW TKI · 2|1|0|XX......../X........./X.XX....../X..XXJJJXX/X.XXXXXJXX/XX.XXXXXXX
@@ -12301,8 +12748,16 @@ C|自由砲 · 1 · 1 · 1|T|自由砲 · 1 · 1|1|3|.........I/.....SS..I/....S
 C|自由砲 · 1 · 1 · 1 (mirror)|T|自由砲 · 1 · 1 (mirror)|1|3|I........./I..ZZ...../I...ZZ..../ISS.LLLOOX/SS..LXJOOX/XXX.XXJJJX/XX.XXXXXXX
 O|ねぎ砲|X||0.02|0|OO......../OO....T.../LS.J.TT.../LSSJJJTZZ./LLS.IIIIZZ
 O|ねぎ砲 (mirror)|X||0.02|0|........OO/...T....OO/...TT.L.ZJ/.SSTLLLZZJ/SSIIII.ZJJ
+C|ねぎ砲 · 1 (part 1)|T|ねぎ砲|1|0|..Z......./.ZZ..I..../.Z...IS.../XX.LLISS../XX..LIXS../XX.XLXXJJJ/XXXXXXXXXJ/XXX.XXXXXX
+C|ねぎ砲 · 1|T|ねぎ砲 · 1 (part 1)|1|3|..X......./.XX..X..../.X...XX.../XX.XXXXXOO/XX..XXXXOO/XX.XXXXXXX/XXX.XXXXXX
+C|ねぎ砲 · 1 (mirror) (part 1)|T|ねぎ砲 (mirror)|1|0|...Z....../..ZZ....XX/..ZX....XX/LLLXX.X.XX/LXXXXXXXXX/XXXXXX.XXX
+C|ねぎ砲 · 1 (mirror)|T|ねぎ砲 · 1 (mirror) (part 1)|1|3|.......S../....I..SS./...XI...S./OOXXIJJ.XX/OOXXIJ..XX/XXXXXJX.XX/XXXXXX.XXX
 C|ねぎ砲 · 2|T|ねぎ砲|1|3|.SS.....J./SS....Z.J./XX.LLZZJJI/XX..LZXOOI/XX.XLXXOOI/XXXXXXXXXI/XXX.XXXXXX
 C|ねぎ砲 · 2 (mirror)|T|ねぎ砲 (mirror)|1|3|.L.....ZZ./.L.S....ZZ/ILLSSJJ.XX/IOOXSJ..XX/IOOXXJX.XX/IXXXXXXXXX/XXXXXX.XXX
+C|ねぎ砲 · 3 (part 1)|T|ねぎ砲|1|0|.SS......./SS....Z.../XX.LLZZ.../XX..LZX.../XX.XLXXJJJ/XXXXXXXXXJ/XXX.XXXXXX
+C|ねぎ砲 · 3|T|ねぎ砲 · 3 (part 1)|1|3|.XX......I/XX....X..I/XX.XXXXOOI/XX..XXXOOI/XX.XXXXXXX/XXX.XXXXXX
+C|ねぎ砲 · 3 (mirror) (part 1)|T|ねぎ砲 (mirror)|1|0|.......ZZ./........ZZ/........XX/...X....XX/LLLXX.X.XX/LXXXXXXXXX/XXXXXX.XXX
+C|ねぎ砲 · 3 (mirror)|T|ねぎ砲 · 3 (mirror) (part 1)|1|3|I......XX./I..S....XX/IOOSSJJ.XX/IOOXSJ..XX/XXXXXJX.XX/XXXXXX.XXX
 O|角砲|X||0.02|0|.I......../.I......../.I......../.I.T...J../ZZTTTSSJOO/.ZZ.SSJJOO
 O|角砲 (mirror)|X||0.02|0|........I./........I./........I./..L...T.I./OOLZZTTTSS/OOLLZZ.SS.
 C|角砲 · 1|X|角砲|1|0|LLL......./LX....ZJ../IXTLLZZJJJ/IXTTLZSSOO/IXTXLSSXOO/IXX.XXXXXX
@@ -12667,6 +13122,14 @@ C|笹式DDパフェ · 2 · 2|T|笹式DDパフェ · 2|1|2|IIII....../LLLJJZ....
 C|笹式DDパフェ · 2 · 2 (mirror)|T|笹式DDパフェ · 2 (mirror)|1|2|......IIII/....SLLJJJ/....SSLOOJ/ZZ...SLOOX/XZZ.XXXXXX
 C|笹式DDパフェ · 2 · 3|T|笹式DDパフェ · 2|1|2|.........J/.........J/OO..L...JJ/OOLLLS...Z/XIIIISS.ZZ/XXXXXXS.ZX
 C|笹式DDパフェ · 2 · 3 (mirror)|T|笹式DDパフェ · 2 (mirror)|1|2|L........./L........./LL...J..OO/S...ZJJJOO/SS.ZZIIIIX/XS.ZXXXXXX
+C|笹式DDパフェ · 3 (part 1)|T|笹式DDパフェ|1|0|X....Z..../XXX.ZZXXXX/XXXXZXXXXX/XXXXXX...X
+C|笹式DDパフェ · 3|X|笹式DDパフェ · 3 (part 1)|1|0|S........./SS..JJJ..L/XSTTTXJLLL/XXXTXXXXXX/XXXXXX...X
+C|笹式DDパフェ · 3 (mirror) (part 1)|T|笹式DDパフェ (mirror)|1|0|.........Z/...LLL..ZZ/...LS...ZX/XXXXSS.XXX/XXXXXSXXXX/X...XXXXXX
+C|笹式DDパフェ · 3 (mirror)|X|笹式DDパフェ · 3 (mirror) (part 1)|1|0|.........X/J..XXX..XX/JJJXXTTTXX/XXXXXXTXXX/X...XXXXXX
+C|笹式DDパフェ · 3 · 1|X|笹式DDパフェ · 3|1|0|.........I/.........I/TTT......I/XTOO.....I/XXOOXXX..X/XXXXXX...X
+C|笹式DDパフェ · 3 · 1 (mirror)|X|笹式DDパフェ · 3 (mirror)|1|0|I........./I........./I......TTT/I.....OOTX/X..XXXOOXX/X...XXXXXX
+C|笹式DDパフェ · 3 · 1 · 1|T|笹式DDパフェ · 3 · 1|1|3|.........I/.........I/.........I/.........I/OO.....LLX/OOZZ....LX/XXXZZSS.LX/XXXXSS..JX/XXXXXXX.JX/XXXXXX.JJX
+C|笹式DDパフェ · 3 · 1 · 1 (mirror)|T|笹式DDパフェ · 3 · 1 (mirror)|1|3|I........./I........./I........./I........./XJJ.....OO/XJ....SSOO/XJ.ZZSSXXX/XL..ZZXXXX/XL.XXXXXXX/XLL.XXXXXX
 O|狂砲|T||0.02|0|JJ......../J........./JSS.ZZ..../SSL..ZZ.OO/LLL.IIIIOO
 O|狂砲 (mirror)|T||0.02|0|........LL/.........L/....SS.ZZL/OO.SS..JZZ/OOIIII.JJJ
 C|狂砲 · 1|X|狂砲|1|0|XX......../X........./XXX.XXTTT./XXX..XXTXX/XXX.XXXXXX
@@ -12687,6 +13150,10 @@ C|ミントティー · 1|T|ミントティー|1|2|JJ......../JOO......./JOO....
 C|ミントティー · 1 (mirror)|T|ミントティー (mirror)|1|2|........LL/.......OOL/I......OOL/IJJ...SXXX/IJ....SSXX/IJZZ...SXX/XXXZZ.XXXX/..XX....XX
 O|TSパフェマシンガン|X||0.02|0|..IIII..../..ZZLL..S./OOJZZL.TSS/OOJJJLTTTS
 O|TSパフェマシンガン (mirror)|X||0.02|0|....IIII../.Z..JJSS../ZZT.JSSLOO/ZTTTJLLLOO
+C|TSパフェマシンガン · 1 (part 1)|X|TSパフェマシンガン|1|0|OOXXXXT.../OOXXXXTTX./XXXXXXTXXX
+C|TSパフェマシンガン · 1|T|TSパフェマシンガン · 1 (part 1)|1|0|XXXXXXXJJJ/XXXXXXXXXJ
+C|TSパフェマシンガン · 1 (mirror) (part 1)|X|TSパフェマシンガン (mirror)|1|0|...TXXXXOO/.XTTXXXXOO/XXXTXXXXXX
+C|TSパフェマシンガン · 1 (mirror)|T|TSパフェマシンガン · 1 (mirror) (part 1)|1|0|LLLXXXXXXX/LXXXXXXXXX
 C|TSパフェマシンガン · 2|T|TSパフェマシンガン|1|3|..LL....../..IL....../..ILZ...../..IZZSS.../..IZSS..../OOXXXX.JJJ/OOXXXX..XJ/XXXXXX.XXX
 C|TSパフェマシンガン · 2 (mirror)|T|TSパフェマシンガン (mirror)|1|3|......JJ../......JI../.....SJI../...ZZSSI../....ZZSI../LLL.XXXXOO/LX..XXXXOO/XXX.XXXXXX
 C|TSパフェマシンガン · 3|T|TSパフェマシンガン|1|3|..S......./..SS....../..IS....../..IL..Z.../..IL.ZZ.../..ILLZ..../OOXXXX.JJJ/OOXXXX..XJ/XXXXXX.XXX
@@ -12919,8 +13386,8 @@ C|快速DT · 3 · 1|T|快速DT · 3|1|2|JJ..ZZ.OOI/J...LZZOOI/J...LXXXXI/X...LL
 C|快速DT · 3 · 1 (mirror)|T|快速DT · 3 (mirror)|1|2|IOO.SS..LL/IOOSSJ...L/IXXXXJ...L/IXXXJJ...X/XXXXX...ZX/XXXXXX.ZZX/XXXXXX.Z.X
 C|快速DT · 3 · 1 · 1|T|快速DT · 3 · 1|1|2|I........./I......SLL/I..OO..SSL/IZZOO...SL/XXZZXX.XXX/X...XXXXXX/XJJ.XXXXXX/XJ..XXXXXX/XJX.XXXXXX
 C|快速DT · 3 · 1 · 1 (mirror)|T|快速DT · 3 · 1 (mirror)|1|2|.........I/JJZ......I/JZZ..OO..I/JZ...OOSSI/XXX.XXSSXX/XXXXXX...X/XXXXXX.LLX/XXXXXX..LX/XXXXXX.XLX
-C|快速DT · 4|X|快速DT|1|0|...LLS..ZI/....LSSZZI/.JJ.LTSZXI/XJ..TTTXXI/XJTTTXXXXX/XOOTXXXXXX/XOO.XXXXXX
-C|快速DT · 4 (mirror)|X|快速DT (mirror)|1|0|IS..ZJJ.../ISSZZJ..../IXSZTJ.LL./IXXTTT..LX/XXXXXTTTLX/XXXXXXTOOX/XXXXXX.OOX
+C|快速DT · 4|X|快速DT|1|0|...LLS..ZI/....LSSZZI/.JJ.LtSZXI/XJ..tttXXI/XJTTTXXXXX/XOOTXXXXXX/XOO.XXXXXX
+C|快速DT · 4 (mirror)|X|快速DT (mirror)|1|0|IS..ZJJ.../ISSZZJ..../IXSZtJ.LL./IXXttt..LX/XXXXXTTTLX/XXXXXXTOOX/XXXXXX.OOX
 C|快速DT · 4 · 1|T|快速DT · 4|1|3|I........./I..XXX..XX/I...XXXXXX/IXX.XXXXXX/XX..XXXXXX/XXX.XXXXXX
 C|快速DT · 4 · 1 (mirror)|T|快速DT · 4 (mirror)|1|3|.........I/XX..XXX..I/XXXXXX...I/XXXXXX.XXI/XXXXXX..XX/XXXXXX.XXX
 O|邪心リベレイト|X||0.02|0|S........I/SS...T...I/JSZZTT.OOI/JJJZZT.OOI
@@ -13011,6 +13478,10 @@ C|PCC-Spin · 1 · 1|T|PCC-Spin · 1|1|3|ILLL....../ILOO....../ISOO.....J/ISS...
 C|PCC-Spin · 1 · 1 (mirror)|T|PCC-Spin · 1 (mirror)|1|3|......JJJI/......OOJI/L.....OOZI/L......ZZI/LLXXXX.ZSS/XXXXX..SSX/XXXXXX.XXX/XXXXX.XXXX
 O|Oしか勝たんパフェ|X||0.02|0|LLL.....SS/LZJ....SST/ZZJOO...TT/ZJJOOIIIIT
 O|Oしか勝たんパフェ (mirror)|X||0.02|0|ZZ.....JJJ/TZZ....LSJ/TT...OOLSS/TIIIIOOLLS
+C|Oしか勝たんパフェ · 1 (part 1)|T|Oしか勝たんパフェ|1|0|XXXOO...XX/XXXOOJ.XXX/XXXXXJJJXX
+C|Oしか勝たんパフェ · 1|X|Oしか勝たんパフェ · 1 (part 1)|1|0|XXXXXTTTXX/XXXXXXTXXX
+C|Oしか勝たんパフェ · 1 (mirror) (part 1)|T|Oしか勝たんパフェ (mirror)|1|0|XX...OOXXX/XXX.LOOXXX/XXLLLXXXXX
+C|Oしか勝たんパフェ · 1 (mirror)|X|Oしか勝たんパフェ · 1 (mirror) (part 1)|1|0|XXTTTXXXXX/XXXTXXXXXX
 O|稀有PC|X||0.02|0|..SS.....I/TSS...JJJI/TTZZ.LLLJI/T..ZZL...I
 O|稀有PC (mirror)|X||0.02|0|I.....ZZ../ILLL...ZZT/ILJJJ.SSTT/I...JSS..T
 C|稀有PC · 1|T|稀有PC|1|0|OO......../OOXX.....X/XXX...XXXX/XXXX.XXXXX/X..XXX...X
@@ -13669,6 +14140,15 @@ C|シャドウTD · 2 · 4|T|シャドウTD · 2|1|2|.....OO.../....SOOZ../....S
 C|シャドウTD · 2 · 4 (mirror)|T|シャドウTD · 2 (mirror)|1|2|...OO...../..SOOZ..../..SSZZ..../...SZ...L./...XX...L./...XXI..LL/..XXXI..XX/..XXXIJ.XX/...XXIJJJX/X.XXXXXXXX
 C|シャドウTD · 3|T|シャドウTD|1|3|......SS../.....SS.../OO..JJZ.../OO..JZZ.../X...JZ..../X.XXXXXLLI/X..XXXXXLI/X.XXXXXXLI/XXXXXXXX.I
 C|シャドウTD · 3 (mirror)|T|シャドウTD (mirror)|1|3|..ZZ....../...ZZ...../...SLL..OO/...SSL..OO/....SL...X/IJJXXXXX.X/IJXXXXX..X/IJXXXXXX.X/I.XXXXXXXX
+C|シャドウTD · 3 · 1 (part 1)|T|シャドウTD · 3|1|0|..Z......./.ZZ...XX../.Z...XX.../XX..XXX.../XX..XXXLL./X...XX..L./XXXXXXXXLX
+C|シャドウTD · 3 · 1 (part 2)|T|シャドウTD · 3 · 1 (part 1)|1|0|..X......./.XX...XX../.X...XXOOI/XXS.XXXOOI/XXSSXXXXXI/X..SXX..XI
+C|シャドウTD · 3 · 1|T|シャドウTD · 3 · 1 (part 2)|1|2|JJX......./JXX...XX../JX...XXXXX/XXX.XXXXXX/X..XXX..XX
+C|シャドウTD · 3 · 1 (mirror) (part 1)|T|シャドウTD · 3 (mirror)|1|0|.......SLL/..XX...SSL/...XX...SL/...XXX.ZXX/.JJXXXZZXX/.J..XXZ..X/XJXXXXXXXX
+C|シャドウTD · 3 · 1 (mirror)|T|シャドウTD · 3 · 1 (mirror) (part 1)|1|2|.......XXX/..XX...XXX/IOOXX...XX/IOOXXX.XXX/IXXXXXXXXX/IX..XXX..X
+C|シャドウTD · 3 · 2 (part 1)|T|シャドウTD · 3|1|0|..Z......./.ZZ...XX../.Z...XX.../XX..XXX.../XX..XXXS../X...XX.SS./XXXXXXXXSX
+C|シャドウTD · 3 · 2|T|シャドウTD · 3 · 2 (part 1)|1|2|I........./I.X......./IXX...XX../IX...XXLLL/XXJ.XXXLOO/XXJ.XXXXOO/XJJ.XX.XX.
+C|シャドウTD · 3 · 2 (mirror) (part 1)|T|シャドウTD · 3 (mirror)|1|0|..XX....../...XX...../...XXX..XX/..ZXXX..XX/.ZZ.XX...X/XZXXXXXXXX
+C|シャドウTD · 3 · 2 (mirror)|T|シャドウTD · 3 · 2 (mirror) (part 1)|1|2|.........I/.......S.I/..XX...SSI/JJJXX...SI/OOJXXX.LXX/OOXXXX.LXX/.XX.XX.LLX
 C|シャドウTD · 3 · 3|T|シャドウTD · 3|1|2|JJZ......./JZZ...XX../JZ...XXLOO/XXS.XXXLOO/XXSSXXXLL./X..SXXIIII/XXXXXXXX.X
 C|シャドウTD · 3 · 3 (mirror)|T|シャドウTD · 3 (mirror)|1|2|.......SLL/..XX...SSL/OOJXX...SL/OOJXXX.ZXX/.JJXXXZZXX/IIIIXXZ..X/X.XXXXXXXX
 C|シャドウTD · 3 · 4|T|シャドウTD · 3|1|2|......OO../.....JOO../L....JJJ../LZZ...XXSS/LLZZ.XXSSI/XX..XXX..I/XX..XXX..I/X...XX...I/XXXXXXXX.X
@@ -13735,6 +14215,10 @@ C|Yamanote Stacking · 2 · 2|T|Yamanote Stacking · 2|1|3|...JJSS.../...JSS....
 C|Yamanote Stacking · 2 · 2 (mirror)|T|Yamanote Stacking · 2 (mirror)|1|3|...ZZLL.../....ZZL.../.J..XXL.../.J...XXIOO/JJSS.XXIOO/XSS..XXIXX/XXXX.XXIXX/XXX.XXXXXX
 O|インスタントTSDホール|X||0.02|0|ZZ......../LZZTTTSSOO/L...TSSJOO/LL.IIIIJJJ
 O|インスタントTSDホール (mirror)|X||0.02|0|........SS/OOZZTTTSSJ/OOLZZT...J/LLLIIII.JJ
+C|インスタントTSDホール · 1 (part 1)|X|インスタントTSDホール|1|0|XXT...IIII/XTT.XXXXXX/XXTXXXXXXX
+C|インスタントTSDホール · 1|T|インスタントTSDホール · 1 (part 1)|1|0|XXXLLLXXXX/XXXLXXXXXX
+C|インスタントTSDホール · 1 (mirror) (part 1)|X|インスタントTSDホール (mirror)|1|0|IIII...TXX/XXXXXX.TTX/XXXXXXXTXX
+C|インスタントTSDホール · 1 (mirror)|T|インスタントTSDホール · 1 (mirror) (part 1)|1|0|XXXXJJJXXX/XXXXXXJXXX
 C|インスタントTSDホール · 2|T|インスタントTSDホール|1|3|...SS...../..SSL...../..LLLOO.../....ZOOJJJ/XX.ZZIIIIJ/X..ZXXXXXX/XX.XXXXXXX
 C|インスタントTSDホール · 2 (mirror)|T|インスタントTSDホール (mirror)|1|3|.....ZZ.../.....JZZ../...OOJJJ../LLLOOS..../LIIIISS.XX/XXXXXXS..X/XXXXXXX.XX
 C|インスタントTSDホール · 3|T|インスタントTSDホール|1|2|.Z.......J/ZZ.....SSJ/Z...OOSSJJ/XX.LOOIIII/XLLLXXXXXX/XX.XXXXXXX
@@ -13747,6 +14231,12 @@ C|インスタントTSDホール · 5 · 1|T|インスタントTSDホール · 5
 C|インスタントTSDホール · 5 · 1 (mirror)|T|インスタントTSDホール · 5 (mirror)|1|2|I........./I........./IS......../ISSJJZ..../XXSJZZ..OO/XXXJZ...OO/XXXXX.LLXX/XXXXX..LXX/XXXXX..LXX
 C|インスタントTSDホール · 6|T|インスタントTSDホール|1|2|.......JJZ/.SS..OOJZZ/SS...OOJZL/XX.IIIILLL/X...XXXXXX/XX.XXXXXXX
 C|インスタントTSDホール · 6 (mirror)|T|インスタントTSDホール (mirror)|1|2|SLL......./SSLOO..ZZ./JSLOO...ZZ/JJJIIII.XX/XXXXXX...X/XXXXXXX.XX
+C|インスタントTSDホール · 7 (part 1)|X|インスタントTSDホール|1|0|JJ.......I/J.....SLLI/J...ZZSSLI/XXT..ZZSLI/XTT.XXXXXX/XXTXXXXXXX
+C|インスタントTSDホール · 7|T|インスタントTSDホール · 7 (part 1)|1|0|XX.......X/XOO...XXXX/XOO.XXXXXX/XXX..XXXXX/XXX.XXXXXX
+C|インスタントTSDホール · 7 (mirror) (part 1)|X|インスタントTSDホール (mirror)|1|0|I.......LL/IJJZ.....L/IJZZSS...L/IJZSS..TXX/XXXXXX.TTX/XXXXXXXTXX
+C|インスタントTSDホール · 7 (mirror)|T|インスタントTSDホール · 7 (mirror) (part 1)|1|0|X.......XX/XXXX...OOX/XXXXXX.OOX/XXXXX..XXX/XXXXXX.XXX
+C|インスタントTSDホール · 7 · 1|T|インスタントTSDホール · 7|1|2|.........I/JJ.......I/JOO...SLLI/JOO...SSLI/XXZZ...SLX/XXXZZ.XXXX/XXX.XXXXXX/XXX..XXXXX/XXX.XXXXXX
+C|インスタントTSDホール · 7 · 1 (mirror)|T|インスタントTSDホール · 7 (mirror)|1|2|I........./I.......LL/IJJZ...OOL/IJZZ...OOL/XJZ...SSXX/XXXX.SSXXX/XXXXXX.XXX/XXXXX..XXX/XXXXXX.XXX
 C|インスタントTSDホール · 8|T|インスタントTSDホール|1|2|........OO/JJZ.....OO/JZZ.....SS/JZ.....SSL/XX.IIIILLL/X...XXXXXX/XX.XXXXXXX
 C|インスタントTSDホール · 8 (mirror)|T|インスタントTSDホール (mirror)|1|2|OO......../OO.....SLL/ZZ.....SSL/JZZ.....SL/JJJIIII.XX/XXXXXX...X/XXXXXXX.XX
 C|インスタントTSDホール · 9|T|インスタントTSDホール|1|2|I.......OO/I.Z.....OO/IZZ...JJSS/IZ....JSSL/XX....JLLL/X...XXXXXX/XX.XXXXXXX
@@ -13861,8 +14351,8 @@ C|紫電砲 · 1 · 1|T|紫電砲 · 1|1|3|.OO......./.OO...ZZLL/.XX...JZZL/.XX.
 C|紫電砲 · 1 · 1 (mirror)|T|紫電砲 · 1 (mirror)|1|3|.......OO./JJSS...OO./JSSL...XX./JLLL...XX./XXX....XXI/XXX.ZZXXXI/XXX..ZZXXI/XXX.XXXXXI
 C|紫電砲 · 1 · 2|T|紫電砲 · 1|1|3|.OO......./.OO...LJJJ/.XX...LZZJ/.XX...LLZZ/IXX....XXX/IXXXSS.XXX/IXXSS..XXX/IXXXXX.XXX
 C|紫電砲 · 1 · 2 (mirror)|T|紫電砲 · 1 (mirror)|1|3|.......OO./LLLJ...OO./LSSJ...XX./SSJJ...XX./XXX....XXI/XXX.ZZXXXI/XXX..ZZXXI/XXX.XXXXXI
-C|紫電砲 · 2|X|紫電砲|1|0|......OOOO/......OOOO/......LJJJ/......LZZJ/......LLZZ/IXX....XXX/IXXXSSTXXX/IXXSSTTXXX/IXXXXXTXXX
-C|紫電砲 · 2 (mirror)|X|紫電砲 (mirror)|1|0|OOOO....../OOOO....../LLLJ....../LSSJ....../SSJJ....../XXX....XXI/XXXTZZXXXI/XXXTTZZXXI/XXXTXXXXXI
+C|紫電砲 · 2|X|紫電砲|1|0|......OOoo/......OOoo/......LJJJ/......LZZJ/......LLZZ/IXX....XXX/IXXXSSTXXX/IXXSSTTXXX/IXXXXXTXXX
+C|紫電砲 · 2 (mirror)|X|紫電砲 (mirror)|1|0|ooOO....../ooOO....../LLLJ....../LSSJ....../SSJJ....../XXX....XXI/XXXTZZXXXI/XXXTTZZXXI/XXXTXXXXXI
 C|紫電砲 · 2 · 1|T|紫電砲 · 2|1|2|.........I/.........I/.......OOI/.....JJOOI/.....JXXXX/.....JXXXX/SZZ...XXXX/SSZZ.LXXXX/.S...LXXXX/XXX..LLXXX
 C|紫電砲 · 2 · 1 (mirror)|T|紫電砲 · 2 (mirror)|1|2|I........./I........./IOO......./IOOLL...../XXXXL...../XXXXL...../XXXX...SSZ/XXXXJ.SSZZ/XXXXJ...Z./XXXJJ..XXX
 C|紫電砲 · 2 · 2|T|紫電砲 · 2|1|2|.......OO./.....JJOO./.....JXXXX/I...SJXXXX/IL..SSXXXX/IL...SXXXX/ILL.ZZXXXX/XXX..ZZXXX
@@ -14057,6 +14547,12 @@ C|押しつぶすことも出来る積み · 3|T|押しつぶすことも出来�
 C|押しつぶすことも出来る積み · 3 (mirror)|T|押しつぶすことも出来る積み (mirror)|1|2|.........I/.........I/LLLJ.....I/LSSJ...OOI/SSJJ...OOX/XXXZZ...XX/XXXXZZ.XXX/XXXX...XXX/XXXXX..XXX
 C|押しつぶすことも出来る積み · 4|T|押しつぶすことも出来る積み|1|2|.........I/S...JJJOOI/SS....JOOI/XS....LLLI/XXZZ..LXXX/XXXZZ.XXXX/XXX...XXXX/XXX..XXXXX
 C|押しつぶすことも出来る積み · 4 (mirror)|T|押しつぶすことも出来る積み (mirror)|1|2|I........./IOOLLL...Z/IOOL....ZZ/IJJJ....ZX/XXXJ..SSXX/XXXX.SSXXX/XXXX...XXX/XXXXX..XXX
+C|押しつぶすことも出来る積み · 4 · 1 (part 1)|T|押しつぶすことも出来る積み · 4|1|0|......LL.Z/.....OOLZZ/.....OOLZX/X...XXXXXX/XX....XXXX/XX...XXXXX/XXX.SSXXXX/XXXSSXXXXX
+C|押しつぶすことも出来る積み · 4 · 1 (part 2)|T|押しつぶすことも出来る積み · 4 · 1 (part 1)|1|0|......XX.X/.....XXXXX/.....XXXXX/X...XXXXXX/XXIIIIXXXX/XX...XXXXX/XXX.XXXXXX
+C|押しつぶすことも出来る積み · 4 · 1|T|押しつぶすことも出来る積み · 4 · 1 (part 2)|1|2|....JJXX.X/....JXXXXX/....JXXXXX/X...XXXXXX/XX...XXXXX/XXX.XXXXXX
+C|押しつぶすことも出来る積み · 4 · 1 (mirror) (part 1)|T|押しつぶすことも出来る積み · 4 (mirror)|1|0|X........./XXXXXX...X/XXXX....XX/XXXXX...XX/XXXXZZ.XXX/XXXXXZZXXX
+C|押しつぶすことも出来る積み · 4 · 1 (mirror) (part 2)|T|押しつぶすことも出来る積み · 4 · 1 (mirror) (part 1)|1|0|S...LL..../SS.OOL..../XS.OOL..../XXXXXX...X/XXXXIIIIXX/XXXXX...XX/XXXXXX.XXX
+C|押しつぶすことも出来る積み · 4 · 1 (mirror)|T|押しつぶすことも出来る積み · 4 · 1 (mirror) (part 2)|1|2|X.JJXX..../XXJXXX..../XXJXXX..../XXXXXX...X/XXXXX...XX/XXXXXX.XXX
 C|押しつぶすことも出来る積み · 5|T|押しつぶすことも出来る積み|1|3|.........I/..Z......I/.ZZ..LLOOI/XZJ...LOOI/XXJJJ.LXXX/XXXS..XXXX/XXXSS.XXXX/XXX.SXXXXX
 C|押しつぶすことも出来る積み · 5 (mirror)|T|押しつぶすことも出来る積み (mirror)|1|3|I........./I......S../IOOJJ..SS./IOOJ...LSX/XXXJ.LLLXX/XXXX..ZXXX/XXXX.ZZXXX/XXXXXZ.XXX
 C|押しつぶすことも出来る積み · 6|X|押しつぶすことも出来る積み|1|0|......T.../.Z...TT..I/ZZ....TLLI/ZS....OOLI/XSS...OOLI/XXS....XXX/XXXJJ.XXXX/XXXJ..XXXX/XXXJ.XXXXX
@@ -14269,6 +14765,18 @@ C|さつまいも · 3|T|さつまいも|1|2|.LLL....ZJ/SL.....ZZJ/SS.....ZJJ/XS
 C|さつまいも · 3 (mirror)|T|さつまいも (mirror)|1|2|LS....JJJ./LSS.....JZ/LLS.....ZZ/OOIIII..ZX/OOXXXXX.XX
 O|みたらし砲|X||0.02|0|.........I/.........I/.......Z.I/JJLL..ZZSI/JOOL..ZTSS/JOOL..TTTS
 O|みたらし砲 (mirror)|X||0.02|0|I........./I........./I.S......./IZSS..JJLL/ZZTS..JOOL/ZTTT..JOOL
+C|みたらし砲 · 1 (part 1)|T|みたらし砲|1|0|.....ZZLLX/.OO...ZZLX/.OO....XLX/XXXXS.XXXX/XXXXSSXXXX/XXXX.SXXXX
+C|みたらし砲 · 1|X|みたらし砲 · 1 (part 1)|1|0|JJ...XXXXX/JXX..TXXXX/JXX..TTXXX/XXXXXTXXXX/XXXX.XXXXX
+C|みたらし砲 · 1 (mirror) (part 1)|T|みたらし砲 (mirror)|1|0|X........./X........./X.X......./XXXX.ZXXXX/XXXXZZXXXX/XXXXZ.XXXX
+C|みたらし砲 · 1 (mirror)|X|みたらし砲 · 1 (mirror) (part 1)|1|0|XJJSS...LL/XJSST..OOL/XJXTT..OOL/XXXXTXXXXX/XXXXX.XXXX
+C|みたらし砲 · 1 · 1|T|みたらし砲 · 1|1|0|.........I/.........I/.........I/.........I/XX...XXXXX/XXX..XXXXX/XXX..XXXXX/XXXX.XXXXX
+C|みたらし砲 · 1 · 1 (mirror)|T|みたらし砲 · 1 (mirror)|1|0|I........./I........./I........./I........./XXXXX...XX/XXXXX..XXX/XXXXX..XXX/XXXXX.XXXX
+C|みたらし砲 · 1 · 1 · 1|T|みたらし砲 · 1 · 1|1|2|.SS.....IX/SS....L.IX/OO.ZZ.L.IX/OO..ZZLLIX/XX.JJXXXXX/XXXJ.XXXXX/XXXJ.XXXXX/XXXX.XXXXX
+C|みたらし砲 · 1 · 1 · 1 (mirror)|T|みたらし砲 · 1 · 1 (mirror)|1|2|XI.....ZZ./XI.J....ZZ/XI.J.SS.OO/XIJJSS..OO/XXXXXLL.XX/XXXXX.LXXX/XXXXX.LXXX/XXXXX.XXXX
+C|みたらし砲 · 1 · 1 · 2|T|みたらし砲 · 1 · 1|1|2|......I.../.SS...I..X/SS....I..X/OO.ZZ.I.LX/OO..ZZLLLX/XX.JJXXXXX/XXXJ.XXXXX/XXXJ.XXXXX/XXXX.XXXXX
+C|みたらし砲 · 1 · 1 · 2 (mirror)|T|みたらし砲 · 1 · 1 (mirror)|1|2|...I....../X..I...ZZ./X..I....ZZ/XJ.I.SS.OO/XJJJSS..OO/XXXXXLL.XX/XXXXX.LXXX/XXXXX.LXXX/XXXXX.XXXX
+C|みたらし砲 · 1 · 1 · 3|T|みたらし砲 · 1 · 1|1|2|........IX/JJ...SLLIX/JOO..SSLIX/JOO...SLIX/XXZZ.XXXXX/XXXZZXXXXX/XXX..XXXXX/XXXX.XXXXX
+C|みたらし砲 · 1 · 1 · 3 (mirror)|T|みたらし砲 · 1 · 1 (mirror)|1|2|XI......../XIJJZ...LL/XIJZZ..OOL/XIJZ...OOL/XXXXX.SSXX/XXXXXSSXXX/XXXXX..XXX/XXXXX.XXXX
 C|みたらし砲 · 2|T|みたらし砲|1|0|...SS...../..SS....I./JJLL....IX/JOOL..Z.IX/JOOL.ZZXIX/XXXX.ZXXXX/XXXX..XXXX/XXXX..XXXX
 C|みたらし砲 · 2 (mirror)|T|みたらし砲 (mirror)|1|0|.....ZZ.../.I....ZZ../XI....JJLL/XI.S..JOOL/XIXSS.JOOL/XXXXS.XXXX/XXXX..XXXX/XXXX..XXXX
 C|みたらし砲 · 2 · 1|X|みたらし砲 · 2|1|0|...XX...../..XX....X./XXXXT...XX/XXXXTTX.XX/XXXXTXXXXX/XXXX.XXXXX/XXXX..XXXX/XXXX..XXXX
@@ -14834,6 +15342,10 @@ O|SUC式TSS 2|T||0.02|0|IJ......../IJJJZ...SS/IOOZZ..SSL/IOOZ...LLL
 O|SUC式TSS 2 (mirror)|T||0.02|0|........LI/ZZ...SLLLI/JZZ..SSOOI/JJJ...SOOI
 C|SUC式TSS 2 · 1|X|SUC式TSS 2|1|0|XX......../XXXXX...XX/XXXXXT.XXX/XXXXTTTXXX
 C|SUC式TSS 2 · 1 (mirror)|X|SUC式TSS 2 (mirror)|1|0|........XX/XX...XXXXX/XXX.TXXXXX/XXXTTTXXXX
+C|SUC式TSS 2 · 1 · 1 (part 1)|X|SUC式TSS 2 · 1|1|0|XX....TLLL/XXXXXTTLXX/XXXXXXTXXX
+C|SUC式TSS 2 · 1 · 1|T|SUC式TSS 2 · 1 · 1 (part 1)|1|0|XXIIIIXXXX
+C|SUC式TSS 2 · 1 · 1 (mirror) (part 1)|X|SUC式TSS 2 · 1 (mirror)|1|0|...TIIIIXX/XX.TTXXXXX/XXXTXXXXXX
+C|SUC式TSS 2 · 1 · 1 (mirror)|T|SUC式TSS 2 · 1 · 1 (mirror) (part 1)|1|0|JJJXXXXXXX/XXJXXXXXXX
 O|Partial bag 1 54|T||0.02|0|L..ZZ.S.../L...ZZSS../LL.IIIIS..
 O|Partial bag 1 54 (mirror)|T||0.02|0|...Z.SS..J/..ZZSS...J/..ZIIII.JJ
 C|Partial bag 1 54 · 1|T|Partial bag 1 54|1|2|X..XX.X.../X...XXXXOO/XX.XXXXXOO
@@ -14880,6 +15392,10 @@ C|Partial bag 1 54 · 1 · 1 · 2|T|Partial bag 1 54 · 1 · 1|1|2|......JJJI/.Z
 C|Partial bag 1 54 · 1 · 1 · 2 (mirror)|T|Partial bag 1 54 · 1 · 1 (mirror)|1|2|ILLL....../IL......S./IJ......SS/IJ..XXXOOS/JJ.XXXXOOX
 C|Partial bag 1 54 · 1 · 1 · 3|T|Partial bag 1 54 · 1 · 1|1|2|...LLL..../..ILSS..../OOISS...ZJ/OOIXXX.ZZJ/X.IXXXXZJJ
 C|Partial bag 1 54 · 1 · 1 · 3 (mirror)|T|Partial bag 1 54 · 1 · 1 (mirror)|1|2|....JJJ.../....ZZJI../LS...ZZIOO/LSS.XXXIOO/LLSXXXXI.X
+C|Partial bag 1 54 · 1 · 1 · 3 · 1 (part 1)|T|Partial bag 1 54 · 1 · 1 · 3|1|0|........LL/S..XXX.OOL/SSXXXX.OOL/XSXXXXXXXX
+C|Partial bag 1 54 · 1 · 1 · 3 · 1|T|Partial bag 1 54 · 1 · 1 · 3 · 1 (part 1)|1|0|ZZIIIIJJXX/XZZXXXJXXX/XXXXXXJXXX
+C|Partial bag 1 54 · 1 · 1 · 3 · 1 (mirror) (part 1)|T|Partial bag 1 54 · 1 · 1 · 3 (mirror)|1|0|....XXX..Z/....XXXXZZ/XXXXXXXXZX
+C|Partial bag 1 54 · 1 · 1 · 3 · 1 (mirror)|T|Partial bag 1 54 · 1 · 1 · 3 · 1 (mirror) (part 1)|1|0|JJLLIIIISS/JOOLXXXSSX/JOOLXXXXXX
 C|Partial bag 1 54 · 1 · 2|T|Partial bag 1 54 · 1|1|2|.........J/.........J/X..XX.X.JJ/X...XXXXXX/XX.XXXXXXX
 C|Partial bag 1 54 · 1 · 2 (mirror)|T|Partial bag 1 54 · 1 (mirror)|1|2|L........./L........./LL.X.XX..X/XXXXXX...X/XXXXXXX.XX
 C|Partial bag 1 54 · 1 · 2 · 1|T|Partial bag 1 54 · 1 · 2|1|2|OOLLL..IJJ/OOLSS..IJX/ZZSS...IJX/XZZXX.XIXX
@@ -14960,6 +15476,10 @@ O|ブルーサファイア|X||0.02|0|...IIII.../S...JJJOO./SS.TZZJOOL/.STTTZZLLL
 O|ブルーサファイア (mirror)|X||0.02|0|...IIII.../.OOLLL...Z/JOOLSST.ZZ/JJJSSTTTZ.
 C|ブルーサファイア · 1|X|ブルーサファイア|1|0|...XXXX.../XTTTXXXXX./XXTXXXXXXX/.XXXXXXXXX
 C|ブルーサファイア · 1 (mirror)|X|ブルーサファイア (mirror)|1|0|...XXXX.../.XXXXXTTTX/XXXXXXXTXX/XXXXXXXXX.
+C|ブルーサファイア · 1 · 1 (part 1)|T|ブルーサファイア · 1|1|0|...XXXXJJJ/XXXXXXXXXJ/.XXXXXXXXX
+C|ブルーサファイア · 1 · 1|T|ブルーサファイア · 1 · 1 (part 1)|1|0|LLLXXXXXXX/LXXXXXXXXX
+C|ブルーサファイア · 1 · 1 (mirror) (part 1)|T|ブルーサファイア · 1 (mirror)|1|0|LLLXXXX.../LXXXXXXXXX/XXXXXXXXX.
+C|ブルーサファイア · 1 · 1 (mirror)|T|ブルーサファイア · 1 · 1 (mirror) (part 1)|1|0|XXXXXXXJJJ/XXXXXXXXXJ
 O|如月積み|X||0.02|0|........Z./.......ZZ./.......ZI./..T....JI./OOTTSS.JI./OOTSS.JJI.
 O|如月積み (mirror)|X||0.02|0|.S......../.SS......./.IS......./.IL....T../.IL.ZZTTOO/.ILL.ZZTOO
 C|如月積み · 1|T|如月積み|1|0|......L.../......L.../......LLX./.......XX./.......XX./..X....XX./XXXXXX.XX./XXXXX.XXX.
@@ -15038,6 +15558,10 @@ C|Denture Stacking · 1|T|Denture Stacking|1|0|.....LL.../......L..X/XX...XL.XX/
 C|Denture Stacking · 1 (mirror)|T|Denture Stacking (mirror)|1|0|...JJ...../X..J....../XX.JX...XX/XX.X.XXXXX
 C|Denture Stacking · 1 · 1|T|Denture Stacking · 1|1|3|...JJ...../LLLJ.....Z/LSSJ.XXIZZ/SSOO..XIZX/XXOO.XXIXX/XXXXX.XIXX
 C|Denture Stacking · 1 · 1 (mirror)|T|Denture Stacking · 1 (mirror)|1|3|.....LL.../S.....LJJJ/SSIXX.LZZJ/XSIX..OOZZ/XXIXX.OOXX/XXIX.XXXXX
+C|Denture Stacking · 1 · 1 · 1 (part 1)|T|Denture Stacking · 1 · 1|1|0|JIIIILLLOO/JJJXXLZZOO/XXXX...ZZX/XXXXX.XXXX
+C|Denture Stacking · 1 · 1 · 1|X|Denture Stacking · 1 · 1 · 1 (part 1)|1|0|XXXXTTTXXX/XXXXXTXXXX
+C|Denture Stacking · 1 · 1 · 1 (mirror) (part 1)|T|Denture Stacking · 1 · 1 (mirror)|1|0|OOJJJIIIIL/OOSSJXXLLL/XSS...XXXX/XXXX.XXXXX
+C|Denture Stacking · 1 · 1 · 1 (mirror)|X|Denture Stacking · 1 · 1 · 1 (mirror) (part 1)|1|0|XXXTTTXXXX/XXXXTXXXXX
 C|Denture Stacking · 2|T|Denture Stacking|1|0|..L......./..L......X/XXLL.X..XX/XXXXX.X.XX
 C|Denture Stacking · 2 (mirror)|T|Denture Stacking (mirror)|1|0|.......J../X......J../XX..X.JJXX/XX.X.XXXXX
 C|Denture Stacking · 2 · 1|T|Denture Stacking · 2|1|3|.IIII...../..LL.....Z/OOXL.JJJZZ/OOXL..SJZX/XXXX.XSSXX/XXXXX.XSXX
@@ -15162,6 +15686,12 @@ C|開幕千鳥格子パフェ · 1|X|開幕千鳥格子パフェ|1|0|.......X../
 C|開幕千鳥格子パフェ · 1 (mirror)|X|開幕千鳥格子パフェ (mirror)|1|0|..X......./.XXT.XXXXX/XXTTTXXXXX/XXX.XXXXXX
 C|開幕千鳥格子パフェ · 1 · 1|T|開幕千鳥格子パフェ · 1|1|2|...SS...../JJSSZ..LLI/JOOZZ...LI/JOOZ...XLI/XXXXX.XXXI/XXXXXX.XXX
 C|開幕千鳥格子パフェ · 1 · 1 (mirror)|T|開幕千鳥格子パフェ · 1 (mirror)|1|2|.....ZZ.../IJJ..SZZLL/IJ...SSOOL/IJX...SOOL/IXXX.XXXXX/XXX.XXXXXX
+C|開幕千鳥格子パフェ · 1 · 1 · 1 (part 1)|T|開幕千鳥格子パフェ · 1 · 1|1|0|........OO/...XX.SSOO/XXXXXSSXXX/XXXXX...XX/XXXXXX.XXX
+C|開幕千鳥格子パフェ · 1 · 1 · 1|T|開幕千鳥格子パフェ · 1 · 1 · 1 (part 1)|1|0|JIIIILLLXX/JJJXXLXXXX/XXXXX...XX/XXXXXX.XXX
+C|開幕千鳥格子パフェ · 1 · 1 · 1 (mirror) (part 1)|T|開幕千鳥格子パフェ · 1 · 1 (mirror)|1|0|..ZZ.XX.../XXXZZXXXXX/XX...XXXXX/XXX.XXXXXX
+C|開幕千鳥格子パフェ · 1 · 1 · 1 (mirror)|T|開幕千鳥格子パフェ · 1 · 1 · 1 (mirror) (part 1)|1|0|OOJJJIIIIL/OOXXJXXLLL/XX...XXXXX/XXX.XXXXXX
+C|開幕千鳥格子パフェ · 1 · 1 · 1 · 1|X|開幕千鳥格子パフェ · 1 · 1 · 1|1|0|XXXXXTTTXX/XXXXXXTXXX
+C|開幕千鳥格子パフェ · 1 · 1 · 1 · 1 (mirror)|X|開幕千鳥格子パフェ · 1 · 1 · 1 (mirror)|1|0|XXTTTXXXXX/XXXTXXXXXX
 C|開幕千鳥格子パフェ · 1 · 1 · 2|T|開幕千鳥格子パフェ · 1 · 1|1|2|.........J/.........J/I...Z...JJ/I..ZZ..SLL/IOOZ...SSL/IOOXX...SL/XXXXX..XXX/XXXXX...XX/XXXXXX.XXX
 C|開幕千鳥格子パフェ · 1 · 1 · 2 (mirror)|T|開幕千鳥格子パフェ · 1 · 1 (mirror)|1|2|L........./L........./LL...S...I/JJZ..SS..I/JZZ...SOOI/JZ...XXOOI/XXX..XXXXX/XX...XXXXX/XXX.XXXXXX
 O|イクリプスセット|X||0.02|0|I........./I........./I........./I..S....../TZZSSJJ.LL/TTZZSJOO.L/T....JOO.L
@@ -15202,6 +15732,10 @@ C|キシリトール積み · 1 · 1|T|キシリトール積み · 1|1|3|.JJ..OO
 C|キシリトール積み · 1 · 1 (mirror)|T|キシリトール積み · 1 (mirror)|1|3|...OO..LL./...OO...L./JJJXXSS.LI/ZZJXSS..XI/XZZXXXX.XI/.XXXXXXXXI
 C|キシリトール積み · 1 · 2|T|キシリトール積み · 1|1|3|.....S..../.JJ..SS.../.J....S.../IJ.ZZXXLOO/IX..ZZXLOO/IX.XXXXLLX/IXXXXXXXX.
 C|キシリトール積み · 1 · 2 (mirror)|T|キシリトール積み · 1 (mirror)|1|3|....Z...../...ZZ..LL./...Z....L./OOJXXSS.LI/OOJXSS..XI/XJJXXXX.XI/.XXXXXXXXI
+C|キシリトール積み · 1 · 2 · 1 (part 1)|T|キシリトール積み · 1 · 2|1|0|..Z......./IZZ...S.../IZ...XSS../IXX.LXXS../IXLLL.XJJJ/XXXXXXXXXJ
+C|キシリトール積み · 1 · 2 · 1|T|キシリトール積み · 1 · 2 · 1 (part 1)|1|2|..X......./XXX...X.../XX...XXXOO/XXX.XXXXOO/XXXXX.XXXX
+C|キシリトール積み · 1 · 2 · 1 (mirror) (part 1)|T|キシリトール積み · 1 · 2 (mirror)|1|0|...Z....../..ZZX...../..ZXX..XX./LLLX....X./LXXXXXXXXX
+C|キシリトール積み · 1 · 2 · 1 (mirror)|T|キシリトール積み · 1 · 2 · 1 (mirror) (part 1)|1|2|.......S../...X...SSI/OOXXX...SI/OOXXXJ.XXI/XXXX.JJJXI
 C|キシリトール積み · 1 · 3|T|キシリトール積み · 1|1|3|.JJ...LL../.J.....LS./IJ.ZZXXLSS/IX..ZZXOOS/IX.XXXXOOX/IXXXXXXXX.
 C|キシリトール積み · 1 · 3 (mirror)|T|キシリトール積み · 1 (mirror)|1|3|..JJ...LL./.ZJ.....L./ZZJXXSS.LI/ZOOXSS..XI/XOOXXXX.XI/.XXXXXXXXI
 C|キシリトール積み · 1 · 3 · 1|T|キシリトール積み · 1 · 3|1|2|.S.....I../.SS....I../.ZS....I../ZZ...JJIOO/ZXX.LJXXOO/.XLLLJ.XX./XXXXXXXXX.
@@ -15230,6 +15764,14 @@ C|INペリSP · 1 · 1|T|INペリSP · 1|1|2|JJLL....S./JOOL...XSS/JOOL...XXS/XX
 C|INペリSP · 1 · 1 (mirror)|T|INペリSP · 1 (mirror)|1|2|.Z....JJLL/ZZX...JOOL/ZXX...JOOL/XXX....SXX/XXIIII.SSX/XXX.....SX/XXXX...XXX/XXX..XXXXX/XXXX.XXXXX/XXXXX..XXX/XXXXX.XXXX
 O|生存競争|X||0.02|0|I......JJJ/I.ZOO...SJ/IZZOOL.TSS/IZ.LLLTTTS
 O|生存競争 (mirror)|X||0.02|0|LLL......I/LZ...OOS.I/ZZT.JOOSSI/ZTTTJJJ.SI
+C|生存競争 · 1 (part 1)|X|生存競争|1|0|.........I/JJ.......I/J......OOI/J.ZZ...OOI/X..ZZ.TXXX/X.XXX.TTXX/XXXXXXTXXX/XX.XXXXXXX
+C|生存競争 · 1|T|生存競争 · 1 (part 1)|1|0|.........X/XX...S...X/X....SSXXX/X.XXLLSXXX/X..XXLXXXX/X.XXXLXXXX/XX.XXXXXXX
+C|生存競争 · 1 (mirror) (part 1)|X|生存競争 (mirror)|1|0|I........./I.......LL/IOO......L/IOO...SS.L/XXXT.SS..X/XXTT.XXX.X/XXXTXXXXXX/XXXXXXX.XX
+C|生存競争 · 1 (mirror)|T|生存競争 · 1 (mirror) (part 1)|1|0|X........./X...Z...XX/XXXZZ....X/XXXZJJXX.X/XXXXJXX..X/XXXXJXXX.X/XXXXXXX.XX
+C|生存競争 · 2 (part 1)|X|生存競争|1|0|.........I/.Z.......I/ZZ.....OOI/ZJJSS..OOI/XJSS..TXXX/XJXXX.TTXX/XXXXXXTXXX/XX.XXXXXXX
+C|生存競争 · 2|T|生存競争 · 2 (part 1)|1|3|.........X/.X...LL..X/XX....LXXX/XXXXX.LXXX/XXXX..XXXX/XXXXX.XXXX/XX.XXXXXXX
+C|生存競争 · 2 (mirror) (part 1)|X|生存競争 (mirror)|1|0|I........./I.......S./IOO.....SS/IOO..ZZLLS/XXXT..ZZLX/XXTT.XXXLX/XXXTXXXXXX/XXXXXXX.XX
+C|生存競争 · 2 (mirror)|T|生存競争 · 2 (mirror) (part 1)|1|3|X........./X..JJ...X./XXXJ....XX/XXXJ.XXXXX/XXXX..XXXX/XXXX.XXXXX/XXXXXXX.XX
 C|生存競争 · 3|T|生存競争|1|2|......ZZ../...J..SZZ./...J..SSOO/LLJJ...SOO/XLIIII.XXX/XLXXX...XX/XXXXXX.XXX/XX.XXXXXXX
 C|生存競争 · 3 (mirror)|T|生存競争 (mirror)|1|2|..SS....../.SSZ..L.../OOZZ..L.../OOZ...LLJJ/XXX.IIIIJX/XX...XXXJX/XXX.XXXXXX/XXXXXXX.XX
 C|生存競争 · 4|T|生存競争|1|2|........S./JJ......SS/JI..L..ZZS/JIOOL...ZZ/XIOOLL.XXX/XIXXX...XX/XXXXXX.XXX/XX.XXXXXXX
@@ -15318,6 +15860,20 @@ C|GG_WELL_Canon · 1 · 1|T|GG_WELL_Canon · 1|1|3|.....X..OO/X....XXXOO/XX....X
 C|GG_WELL_Canon · 1 · 1 (mirror)|T|GG_WELL_Canon · 1 (mirror)|1|3|OO..X...../OOXXX....X/XXXX....XX/XXXX.XXXXX/XXXX..XXXX/XXXX.XXXXX/XXXX..XXXX/XXXX...XXX
 O|米パンフォーカス|X||0.02|0|........T./.......TTT/........ZI/...SSOOZZI/J.SS.OOZLI/JJJ...LLLI
 O|米パンフォーカス (mirror)|X||0.02|0|.T......../TTT......./IS......../ISSOOZZ.../IJSOO.ZZ.L/IJJJ...LLL
+C|米パンフォーカス · 1 (part 1)|X|米パンフォーカス|1|0|...SS..JJJ/..SS....XJ/..OO.ZZXXX/..OO..ZZXX/TTTXXXXXXX/XTXX.XXXXX/XXX...XXXX
+C|米パンフォーカス · 1|T|米パンフォーカス · 1 (part 1)|1|0|.I......../.I.XX..XXX/LIXX....XX/LIXX.XXXXX/LLXX..XXXX/XXXX.XXXXX/XXX...XXXX
+C|米パンフォーカス · 1 (mirror) (part 1)|X|米パンフォーカス (mirror)|1|0|LLL..ZZ.../LX....ZZ../XXXSS.OO../XXSS..OO../XXXXXXXTTT/XXXXX.XXTX/XXXX...XXX
+C|米パンフォーカス · 1 (mirror)|T|米パンフォーカス · 1 (mirror) (part 1)|1|0|........I./XXX..XX.I./XX....XXIJ/XXXXX.XXIJ/XXXX..XXJJ/XXXXX.XXXX/XXXX...XXX
+C|米パンフォーカス · 1 · 1|T|米パンフォーカス · 1|1|3|OO.......I/OO....SLLI/JJ.Z..SSLI/JXZZ...SLI/JXZXX..XXX/XXXX....XX/XXXX.XXXXX/XXXX..XXXX/XXXX.XXXXX/XXX...XXXX
+C|米パンフォーカス · 1 · 1 (mirror)|T|米パンフォーカス · 1 (mirror)|1|3|I.......OO/IJJZ....OO/IJZZ..S.LL/IJZ...SSXL/XXX..XXSXL/XX....XXXX/XXXXX.XXXX/XXXX..XXXX/XXXXX.XXXX/XXXX...XXX
+C|米パンフォーカス · 2 (part 1)|X|米パンフォーカス|1|0|........LL/...SS....L/..SS....XL/..OO.ZZXXX/..OO..ZZXX/TTTXXXXXXX/XTXX.XXXXX/XXX...XXXX
+C|米パンフォーカス · 2|T|米パンフォーカス · 2 (part 1)|1|0|I.......XX/I..XX....X/IJXX....XX/IJXX.XXXXX/JJXX..XXXX/XXXX.XXXXX/XXX...XXXX
+C|米パンフォーカス · 2 (mirror) (part 1)|X|米パンフォーカス (mirror)|1|0|JJ......../J....ZZ.../JX....ZZ../XXXSS.OO../XXSS..OO../XXXXXXXTTT/XXXXX.XXTX/XXXX...XXX
+C|米パンフォーカス · 2 (mirror)|T|米パンフォーカス · 2 (mirror) (part 1)|1|0|XX.......I/X....XX..I/XX....XXLI/XXXXX.XXLI/XXXX..XXLL/XXXXX.XXXX/XXXX...XXX
+C|米パンフォーカス · 2 · 1|T|米パンフォーカス · 2|1|3|I........./I.J.....LL/I.J.....ZL/IJJ....ZZL/XOO....ZXX/XOOXX....X/XXXX....XX/XXXX.XXXXX/XXXX..XXXX/XXXX.XXXXX/XXX...XXXX
+C|米パンフォーカス · 2 · 1 (mirror)|T|米パンフォーカス · 2 (mirror)|1|3|.........I/JJ.....L.I/JS.....L.I/JSS....LLI/XXS....OOX/X....XXOOX/XX....XXXX/XXXXX.XXXX/XXXX..XXXX/XXXXX.XXXX/XXXX...XXX
+C|米パンフォーカス · 2 · 2|T|米パンフォーカス · 2|1|3|OO......../OO......../JJ......LL/JI......ZL/JI.....ZZL/XI.....ZXX/XI.XX....X/XXXX....XX/XXXX.XXXXX/XXXX..XXXX/XXXX.XXXXX/XXX...XXXX
+C|米パンフォーカス · 2 · 2 (mirror)|T|米パンフォーカス · 2 (mirror)|1|3|........OO/........OO/JJ......LL/JS......IL/JSS.....IL/XXS.....IX/X....XX.IX/XX....XXXX/XXXXX.XXXX/XXXX..XXXX/XXXXX.XXXX/XXXX...XXX
 C|米パンフォーカス · 3|X|米パンフォーカス|1|0|.........I/......LOOI/......LOOI/.T....LLXI/TTJJ.ZZXXX/STJ...ZZXX/SSJXXXXXXX/XSXX.XXXXX/XXX...XXXX
 C|米パンフォーカス · 3 (mirror)|X|米パンフォーカス (mirror)|1|0|I........./IOOJ....../IOOJ....../IXJJ....T./XXXSS.LLTT/XXSS...LTZ/XXXXXXXLZZ/XXXXX.XXZX/XXXX...XXX
 C|米パンフォーカス · 3 · 1|T|米パンフォーカス · 3|1|2|I........X/I..Z..XXXX/I.ZZ..XXXX/IXZ...XXXX/XXXX.XXXXX/XXX...XXXX/XXXX.XXXXX/XXX...XXXX

@@ -35,9 +35,14 @@ function grid(n,par){ const base=par?par.rows:[]; let h=base.length; const cs=ce
   // mini or plain, is a piece of the diagram like the rest)
   let spinLines=/mini/i.test(said)?0:lines(said)||(!said&&tClears?Math.min(3,tClears):0); if(spinLines<2) spinLines=0;
   const spin=spinLines>=2; let other=0, hasT=false, bad=false;
-  cs.forEach(([k,x,y])=>{ if(k==='T'&&spin) return; if(g[y][x]!=='.') bad=true; if(k==='T') hasT=true; other++; g[y][x]=k; });
+  // (two of a kind lying against each other: the second is written small, so the two are told apart)
+  const pcs=[]; (n.plc||[]).forEach(p=>{ const k=p[0]; pcs.push({k,cells:p.slice(1).split(';').map(q=>q.split(',').map(Number))}); });
+  const drawn=[];
+  pcs.forEach(pc=>{ if(pc.k==='T'&&spin) return; const touch=drawn.filter(d=>d.k===pc.k&&d.cells.some(a=>pc.cells.some(b=>Math.abs(a[0]-b[0])+Math.abs(a[1]-b[1])===1)));
+    pc.ch=touch.some(d=>d.ch===pc.k)&&!touch.some(d=>d.ch!==pc.k)?pc.k.toLowerCase():pc.k; drawn.push(pc);
+    pc.cells.forEach(([x,y])=>{ if(g[y][x]!=='.') bad=true; g[y][x]=pc.ch; }); if(pc.k==='T') hasT=true; other++; });
   const rows=g.map(r=>r.join('')).reverse(); while(rows.length&&rows[0]==='..........') rows.shift(); return {rows,other,hasT,bad,spinLines,pays:spinLines>=2}; }
-const mir=r=>r.split('').reverse().map(c=>({J:'L',L:'J',S:'Z',Z:'S'})[c]||c).join('');
+const mir=r=>r.split('').reverse().map(c=>({J:'L',L:'J',S:'Z',Z:'S',j:'l',l:'j',s:'z',z:'s'})[c]||c).join('');
 const memo=new Map(); const leads=n=>{ if(memo.has(n.i)) return memo.get(n.i); let v=pays(n.est&&n.est.clear||'')||grid(n,byI.get(n.p)||null).pays; for(const k of n.kids||[]){ const c=byI.get(k); if(c&&c.pc<=MAXPC&&leads(c)) v=true; } memo.set(n.i,v); return v; };
 const out=[], links={}, labels={}, used={}, stat={firstBags:0,shared:0,dead:0,stages:0,merged:0};
 const roots=N.filter(n=>n.p===0&&!n.grey&&n.pc<=8&&n.members&&n.members.length).sort((a,b)=>a.i-b.i);
@@ -48,7 +53,7 @@ const walk=(n,ownerE)=>{ for(const kid of n.kids||[]){ const c=byI.get(kid); if(
     const cl=c.est&&c.est.clear||''; const Gc=grid(c,n);
     if(!Gc.other){ ownerE.sp=Math.max(ownerE.sp,Gc.spinLines); if(Gc.spinLines) ownerE.k='T'; walk(c,ownerE); continue; }
     if(!leads(c)||Gc.bad||Gc.rows.join('').replace(/[.X]/g,'').length%4) continue;
-    const key=Gc.rows.join('/'); let e=ownerE.kids.get(key);
+    const key=Gc.rows.join('/').toUpperCase(); let e=ownerE.kids.get(key);
     if(!e){ e={kind:'C',n:ownerE.n+' · '+(++ownerE.idx),k:Gc.hasT?'X':'T',after:ownerE.n,w:1,sp:Gc.spinLines,r:Gc.rows,kids:new Map(),idx:0,who:new Set()}; ownerE.kids.set(key,e); out.push(e); stat.stages++; }
     else { e.sp=Math.max(e.sp,Gc.spinLines); stat.merged++; }
     (c.members||[]).forEach(m=>{ if(!generic(R[m[0]])) e.who.add(label(R[m[0]])); });
@@ -61,7 +66,7 @@ for(const root of roots){
   const recs=[...new Map(root.members.map(m=>[m[0],m[1]])).entries()].map(([ri,flag])=>({r:R[ri],flag}))
     .sort((a,b)=>(generic(a.r)-generic(b.r))||(a.flag-b.flag)||((popW[b.r.id]||0)-(popW[a.r.id]||0))||(score(b.r)-score(a.r)));
   const w=Math.max(...recs.map(x=>popW[x.r.id]? Math.max(.5,popW[x.r.id]) : .02+.05*Math.min(1,score(x.r)/20)));
-  const key=G.rows.join('/'); let rootE=rootBy.get(key);
+  const key=G.rows.join('/').toUpperCase(); let rootE=rootBy.get(key);
   if(!rootE){ const base=label(recs[0].r); used[base]=(used[base]||0)+1; const name=base+(used[base]>1?' '+used[base]:'');
     rootE={kind:'O',n:name,k:G.hasT?'X':'T',after:'',w,sp:G.spinLines,r:G.rows,kids:new Map(),idx:0,who:new Set(),links:[]}; rootBy.set(key,rootE); out.push(rootE); stat.firstBags++; }
   else { rootE.w=Math.max(rootE.w,w); stat.merged++; }
