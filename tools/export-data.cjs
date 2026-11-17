@@ -1,6 +1,8 @@
 // Writes the bots' data from the original JavaScript engine (src/legacy/scantetris.js): data/book.txt, the opener book
-// (openers and their continuations), and data/setups.txt, the library of verified setup shapes. The WebAssembly bots
-// read both at start-up; neither is compiled into the module.
+// (openers and their continuations), and data/setups.raw.txt, its library of setup shapes. The raw shapes were made for
+// the JavaScript engine; tools/sync-engine.sh turns them into data/setups.txt (each one fired on Four's engine, the
+// ones that don't dropped, and two-spin chains generated from the ones that do). The WebAssembly bots read book.txt
+// and setups.txt at start-up; neither is compiled into the module.
 const fs = require('fs'), path = require('path');
 const root = path.join(__dirname, '..');
 let src = fs.readFileSync(path.join(root, 'src/legacy/scantetris.js'), 'utf8');
@@ -30,5 +32,5 @@ const LIB = (g2._dbg || g2).LIB ? (g2._dbg || g2).LIB() : null;
 if (!LIB) { console.error('no setup library in the engine'); process.exit(1); }
 const one = (S, kind) => [kind, S.name || '', S.w, S.h, S.L, S.L2 || 0, S.chain ? 1 : 0, S.wl ? 1 : 0, S.wr ? 1 : 0, S.fill.join(','), S.emp.join(','), S.tr.join(','), S.vfy ? 1 : 0, S.resid ? 1 : 0].join('|');
 const setups = LIB.S.map((S) => one(S, 'S')).concat(LIB.C.map((S) => one(S, 'C')));
-fs.writeFileSync(path.join(root, 'data/setups.txt'), '# kind|name|w|h|L|L2|chain|wall-left|wall-right|fill masks|empty masks|T rows|verified|residue\n' + setups.join('\n') + '\n');
+fs.writeFileSync(path.join(root, 'data/setups.raw.txt'), '# kind|name|w|h|L|L2|chain|wall-left|wall-right|fill masks|empty masks|T rows|verified|residue\n' + setups.join('\n') + '\n');
 console.log('book: %d openers, %d continuations, %d solver shapes; setups: %d', D.BOOK.length, D.BOOK2.length, D.OPENERS.length, setups.length);

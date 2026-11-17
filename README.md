@@ -30,7 +30,8 @@ index.html            the page shell: meta tags, preloads, one module script
 css/sea.css
 assets/               link-preview image and icons
 engine/four_sea.wasm  the engine and bots (built from Four's crates/four-sea; see tools/sync-engine.sh)
-data/                 the bots' opener book and setup library, read by the module at start-up
+data/                 the bots' opener book and setup library, read by the module at start-up (setups.txt is made
+                      from setups.raw.txt by Four's engine: every shape fired, and two-spin chains generated)
 dist/                 the built scripts the page loads (npm run build; committed, since Pages serves them as they are)
 src/
   main.js             start-up order, the frame loop, the preload and reveal
@@ -67,8 +68,8 @@ src/
   legacy/scantetris.js  the original JavaScript engine and bots (?js only; built as dist/legacy.js)
 tools/
   build.mjs           bundles src/ into dist/ with esbuild
-  sync-engine.sh      builds the module from a Four checkout and optimises it with wasm-opt
-  export-data.cjs     writes data/ from the JavaScript engine's book and setup library
+  sync-engine.sh      builds the module from a Four checkout, optimises it with wasm-opt, and rebuilds the setup library
+  export-data.cjs     writes data/book.txt and data/setups.raw.txt from the JavaScript engine
   shots.mjs           screenshots at several screen shapes, with timings and page errors
   bench/engine.html   how long the matches take to be ready, without drawing
 ```
