@@ -13,7 +13,7 @@ export function createGameView(ROT, NAMES) {
     incoming: [], b2bN: 0, combo: 0, pieces: 0, lines: 0, level: 1, score: 0, over: false, spin: null, callout: null, attack: 0,
   };
   const base = {
-    st, W, H, VIS: 20, ROT, NAMES, gy: 0,
+    st, W, H, VIS: 20, ROT, NAMES, gy: 0, coolOf,
     ghostY() { return this.gy; },
     reset() { st.b.fill(0); st.pid.fill(0); st.over = false; st.cur = null; st.pieces = 0; st.lines = 0; st.incoming = []; },
   };
@@ -23,6 +23,16 @@ export function createGameView(ROT, NAMES) {
       return k in o ? o[k] : (typeof k === 'string' && /^(set|get|do|plan|quick|spike|cool|setup|ff|act|lock|spawn|clear)/.test(k) ? noop : undefined);
     },
   });
+}
+
+// How much of a show an opener or setup is: 0 plain, 1 ordinary, 2 the cannons, towers and named spin lines. The
+// camera weighs book lines by it. (Without it here, every game read through this view scored NaN while it played a
+// book line, and the camera never chose one.)
+export function coolOf(n) {
+  n = (n || '').replace(/ \(mirror\)/g, '');
+  if (/^SingleYou|^solver|^Unnamed|開幕TSD|^LAST|^Sus Opener/.test(n)) return 0;
+  if (/Cannon|DT|Hachispin|Stickspin|Fairy|TST|Tsar|Gamushiro|C-Spin|Speedboat|MKO|Imperial|STSD|山岳|Mountain|Albatross|Pelican|Kaidan|Trinity|Cyclone|Dragon|Toro|PC-Spin|Castella/i.test(n)) return 2;
+  return 1;
 }
 
 // where a piece sits in the sea's own shape tables, from the four cells Four reports
