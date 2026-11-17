@@ -13,3 +13,7 @@ S|floating TSD|5|4|2|0|0|0|0|25,17,27,0|6,14,4,2|1,2|0|0
 S|floating TSD|5|4|2|0|0|0|0|25,17,27,0|6,14,4,8|1,2|0|0
 S|floating TSD|5|4|2|0|0|0|0|19,17,27,0|12,14,4,2|1,2|0|0
 S|floating TSD|5|4|2|0|0|0|0|19,17,27,0|12,14,4,8|1,2|0|0
+# DT cannon, the standard one (from the wiki's diagram): the hole is the T's way down the two columns by the wall,
+# a double's slot under the overhang and the triple's shaft below it. Everything else in its five rows is just solid.
+C|DT cannon|5|7|2|3|1|1|0|12,8,27,25,17,27,27|3,7,4,6,14,4,4|2,3,4,5,6|0|0
+C|DT cannon|5|7|2|3|1|0|1|6,2,27,19,17,27,27|24,28,4,12,14,4,4|2,3,4,5,6|0|0
