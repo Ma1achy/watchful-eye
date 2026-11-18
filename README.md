@@ -1,7 +1,6 @@
 # Watchful Eye
 
-A sea of bot matches, every one played on an exact engine in
-WebAssembly, watched by a wandering camera that goes looking for the best moments.
+An endless sea of Tetris matches, played by bots. Watched over by a wandering eye.
 
 **Live:** https://ma1achy.github.io/watchful-eye/
 
